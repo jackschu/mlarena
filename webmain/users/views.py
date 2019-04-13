@@ -19,8 +19,8 @@ def my_login(request):
             return HttpResponseRedirect(reverse('index'))
         else:
             messages.add_message(request, messages.ERROR, 'No account associated with this email ')
-        return HttpResponse('users:login')
-            #          return HttpResponseRedirect(reverse('users:register'))
+        return HttpResponseRedirect(reverse('users:login'))
+
     else:
         form = LoginForm()
     return render(request, 'users/login.html', {'form' : form})
@@ -28,7 +28,7 @@ def my_login(request):
 class Register(generic.CreateView):
     form_class = CustomUserCreationForm
     model = CustomUser
-    success_url = reverse_lazy('users:my_login')
+    success_url = reverse_lazy('users:login')
     template_name = 'users/register.html'
 
 

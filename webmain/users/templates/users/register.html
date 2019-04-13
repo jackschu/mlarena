@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% load static  %}
+{% load widget_tweaks %}
+
+{% block content %}
+  
+<div class="container">
+    	<h1>Sign Up</h1>
+
+
+	    <p>Already have an account? Then please <a href="{{ 'users:login' }}">sign in</a>.</p>
+    {% for error in field.errors %}
+        <span class="help-block">{{ error }}</span>
+    {% endfor %}
+    
+    <form class="signup card p-4" id="signup_form" method="post"  %}">
+	{% csrf_token %}
+	<div class="row">
+	    <div class="col">
+		<label>First name</label>
+		{% render_field form.first_name class+="form-control" placeholder="Mark" %}
+	    </div>
+
+
+	    <div class="col">
+		<label>Last name</label>
+		{% render_field form.last_name class+="form-control" placeholder="Sherriff" %}
+	    </div>	    
+
+	</div>
+	<div class="form-row my-3">
+	    <div class="col">
+		<label>Email</label>
+		{% render_field form.email class+="form-control" placeholder="mst3k@virginia.edu" %}
+		{{form.email.errors}}
+	    </div>
+
+	</div>
+	<div class="row">
+	    <div class="col">
+		<label>Password</label>
+		{% render_field form.password1 class+="form-control" placeholder="hunter2" %}
+		{{form.password1.errors}}	    
+	    </div>
+	    <div class="col">
+		<label>Confirm password</label>
+		{% render_field form.password2 class+="form-control" placeholder="hunter2" %}
+		{{form.password2.errors}}
+	    </div>
+
+	</div>
+	<div class="form-row my-3">
+		<div class="custom-control custom-checkbox">
+  			<input type="checkbox" class="custom-control-input" val="True" onchange="document.getElementById('RegisterButton').disabled = !this.checked" id="HonorCode">
+  			<label class="custom-control-label" for="HonorCode">I agree to ML Arena's Privacy Policy.</label>
+		</div>
+	</div>
+	<div class="row">
+
+	    <input class="btn btn-success mx-3 my-3" type="submit" value="Register" id="RegisterButton" disabled>
+	</div>
+	
+	{% if redirect_field_value %}
+	    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+	{% endif %}
+
+    </form>
+</div>
+{% endblock %}

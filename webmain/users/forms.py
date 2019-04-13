@@ -27,17 +27,17 @@ class CustomUserCreationForm(UserCreationForm):
         user.email = self.cleaned_data['email']
         user.username = user.email
 
-        user.save()
+        user.save(theemail=user.email)
         return user
     
     class Meta(UserCreationForm):
         model = CustomUser
         fields = ('first_name', 'last_name',  'email')
 
-    def save(self, commit=True):        
+    def save(self, commit=True, theemail=None):
         form = super(CustomUserCreationForm,self)
-        email = form.email
-        form.clean_email(email)
+        if theemail != None:
+            email = theemail
         user = form.save(commit=False)
         user.username = user.email
         self.is_valid()
