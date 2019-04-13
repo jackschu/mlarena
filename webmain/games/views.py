@@ -33,7 +33,7 @@ def addGame(request):
 
 def viewAll(request):
     games_list = Game.objects.all()
-    print(games_list[0])
+
     return render(request, 'games/viewAll.html', {'games':games_list})
 
 def viewGame(request, game_id=None):
