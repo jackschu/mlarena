@@ -8,7 +8,7 @@ import httplib2
 import google_auth_httplib2
 import six
 from . import auth
-from django.http import HttpResponse 
+from django.http import HttpResponse, JsonResponse
 import json
 import time
 import os
@@ -26,6 +26,16 @@ def test_cloudfunction(request):
     file_path = os.path.join(module_dir, "main.zip")
     with open(file_path, 'rb') as fp:
         create_cloudfunction(fp, function_id, "game")
+
+    return JsonResponse({'success': True})
+
+def test_cloudfunction_run(request):
+    function_id = "testid2"
+    params = {}
+    return JsonResponse({
+            'success': True,
+            'result': run_cloudfunction(function_id, params)
+        })
 
 
 # Create a new cloud function with the given zip source archive, id (name), and type ("game"/"bot")
@@ -48,7 +58,7 @@ def create_cloudfunction(file, id, type):
     upload_url = upload_file(file, "projects/" + PROJECT_ID + "/locations/" + REGION, cf_build)
     cloudfunction = {
         "httpsTrigger": {
-            "url": "https://us-east1-mlarena.cloudfunctions.net/" + id
+            "url": "https://" + REGION + "-" + PROJECT_ID + ".cloudfunctions.net/" + id
         },
         "sourceUploadUrl": upload_url, #upload_response['uploadUrl'],
         "availableMemoryMb": 256,
@@ -81,8 +91,6 @@ def create_cloudfunction(file, id, type):
                 return response
             time.sleep(1)
 
-    return HttpResponse(operation_response)
-
 # Upload source files in zip format for a cloud function
 # Returns: a signed link to the file
 def upload_file(file, location, cf_build):
@@ -101,3 +109,10 @@ def upload_file(file, location, cf_build):
 
     # Return the generated URL
     return upload_response['uploadUrl']
+
+# Run a Google Cloud Function with the given id with a dictionary of parameters
+# Return: The result of the function
+def run_cloudfunction(id, params):
+    url = "https://" + REGION + "-" + PROJECT_ID + ".cloudfunctions.net/" + id
+    r = requests.post(url=url, data=params) 
+    return r.json() 

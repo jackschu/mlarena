@@ -6,6 +6,7 @@ from gcp import views
 app_name = 'games'
 urlpatterns = [
         path('test/cloudfunction', views.test_cloudfunction, name='test_cloudfunction'),
+        path('test/cloudfunction/run', views.test_cloudfunction_run, name='test_cloudfunction_run'),
 ]
 
 
