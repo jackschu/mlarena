@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container">
+    <table class="table">
+	<thead>
+	    <tr>
+		<th scope="col">#</th>
+		<th scope="col">Bot Name</th>
+		<th scope="col">Score</th>
+		<th scope="col">Games Played</th>
+	    </tr>
+	</thead>
+	<tbody>
+	    {% for bot in bots %}
+	    <tr>
+		<th scope="row">{{forloop.counter}}</th>
+		<td>{{bot.name|capfirst}}</td>
+		<td>{{bot.score}}</td>
+		<td>{{bot.games_played}}</td>
+	    </tr>
+	    {% endfor %}	    
+	</tbody>
+    </table>
+    </div>
+{% endblock %}
