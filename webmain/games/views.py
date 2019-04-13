@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 from .forms import GameForm
+from .models import Game
 from django.contrib import messages
 # Create your views here.
 
@@ -30,5 +31,13 @@ def addGame(request):
     return render(request, 'games/viewGroup.html', {'form': form})
 
 
+def viewAll(request):
+    games_list = Game.objects.all()
+    print(games_list[0])
+    return render(request, 'games/viewAll.html', {'games':games_list})
+
 def viewGame(request, game_id=None):
-    return HttpResponse('hi' + str(game_id))
+    game = None
+    if game_id:
+        game = Game.objects.get(pk=game_id)
+    return render(request, 'games/viewGame.html', {'game':game})
