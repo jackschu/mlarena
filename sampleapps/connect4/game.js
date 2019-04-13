@@ -1,9 +1,10 @@
-function drawBoard(canvas, boardState) {
+var frameLength = 1000;
+
+function drawBoard(canvas, gameState) {
+    boardState = gameState.boardState;
     context = canvas.getContext('2d');
     numRows = boardState.length;
     numCols = boardState[0].length;
-    console.log(numRows)
-    console.log(numCols)
 
     width = 700;
     height = 600;
@@ -20,7 +21,6 @@ function drawBoard(canvas, boardState) {
 
     radius = (width/numRows)/2;
     margin = 25
-    console.log(radius)
 
     for (var r = 0; r < numRows; r++) {
 	for (var c = 0; c < numCols; c++) {
