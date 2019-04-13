@@ -32,6 +32,8 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'users',
+    'bots',
+    'leaderboards',
     'webmain',
     'games',
     'widget_tweaks',    
