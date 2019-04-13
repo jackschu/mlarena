@@ -3,7 +3,7 @@
 {% load widget_tweaks %}
 
 {% block content %}
-  
+
 <div class="container">
     	<h1>Sign Up</h1>
 
@@ -12,7 +12,7 @@
     {% for error in field.errors %}
         <span class="help-block">{{ error }}</span>
     {% endfor %}
-    
+
     <form class="signup card p-4" id="signup_form" method="post"  %}">
 	{% csrf_token %}
 	<div class="row">
@@ -25,7 +25,7 @@
 	    <div class="col">
 		<label>Last name</label>
 		{% render_field form.last_name class+="form-control" placeholder="Sherriff" %}
-	    </div>	    
+	    </div>
 
 	</div>
 	<div class="form-row my-3">
@@ -40,7 +40,7 @@
 	    <div class="col">
 		<label>Password</label>
 		{% render_field form.password1 class+="form-control" placeholder="hunter2" %}
-		{{form.password1.errors}}	    
+		{{form.password1.errors}}
 	    </div>
 	    <div class="col">
 		<label>Confirm password</label>
@@ -59,7 +59,7 @@
 
 	    <input class="btn btn-success mx-3 my-3" type="submit" value="Register" id="RegisterButton" disabled>
 	</div>
-	
+
 	{% if redirect_field_value %}
 	    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
 	{% endif %}

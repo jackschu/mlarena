@@ -6,5 +6,5 @@ from games import views
 app_name = 'games'
 urlpatterns = [
         path('new/', views.addGame, name='addGame'),
-        path('view/<int:game_id>', views.viewGame, name='viewGame'),
+        path('view/<int:game_id>/', views.viewGame, name='viewGame'),
 ]
