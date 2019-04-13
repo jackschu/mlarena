@@ -10,6 +10,7 @@ class Bot(models.Model):
     score = models.FloatField(default=0)
     games_played = models.IntegerField(default=0)
     last_played = models.DateTimeField(default=datetime(2009, 12, 20, 0, 0))
+    file = models.FileField(null=True)
     
     def __str__(self):
         return self.name
