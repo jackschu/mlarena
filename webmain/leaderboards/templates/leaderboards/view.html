@@ -6,7 +6,10 @@
 	    <tr>
 		<th scope="col">#</th>
 		<th scope="col">Bot Name</th>
-		<th scope="col">Score</th>
+		<th scope="col">Score (mu-3*sigma)</th>
+		<th scope="col">Mu</th>
+		<th scope="col">Sigma</th>				
+		<th scope="col">Last Game</th>		
 		<th scope="col">Games Played</th>
 	    </tr>
 	</thead>
@@ -15,11 +18,17 @@
 	    <tr>
 		<th scope="row">{{forloop.counter}}</th>
 		<td>{{bot.name|capfirst}}</td>
-		<td>{{bot.score}}</td>
+		<td>{{bot.score|floatformat:2}}</td>
+		<td>{{bot.mu|floatformat:2}}</td>
+		<td>{{bot.sigma|floatformat:2}}</td>		
+		<td>{{bot.last_played|date:'m/d H:i:s'}}</td>
 		<td>{{bot.games_played}}</td>
 	    </tr>
 	    {% endfor %}	    
 	</tbody>
     </table>
+    </div>
+    <div class="container">
+	<a class="btn btn-info" href="{%url 'board:matchup' game.id %}">Run Game</a>
     </div>
 {% endblock %}
