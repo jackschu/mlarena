@@ -10,11 +10,12 @@ def addGame(request):
     # return render(request, 'games/viewGroup.html')
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
-        form = GameForm(request.POST)
+        form = GameForm(request.POST, request.FILES)
         # check whether it's valid:
         if form.is_valid():
             new_game = form.save()
             print(new_game)
+            print(request.FILES['file'])
             # process the data in form.cleaned_data as required
             # ...
             # redirect to a new URL:
@@ -23,6 +24,7 @@ def addGame(request):
 
     # if a GET (or any other method) we'll create a blank form
     else:
+        print('fooaof\n\n\n\n\n')
         form = GameForm()
     print(form)
     return render(request, 'games/viewGroup.html', {'form': form})

@@ -1,11 +1,9 @@
-<!-- {% if data %}
-    data is : {{data}}
-{% else %}
-    cool beans
-{% endif %} -->
-<form method="post">
-    {% csrf_token %}
-    <!-- {{form.fields}} -->
-    {{ form.as_p }}
-    <input type="submit" value="Submit">
-</form>
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+{% block content%}
+  <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="Submit">
+  </form>
+{%endblock%}
