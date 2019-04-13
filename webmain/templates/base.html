@@ -25,7 +25,7 @@
 			</a>
 			<div class="dropdown-menu" aria-labelledby="profilesDropdown">
 			    <a class="dropdown-item" href="{% url 'games:addGame'%}">Create New Game</a>
-			    <a class="dropdown-item" href="{% url 'games:viewGame'%}">View Your Games</a>
+			    <a class="dropdown-item" href="{% url 'games:viewGame' 2%}">View Your Games</a>
 			</div>
 		    </li>
 		    <li class="nav-item dropdown mr-2">
@@ -49,7 +49,7 @@ Something Else
 		    {% if request.user.is_authenticated %}
 			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hello, {{request.user.username}}</a>
 			<div class="dropdown-menu dropdown-menu-right">
-			    <a class="dropdown-item" href="#">Logout</a>
+			    <a class="dropdown-item" href="{% url 'users:logout'%}">Logout</a>
 			    <a class="dropdown-item" href="#">Settings</a>	      
 			</div>
 
@@ -59,7 +59,7 @@ Something Else
 		    {% else %}
 			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Login/Register </a>
 			<div class="dropdown-menu dropdown-menu-right">
-			    <a class="dropdown-item" href="#">Login </a>
+			    <a class="dropdown-item" href="{% url 'users:login' %}">Login </a>
 			    <a class="dropdown-item" href="#">Register</a>
 			</div>
 		    {% endif %}
@@ -67,7 +67,21 @@ Something Else
 		</li>
 		
 	    </ul>
-	</nav>
+		</nav>
+
+			{% if messages  %}
+	    <div class="row justify-content-md-center my">
+		{% if messages %}
+		    {% for message in messages %}
+			<div style="position:fixed; z-index: 99999;" class="alert alert-{% if message.tags == 'error' %}danger{% else %}{{message.tags}}{% endif %} my-2">  <!-- singular -->
+			    <a class="close" data-dismiss="alert">×</a>
+			    {{ message|safe }}
+			</div>
+		    {% endfor %}
+		{% endif %}
+	    </div>
+	{% endif %}
+
 	{% block content %}
 	{% endblock %}
     	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
