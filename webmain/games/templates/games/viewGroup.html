@@ -1,6 +1,11 @@
-{% if data %}
+<!-- {% if data %}
     data is : {{data}}
 {% else %}
     cool beans
-{% endif %}
-
+{% endif %} -->
+<form method="post">
+    {% csrf_token %}
+    <!-- {{form.fields}} -->
+    {{ form.as_p }}
+    <input type="submit" value="Submit">
+</form>
