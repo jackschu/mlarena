@@ -6,6 +6,5 @@ from bots import views
 app_name = 'bots'
 urlpatterns = [
         path('new/<int:game_id>/', views.addBot, name='addBot'),
-#    	path('view-all/<int:game_id>/', views.viewAll, name='viewAll'),
-#       path('view/<int:game_id>/<int:bot_id>/', views.viewBot, name='viewBot'),
+        path('view/<int:bot_id>/', views.viewBot, name='viewBot'),
 ]

@@ -19,3 +19,9 @@ def addBot(request, game_id=None):
         form = BotForm()
         
     return render(request, 'bots/botForm.html', {'form': form, 'game':game})
+
+def viewBot(request, bot_id=None):
+    bot = None
+    if bot_id:
+        bot = Bot.objects.get(pk=bot_id)
+    return render(request, 'bots/viewBot.html', {'bot':bot})

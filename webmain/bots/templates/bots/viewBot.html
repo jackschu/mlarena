@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container">
+      <p> Bot Name: {{bot.name}} </p>
+      <p> Mu: {{bot.mu}} </p>
+      <p> Sigma: {{bot.sigma}} </p>
+      <p> Game: {{bot.game.name}} </p>
+      <p> Score: {{bot.score}} </p>
+      <p> Games Player: {{bot.games_played}} </p>
+      <p> Last Player: {{bot.last_played}} </p>
+    </div>
+{% endblock %}
