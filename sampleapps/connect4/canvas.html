@@ -5,8 +5,11 @@
     <script src="game.js"></script>
     <script>
       function doDraw() {
-	  boardState = [[1, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0, 0], [1, 2, 1, 0, 0, 0, 0], [1, 2, 1, 0, 0, 0, 0]];
-	  drawBoard(document.getElementById("myCanvas"), boardState)
+	  var boardState = [[1, 0, 0, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0, 0], [1, 2, 1, 0, 0, 0, 0], [1, 2, 1, 0, 0, 0, 0]];
+	  var gameState = {
+	      boardState: boardState
+	  };
+	  drawBoard(document.getElementById("myCanvas"), gameState);
       }
     </script>
   </head>
