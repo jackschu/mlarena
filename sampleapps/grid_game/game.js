@@ -1,3 +1,5 @@
+var frameLength = 1000;
+
 function drawBoard(canvas, gameState) {
     context = canvas.getContext('2d');
     boardState = gameState.boardState;
