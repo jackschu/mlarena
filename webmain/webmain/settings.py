@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'users',
     'webmain',
     'games',
+    'gcp',
     'widget_tweaks',    
     'django.contrib.admin',
     'django.contrib.auth',
