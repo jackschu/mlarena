@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+  <br/>
+  <h1 class="display-3"> Games List </h1>
+  <p class="lead" style="margin-left:10px"> List of all the games you've created </p>
+  <hr class="my-4">
+  {% for game in games %}
+  {% if forloop.counter0|divisibleby:"3" %}
+  <div class="row mt-4">
+  {%endif%}  
+
+    <div class="col-4"> 
+      <div class="card" style="width: 100%">
+	<div class="card-body">
+	  <h5 class="card-title">{{game.name}}</h5>
+	  <h6 class="card-subtitle mb-2 text-muted">{{game.file}}</h6>
+	  <p class="card-text"> {{game.desc}} </p>
+	  <a href="{% url 'board:viewBoard' game.id %}" class="card-link"> Leaderboard </a>
+	  <a href="{% url 'games:viewGame' game.id %}" class="card-link"> Game Info </a>
+	</div>
+      </div>
+    </div>
+
+  {% if forloop.counter|divisibleby:"3" or forloop.last%}    
+  </div>
+  {%endif%}
+  {%endfor%}
+
+</div>
+{% endblock %}

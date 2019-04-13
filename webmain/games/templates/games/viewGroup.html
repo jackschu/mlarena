@@ -1,11 +1,36 @@
-<!-- {% if data %}
-    data is : {{data}}
-{% else %}
-    cool beans
-{% endif %} -->
-<form method="post">
-    {% csrf_token %}
-    <!-- {{form.fields}} -->
-    {{ form.as_p }}
-    <input type="submit" value="Submit">
-</form>
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+{% block content%}
+<div style="margin-left:20px;">
+  <br/>
+  <h1 class="display-3"> Create New Game </h1>
+  <p class="lead" style="margin-left:10px"> Specify a name and description for your game </p>
+  <hr class="my-4" style="max-width:95%">
+  <div>
+    <form method="post"  enctype="multipart/form-data">
+      {% csrf_token %}
+      <div class="row mx-0">
+	<div class="input-field col" style="max-width:500px">
+	  <label for="name">Name</label>
+	  {% render_field form.name class+="form-control" %}
+	</div>
+      </div>
+      <br/>
+      <div class="row mx-0">
+	<div class="input-field col" style="max-width:750px">
+	  <label for="name">Description</label>
+	  {% render_field form.desc class+="form-control" %}
+	</div>
+      </div>
+      <br/>
+      <div class="row mx-0">
+	<div class="input-field col" style="max-width:750px">
+	  {% render_field form.file class+="form-control-file" %}
+	</div>
+      </div>
+      <br/>
+      <input class="btn btn-info" type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+{%endblock%}
