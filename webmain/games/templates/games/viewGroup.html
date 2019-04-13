@@ -1,9 +1,36 @@
 {% extends 'base.html' %}
 {% load widget_tweaks %}
 {% block content%}
-  <form method="post" enctype="multipart/form-data">
+<div style="margin-left:20px;">
+  <br/>
+  <h1 class="display-3"> Create New Game </h1>
+  <p class="lead" style="margin-left:10px"> Specify a name and description for your game </p>
+  <hr class="my-4" style="max-width:95%">
+  <div>
+    <form method="post" enctype="multipart/form-data">
       {% csrf_token %}
-      {{ form.as_p }}
+      <div class="row">
+	<div class="input-field col" style="max-width:500px">
+	  <label for="name">Name</label>
+	  {% render_field form.name class+="form-control" %}
+	</div>
+      </div>
+      <br/>
+      <div class="row">
+	<div class="input-field col" style="max-width:750px">
+	  <label for="name">Description</label>
+	  {% render_field form.desc class+="form-control" %}
+	</div>
+      </div>
+      <br/>
+      <div class="row">
+	<div class="input-field col" style="max-width:750px">
+	  {% render_field form.file %}
+	</div>
+      </div>
+      <br/>
       <input type="submit" value="Submit">
-  </form>
+    </form>
+  </div>
+</div>
 {%endblock%}
