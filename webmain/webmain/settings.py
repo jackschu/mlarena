@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'leaderboards',
     'webmain',
     'games',
+    'gcp',
     'widget_tweaks',    
     'django.contrib.admin',
     'django.contrib.auth',

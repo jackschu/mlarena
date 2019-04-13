@@ -20,6 +20,7 @@ urlpatterns = [
     path('boards/', include('leaderboards.urls')),    
     path('users/', include('users.urls')),    
     path('games/', include('games.urls')),
+    path('gcp/', include('gcp.urls')),
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
 ]

@@ -1,5 +1,14 @@
 Django==2.2
 gunicorn==19.9.0
-# pkg-resources==0.0.0
 pytz==2018.9
 whitenoise==4.1.2
+google-api-core==1.9.0
+google-api-python-client==1.7.8
+google-auth==1.6.3
+google-auth-httplib2==0.0.3
+google-cloud-core==0.28.1
+google-cloud-storage==1.13.0
+google-resumable-media==0.3.2
+googleapis-common-protos==1.5.9
+django-widget-tweaks==1.4.3
+httplib2==0.12.1
