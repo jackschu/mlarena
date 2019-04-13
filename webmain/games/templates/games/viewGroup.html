@@ -3,24 +3,26 @@
 {% block content%}
 {% load static %}
 
-<link rel="stylesheet" type="text/css" href="{% static 'games/style.css' %}">
-<div class="container" id="temp">
-  <div class="form" style="padding:10px; margin:10px;">
-    <form method="post">
-        {% csrf_token %}
-        <div class="row">
-          {% render_field form.name placeholder="Name" %}
-        </div>
-        <div class="row">
-          {% render_field form.desc placeholder="Description" %}
-        </div>
-        <div class="row">
-          {% render_field form.file %}
-        </div>
-        <!-- {{ form.as_p }} -->
-        <input type="submit" value="Submit">
-    </form>
-  </div>
+<!-- <link rel="stylesheet" type="text/css" href="games/style.css'"> -->
+<body>
+  <div class="container" id="temp">
+    <div class="form p-2 d-inline-block">
+      <form method="post">
+          {% csrf_token %}
+          <div class="row p-2" id="temp">
+            {% render_field form.name class+='border-top-0 border-left-0 border-right-0' placeholder="Name" %}
+          </div>
+          <div class="row p-2">
+            {% render_field form.desc placeholder="Description" %}
+          </div>
+          <div class="row p-2">
+            {% render_field form.file %}
+          </div>
+          <!-- {{ form.as_p }} -->
+          <input type="submit" value="Submit">
+      </form>
+    </div>
 
-</div>
+  </div>
+</body>
 {%endblock%}
