@@ -7,29 +7,29 @@
   <p class="lead" style="margin-left:10px"> Specify a name and description for your game </p>
   <hr class="my-4" style="max-width:95%">
   <div>
-    <form method="post" enctype="multipart/form-data">
+    <form method="post"  enctype="multipart/form-data">
       {% csrf_token %}
-      <div class="row">
+      <div class="row mx-0">
 	<div class="input-field col" style="max-width:500px">
 	  <label for="name">Name</label>
 	  {% render_field form.name class+="form-control" %}
 	</div>
       </div>
       <br/>
-      <div class="row">
+      <div class="row mx-0">
 	<div class="input-field col" style="max-width:750px">
 	  <label for="name">Description</label>
 	  {% render_field form.desc class+="form-control" %}
 	</div>
       </div>
       <br/>
-      <div class="row">
+      <div class="row mx-0">
 	<div class="input-field col" style="max-width:750px">
-	  {% render_field form.file %}
+	  {% render_field form.file class+="form-control-file" %}
 	</div>
       </div>
       <br/>
-      <input type="submit" value="Submit">
+      <input class="btn btn-info" type="submit" value="Submit">
     </form>
   </div>
 </div>

@@ -15,8 +15,6 @@ def addGame(request):
         # check whether it's valid:
         if form.is_valid():
             new_game = form.save()
-            print(new_game)
-            print(request.FILES['file'])
             # process the data in form.cleaned_data as required
             # ...
             # redirect to a new URL:
@@ -25,9 +23,7 @@ def addGame(request):
 
     # if a GET (or any other method) we'll create a blank form
     else:
-        print('fooaof\n\n\n\n\n')
         form = GameForm()
-    print(form)
     return render(request, 'games/viewGroup.html', {'form': form})
 
 
