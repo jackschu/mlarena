@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% load widget_tweaks %}
 {% block content%}
+    <form method="post">
+	{%csrf_token%}
     <div class="card">
 	<h4 class="card-title mb-3 mt-3 mx-3">Sign in</h4>
 	<article class="card-body">
@@ -21,8 +23,9 @@
 		    </div>
 		{% endfor %}
 
-	    <div class="col form-inline mt-2">
-		<button class="btn btn-success mr-3 mt-2 primaryAction" type="submit">Sign In</button>
+	    <div class="col form-inline mt-3">
+		<button class="btn btn-success mr-2 primaryAction" type="submit">Sign In</button>
+		or register <a class="text-primary " href="{% url 'users:register' %}">&nbsphere.</a>
 	    </div>
 
 
@@ -32,6 +35,8 @@
     {% endif %}
 
 	</article>
-    </div>
+
+
+
 </form>
 {%endblock%}
