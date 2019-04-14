@@ -175,6 +175,6 @@ def main(request):
     if not request_json:
         raise ValueError("JSON is not found")
     
-    column = pickAiSpot(board[:], 3)
+    column = pickAiSpot(board[:], 2)
     out = {'move':column}
     return json.dumps(out)

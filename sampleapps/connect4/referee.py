@@ -68,8 +68,11 @@ def main(request):
     if  'frame' in request_json:
         frame = int(request_json['frame'])
         first = frame  == -1
-        if frame == 42:
+        if frame == 41:
             winner= 3
+            request_json['winner'] = 3
+            request_json['gamestate']['board'] = json.dumps(board)
+            return json.dumps(request_json)
         if first:
             board = start_board()            
             print('frist')
