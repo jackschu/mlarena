@@ -1,7 +1,7 @@
 var frameLength = 1000;
 
 function drawBoard(canvas, gameState) {
-    boardState = gameState.boardState;
+    boardState = JSON.parse(gameState.board);
     context = canvas.getContext('2d');
     numRows = boardState.length;
     numCols = boardState[0].length;
@@ -25,7 +25,8 @@ function drawBoard(canvas, gameState) {
     for (var r = 0; r < numRows; r++) {
 	for (var c = 0; c < numCols; c++) {
 	    var centerX = (radius*2 + margin) * (c) + radius + margin;
-	    var centerY = (radius*2 + margin) * (r) + radius + margin;
+	    var centerY = (radius*2 + margin) * (numRows-r-1) + radius + margin;
+
 	    context.beginPath();
 	    context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
 

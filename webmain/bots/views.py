@@ -4,8 +4,9 @@ from .forms import BotForm
 from .models import Bot
 from django.contrib import messages
 from gcp.views import create_cloudfunction
-from games.models import Game, Match
+from games.models import Game, Match, MatchRecord, GameFrame
 from django.db.models import Q
+import json
 
 # Create your views here.
 
@@ -33,9 +34,14 @@ def viewBot(request, bot_id=None):
     return render(request, 'bots/viewBot.html', {'bot':bot, 'matches':matches})
 
 def viewMatch(request, match_id=None):
-    match = None
-    game = None
+    game_file = ""
     if match_id:
         match = Match.objects.get(pk=match_id)
         game = match.game
-    return render(request, 'bots/canvas.html', {'game':game})
+        game_file = game.renderer_file.path.split('/')[-1]
+        match_record = MatchRecord.objects.filter(match=match)[0]
+        frames = GameFrame.objects.filter(match_record=match_record)
+        states = [f.state for f in frames]
+        json_data = json.dumps(states)
+        
+    return render(request, 'bots/canvas.html', {'game_file':game_file, 'states':json_data})
