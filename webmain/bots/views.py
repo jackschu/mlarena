@@ -40,12 +40,10 @@ def viewMatch(request, match_id=None):
     if match_id:
         match = Match.objects.get(pk=match_id)
         game = match.game
-        if game.renderer_file and game.renderer_file.path:
-            game_file = game.renderer_file.path.split('/')[-1]
         match_record = MatchRecord.objects.filter(match=match)[0]
         frames = GameFrame.objects.filter(match_record=match_record)
         states = [f.state for f in frames]
         json_data = json.dumps(states)
-        js_text = game.desc.replace('\n', '')
+        js_text = game.renderer_file.replace('\n', '')
         
-    return render(request, 'bots/canvas.html', {'game_file':game_file, 'states':json_data, 'js_text': js_text})
+    return render(request, 'bots/canvas.html', { 'states':json_data, 'js_text': js_text})
