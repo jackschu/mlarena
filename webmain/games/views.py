@@ -23,7 +23,7 @@ def addGame(request):
             # redirect to a new URL:
             with open(new_game.file.path, 'rb') as fp:
                 print(fp)
-                create_cloudfunction(fp, str(new_game.id), "game")
+                create_cloudfunction(fp, "game" + str(new_game.id), "game")
                 
             messages.success(request, "You made a new game")
             return HttpResponseRedirect(reverse('gcp:test_cloudfunction'))
