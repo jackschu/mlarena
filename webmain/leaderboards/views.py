@@ -8,6 +8,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponseRedirect
 from games.models import Game, Match, MatchRecord
 from bots.models import Bot
+from gcp.views import run_match
 
 from trueskill import Rating, quality_1vs1, rate_1vs1
 # Create your views here.
@@ -27,6 +28,7 @@ def get_match_all_games():
 
 def get_match(request, game_id):
     match = _get_match(game_id)
+    return run_match(match)
     return HttpResponseRedirect(reverse('board:viewBoard',kwargs={'game_id':match.game.id}))
                 
 def _get_match(game_id):
@@ -74,14 +76,22 @@ def update_board(request, winner=None, match_pk=None):
     match.save()
     record = MatchRecord()
     record.match = match
-    record.did_bot1_win = (winner==1)
+    record.winner_number = winner
     record.save()
     rate_1 = Rating(mu=match.bot1.mu, sigma=match.bot1.sigma)
     rate_2 = Rating(mu=match.bot2.mu, sigma=match.bot2.sigma)
-    if record.did_bot1_win:
+    if record.winner_number == 1:
+        record.match.bot1.w +=1
+        record.match.bot2.l +=1
         rate_1,rate_2 = rate_1vs1(rate_1, rate_2)
-    else:
+    elif record.winner_number == 2:
+        record.match.bot2.w +=1
+        record.match.bot1.l +=1
         rate_2,rate_1 = rate_1vs1(rate_2, rate_1)
+    else:
+        record.match.bot1.d +=1
+        record.match.bot2.d +=1        
+        rate_1,rate_2 = rate_1vs1(rate_1, rate_2, drawn=True)
     print(rate_1, rate_2)
     record.match.bot1.mu = rate_1.mu
     record.match.bot1.sigma = rate_1.sigma
