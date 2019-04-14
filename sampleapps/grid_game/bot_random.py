@@ -1,4 +1,5 @@
 from random import randrange
+import random
 from pprint import pprint
 
 def generateboard():
@@ -62,7 +63,7 @@ def main(request):
     # if out['winner'] != 0:
     #     break
     return json.dumps(out)
-    
+
 def next_move(state):
     # move : 1,2,3,4 u d l r
     board = state['board']
@@ -71,17 +72,30 @@ def next_move(state):
     pos = p1['pos']
     next_move=0
     #top left corner
+    rand = random.random()
     if(pos[0]==0 and pos[1]==0):
-        return 4 if board[0][1]>board[1][0] else 2
+        if(rand <= .5):
+            return 4
+        else:
+            return 2
     #top right corner
     elif(pos[0]==0 and pos[1]==len(pos[0])-1):
-        return 3 if board[0][len(pos[0])-2] > board[1][len(pos[0])-1] else 2
+        if(rand <= .5):
+            return 3
+        else:
+            return 2
     #bottom left corner
     elif(pos[0]==len(pos)-1 and pos[1]==0):
-        return 1 if board[len(pos)-2][0] > board[len(pos)-1][1] else 4
+        if(rand <= .5):
+            return 4
+        else:
+            return 1
     #bottom right corner
     elif(pos[0]==len(pos)-1 and pos[1]==len(pos[0])-1):
-        return 3 if board[len(pos)-2][len(pos)-1] > board[len(pos)-1][len(pos)-2] else 1
+        if(rand <= .5):
+            return 3
+        else:
+            return 1
     #top row
     elif(pos[0]==0):
         return 2
@@ -95,17 +109,14 @@ def next_move(state):
     elif(pos[1]==len(pos[0])-1):
         return 3
     else:
-        x = pos[0]
-        y = pos[1]
-        next_move = max(board[x-1][y], board[x][y-1], board[x+1][y], board[x][y+1])
-        if(board[x-1][y]==max):
-            return 3
-        elif(board[x+1][y]==max):
-            return 4
-        elif(board[x][y-1]==max):
-            return 2
-        elif(board[x][y+1]==max):
+        if(rand <= .25):
             return 1
+        elif(rand <=.5):
+            return 2
+        elif(rand <= .75):
+            return 3
+        else:
+            return 4
 
 if __name__ == '__main__':
     main()
