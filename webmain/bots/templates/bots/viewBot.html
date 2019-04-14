@@ -8,5 +8,8 @@
       <p> Score: {{bot.score}} </p>
       <p> Games Player: {{bot.games_played}} </p>
       <p> Last Player: {{bot.last_played}} </p>
+      {% for match in matches %}
+      <p> Match: <a href="/bots/viewMatch/{{match.id}}"> {{forloop.counter}} </a> </p>
+      {% endfor %}
     </div>
 {% endblock %}

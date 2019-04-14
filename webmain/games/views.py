@@ -6,6 +6,7 @@ from .models import Game
 from django.contrib import messages
 from django.urls import reverse
 from gcp.views import create_cloudfunction
+import os
 # Create your views here.
 
 
@@ -21,9 +22,11 @@ def addGame(request):
             # process the data in form.cleaned_data as required
             # ...
             # redirect to a new URL:
-            with open(new_game.file.path, 'rb') as fp:
+
+            with open(new_game.game_file.path, 'rb') as fp:
                 print(fp)
                 create_cloudfunction(fp, "game" + str(new_game.id), "game")
+
                 
             messages.success(request, "You made a new game")
             return HttpResponseRedirect(reverse('games:viewGame', kwargs={'game_id':new_game.id}))
@@ -45,4 +48,10 @@ def viewGame(request, game_id=None):
         game = Game.objects.get(pk=game_id)
     return render(request, 'games/viewGame.html', {'game':game})
 
-
+def staticFile(request, game_id=None):
+    module_dir = os.path.dirname(__file__)
+    file_path = os.path.join(module_dir, 'files/' + str(game_id) + '.js')
+    with open(file_path, 'rb') as fp:
+        response = HttpResponse(content=fp)
+        response['Content-Type'] = 'text/javascript'
+        return response
