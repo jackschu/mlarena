@@ -1,6 +1,7 @@
 from math import pow
+from django.db.models import Count
 from django.utils import timezone
-from random import random, randrange
+from random import random, randrange, shuffle
 from django.urls import reverse, reverse_lazy
 from django.contrib import messages
 from django.shortcuts import render, redirect, get_object_or_404
@@ -18,7 +19,11 @@ def view(request, game_id):
     return render(request, 'leaderboards/view.html', {'bots':bots_list, 'game':game}) 
 
 def get_match_all_games():
-    return _get_match(Game.objects.order_by("?").first().id)
+    preid = Game.objects.annotate(toys_num=Count('bot')).filter(toys_num__gt=1).distinct()
+
+    shuffle(list(preid))
+    id = preid[0].id
+    return _get_match(id)
 
 def get_match(request, game_id):
     match = _get_match(game_id)
