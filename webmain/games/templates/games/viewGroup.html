@@ -7,7 +7,7 @@
   <p class="lead" style="margin-left:10px"> Specify a name and description for your game </p>
   <hr class="my-4" style="max-width:95%">
   <div>
-    <form method="post"  enctype="multipart/form-data">
+    <form method="post" enctype="multipart/form-data">
       {% csrf_token %}
       <div class="row mx-0">
 	<div class="input-field col" style="max-width:500px">
@@ -25,7 +25,13 @@
       <br/>
       <div class="row mx-0">
 	<div class="input-field col" style="max-width:750px">
-	  {% render_field form.file class+="form-control-file" %}
+	  {% render_field form.renderer_file class+="form-control-file" %}
+	</div>
+      </div>
+      <br/>
+      <div class="row mx-0">
+	<div class="input-field col" style="max-width:750px">
+	  {% render_field form.game_file class+="form-control-file" %}
 	</div>
       </div>
       <br/>

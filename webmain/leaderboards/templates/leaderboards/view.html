@@ -17,7 +17,7 @@
 	    {% for bot in bots %}
 	    <tr>
 		<th scope="row">{{forloop.counter}}</th>
-		<td>{{bot.name|capfirst}}</td>
+		<td><a href="/bots/view/{{bot.id}}/"> {{bot.name|capfirst}} </a></td>
 		<td>{{bot.score|floatformat:2}}</td>
 		<td>{{bot.mu|floatformat:2}}</td>
 		<td>{{bot.sigma|floatformat:2}}</td>		

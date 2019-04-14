@@ -1,0 +1,1247 @@
+E..s1.@.@.ku.......	...P9AT.E..jP..........G.SMB......................$.d..].......................................
+13:30:09.526502 IP eridanus.2896 > pegasus.netbios-ssn: Flags [P.], seq 835297:835385, ack 712050, win 65310, length 88 NBT Session Packet: Session Message
+E.....@....T...	.....P..E..j9AT.P..........T.SMB......................$.d..^............ ...........T...................@.......
+13:30:09.526556 IP pegasus.netbios-ssn > eridanus.2896: Flags [P.], seq 712050:712125, ack 835385, win 65535, length 75 NBT Session Packet: Session Message
+E..s1.@.@.kt.......	...P9AT.E...P..........G.SMB......................$.d..^.......................................
+13:30:09.526756 IP eridanus.2896 > pegasus.netbios-ssn: Flags [P.], seq 835385:835473, ack 712125, win 65235, length 88 NBT Session Packet: Session Message
+E.....@....S...	.....P..E...9AU.P....z.....T.SMB......................$.d.B^............ ...........T...................@.......
+13:30:09.526810 IP pegasus.netbios-ssn > eridanus.2896: Flags [P.], seq 712125:712200, ack 835473, win 65535, length 75 NBT Session Packet: Session Message
+E..s1.@.@.ks.......	...P9AU.E...P..........G.SMB......................$.d.B^.......................................
+13:30:09.527004 IP eridanus.2896 > pegasus.netbios-ssn: Flags [P.], seq 835473:835561, ack 712200, win 65160, length 88 NBT Session Packet: Session Message
+E.....@....R...	.....P..E...9AUbP...~".....T.SMB......................$.d..^............ ...........T...................@.......
+13:30:09.527054 IP pegasus.netbios-ssn > eridanus.2896: Flags [P.], seq 712200:712275, ack 835561, win 65535, length 75 NBT Session Packet: Session Message
+E..s1.@.@.kr.......	...P9AUbE..rP..........G.SMB......................$.d..^.......................................
+13:30:09.527254 IP eridanus.2896 > pegasus.netbios-ssn: Flags [P.], seq 835561:835649, ack 712275, win 65085, length 88 NBT Session Packet: Session Message
+E.....@....Q...	.....P..E..r9AU.P..==......T.SMB......................$.d..^............ ...........T...................@.......
+13:30:09.527301 IP pegasus.netbios-ssn > eridanus.2896: Flags [P.], seq 712275:712350, ack 835649, win 65535, length 75 NBT Session Packet: Session Message
+E..s1.@.@.kq.......	...P9AU.E...P..........G.SMB......................$.d..^.......................................
+13:30:09.527504 IP my.ebay.com.www > pegasus.43324: Flags [.], seq 2145:2681, ack 2491, win 65535, length 536
+E..@......W|B..5.....P.<\{....WrP...Tk..Iw2U; Domain=.ebay.com; Path=/
+Set-Cookie: lucky9=6295138; Domain=.ebay.com; Expires=Fri, 05-Jun-2015 17:30:09 GMT; Path=/
+Content-Encoding: gzip
+Content-Type: text/html;charset=UTF-8
+Content-Length: 29731
+Date: Sun, 06 Jun 2010 17:30:08 GMT
+nnCoection: close
+
+............{w...8...Z.;....}+...~....e'Q.e{[J....-..$&....m....r.._..........r.4..:"	.f....0..........R.8S].}.~.i.b...C.}pp......WB.T...%...h.!...... N.g.88xxx(=TK.5>... ...n.6)..*...7......)qd.....s..).M.!.S./fD........PP..2.-.8...7.c..h.N........7.Nek....~.k.'."zS
+13:30:09.527515 IP pegasus.43324 > my.ebay.com.www: Flags [.], ack 2681, win 10720, length 0
+E..(..@.@..I....B..5.<.P..Wr\{..P.)..b..
+13:30:09.527522 IP eridanus.2896 > pegasus.netbios-ssn: Flags [P.], seq 835649:835737, ack 712350, win 65010, length 88 NBT Session Packet: Session Message
+E.....@....P...	.....P..E...9AU.P....q.....T.SMB......................$.d.._............ ...........T...................@.......
+13:30:09.529258 IP my.ebay.com.www > pegasus.43324: Flags [.], seq 2681:3217, ack 2491, win 65535, length 536
+E..@......U|B..5.....P.<\{....WrP...zT.....N.	!.(8......(L,2jz.k...UR"Cya;..)%........1..{.........]kpG.O.q	e..V.*.j.v8..K.}.Ht.../..l6`......P..M..F....B.../........'...Bt...z..@.Mch....l(.....Vc......xo&..G.);...6Q5.
+..>.pm2.<a.......:..T....zp..E..5..ehZ*..#..lS.Tal...{b.gd.Ex...NNg..j..h1......t..C..dU......|.[..P.sK.s.>..;.q...>P....v`..[. .[KV..X.........$..S|.?.L6Z.e.xR.......9..K.rt..b.vy.2..U....\.5..;.G........EMQ.._.H5h.....T.@...2....'t..1..g..............t.s...b....E........H...s).....Y..gE.p|..I.^..L.....;1Tm.G...u.....$.;Fq......k........w.(...{r..|...
+13:30:09.529284 IP pegasus.43324 > my.ebay.com.www: Flags [.], ack 3217, win 11792, length 0
+E..(..@.@..H....B..5.<.P..Wr\{..P.......
+13:30:09.530481 IP pegasus.netbios-ssn > eridanus.2896: Flags [P.], seq 712350:712425, ack 835737, win 65535, length 75 NBT Session Packet: Session Message
+E..s1.@.@.kp.......	...P9AU.E.."P..........G.SMB......................$.d.._.......................................
+13:30:09.530780 IP my.ebay.com.www > pegasus.43324: Flags [.], seq 3217:3753, ack 2491, win 65535, length 536
+E..@......S|B..5.....P.<\{....WrP..........S.CS].....k..bp\.TNp.+.6s.1.Q...[Q.-e.....!..z...?.....$Ws|D.q..X....)...D,..J....l.....!..U..X..7... .._..<........w...........kN.j.i~.H...m..g.*....9.5Ch
+.(..;.N3.=X.C..N..WX.U..G..H....M....$.}.'.?..MQ..../..i.<GUgS|..1..r.U?{.j.......>P...6<..}x...Ta8'(@..*e.F......9..k.^..(.".}EV&...3...2...%.^..._...,..;..KC1..&.?......5..	.G...P....e.......|W.!.1*C_t9.Zv...P:\.Dd..a.L]7.b.9.M...?..!...CN)..'.?.y..6..S.b.Z7..d............WW...7..W.F.....oA...@..;.&F&...M.[:...u.?.....{.m.....Q..V..O.u.4.O.9....d(.^M........ha..<.nd.!...C.
+--
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+
+
+13:54:36.699204 IP rr.pmtpa.wikimedia.org.www > pegasus.47965: Flags [.], ack 398, win 14, options [nop,nop,TS val 993551018 ecr 39020423], length 0
+E..4s.@.2..>.P.......P.].r.,...6...........
+;8b..Sg.
+13:54:36.701199 IP rr.pmtpa.wikimedia.org.www > pegasus.47965: Flags [P.], seq 1:529, ack 398, win 14, options [nop,nop,TS val 993551018 ecr 39020423], length 528
+E..Ds.@.2..-.P.......P.].r.,...6.....r.....
+;8b..Sg.HTTP/1.0 200 OK
+Date: Sun, 06 Jun 2010 14:54:35 GMT
+Server: Apache
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+Content-Language: en
+Vary: Accept-Encoding,Cookie
+Last-Modified: Sun, 06 Jun 2010 14:54:09 GMT
+Content-Encoding: gzip
+Content-Length: 15407
+Content-Type: text/html; charset=UTF-8
+X-Cache: MISS from sq75.wikimedia.org
+X-Cache-Lookup: HIT from sq75.wikimedia.org:3128
+Age: 1
+X-Cache: HIT from sq75.wikimedia.org
+X-Cache-Lookup: HIT from sq75.wikimedia.org:80
+Connection: keep-alive
+
+
+13:54:36.701228 IP pegasus.47965 > rr.pmtpa.wikimedia.org.www: Flags [.], ack 529, win 108, options [nop,nop,TS val 39020446 ecr 993551018], length 0
+E..4w.@.@........P...].P...6.r.<...l.`.....
+.Sg.;8b.
+13:54:36.705447 IP rr.pmtpa.wikimedia.org.www > pegasus.47965: Flags [.], seq 529:1977, ack 398, win 14, options [nop,nop,TS val 993551018 ecr 39020423], length 1448
+E...s.@.2....P.......P.].r.<...6....{K.....
+;8b..Sg............}i.$.u..._.[....SW_..3.DO...9Z.=..g.DTeTUNge...=...
+. @.?.....!..(.. A6,R..x.....)..D..a.....82.............{/...".......}....d.............'[G..........>a.N..%<L...B.t....Xk.e.~.{yy....D..{......cc...Y-;^...kwi.7. L......}[.n.......[....V.%.^p..d~...........,..6J.`"...AD.w.....S.q....g..q.:..L.Y.l......A+.o.....'<IEv...a{...W.r......0M..!....X.".Y.X..".8..y..r:....?<g...Z)..N..Z,....&...|..,.\BWS...z.......i.e..~.g.....3.B`/.a4....:S?.@..n....p!......r......wnu6	..5.B...0.E.p.....8DHP...j.N..k..DI6.3fw....j.......'.%8.?...]..P.z".&~.._}........X..Ob.
+...e8.m..Fu.a....<.*..&.P
+....i.....v..v..[.^... .I.3.4........!.....5)?......d..X.}.....Fv4..-...i|...`.W1.".J..0.f...4.~..=.Xgs.?.3,..a.[...cp..n
+[...............Xm...4.....c.5.TL....'.`.(<..q..7.......cq..{ko...<>DV;H.%%.5.....;...._k
+--
+E...s.@.2....P.......P.].rK....6....9......
+;8b..Sg..........Pz.aq.........'.......\..w.w.A..[..Q..v\<H...9.-...........Pz.`q.I...\....,.o.k.y...X......_..	T...D.....Z.%]....o.-.y.v..`~..k..././..E......+......%.i....._4 a.E....%.n...;D......|=.6..........sn....~.F..l....>....)G..V.!Mp.{....$..x.W....r....i6...dE8.~......#_x.A....|F...	...~....Tr...i.a..((
+8.#\a`.....I..{'.I..a..VEQn.O...{..l.....U.k..Y....]Q..	O.a........!.$..>QC:.5S.Ysk...;\	.Pu..
+G.U..;..S..H.&,.~8.....s_.....}.d....1....s.T.Z.=.f.I.....z......^..PL.'2 O..V............xL..c.g.=1..y.S[.....<........a.....~....]|6...hZ.....q.u.g....G.....Y^.@Z.2].XeEt.]..l.........._.0m.U..*8.....fX..z...j..S.e........\..#.....V.:X...{.o~/....zh........!2?~)Jx.&>..E4.)..EO..O.....yA.
+.v...b...+.v.P.....{.../..gL..u....|?.D6..w<.......*...i..e..........l..X.\{..Y...C. /......n.>~E.. Q..e.N.....x.u..........2...?b.0....;~........az..q........1.-...PC$y...,.G..VJ.X....N..ir.yk.O.{...-..a.A..}..GEi.M....,Oq.m...
+13:54:36.884639 IP pegasus.47965 > rr.pmtpa.wikimedia.org.www: Flags [.], ack 15936, win 606, options [nop,nop,TS val 39020492 ecr 993551036], length 0
+E..4w.@.@........P...].P...6.rOk...^v......
+.Sg.;8b.
+13:54:36.945567 IP bits.pmtpa.wikimedia.org.www > pegasus.56067: Flags [.], ack 446, win 14, options [nop,nop,TS val 3410688929 ecr 39020485], length 0
+E..4wa@.2....P.v.....P........]4.....V.....
+.J...Sg.
+13:54:36.949809 IP bits.pmtpa.wikimedia.org.www > pegasus.56067: Flags [.], seq 1:1449, ack 446, win 14, options [nop,nop,TS val 3410688929 ecr 39020485], length 1448
+E...wb@.2..E.P.v.....P........]4..........
+.J...Sg.HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Sun, 06 Jun 2010 11:32:59 GMT
+ETag: "657b-4885aeb1070c0"-gzip
+Cache-Control: max-age=2592000
+Expires: Tue, 06 Jul 2010 11:33:21 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Type: text/css
+Content-Length: 4369
+Date: Sun, 06 Jun 2010 14:54:36 GMT
+X-Varnish: 3146241213 3021483961
+Age: 12075
+Via: 1.1 varnish
+Connection: keep-alive
+
+...............6...B;..6...G.... .L...}......Y.m.eI+.}.1......D.=.6...b],.."'.q.CU...:].O.....j...e..".0.m.m.<=.h}Q..jZ../R....g..{.q..	*WY..G..8K.....@...g..t}q....V..x	.....z1Q.	...8JO-...Q....M.?....%a..y../A.?./.yV....V..=:./.cY....g5*...#8	(.... ..O!.7.S..\.i.*.k.L.Kt..."...p..n_.f.;...U..&..Xy...{...v..H7)!c}.R.;z...|.g..{...*..d....!>.JH.,QV.....e...- ...l).(Y..5~.,...L..0.6...-..lWF..0.wD..!\..~M.
+.Q..~0{.H.IT8}.*.)A..+.g5...xI.....k.....(... .O."/k.....!....L.>.\..T.O(...Z........7%..'E..i..6....V) kV..D..j.p.'[...........+...7.......J.X.:).4..kk...8.."..)G.%.`...ry.+}..z.K-..C.....uT..sH.{&$M.........j...J9_..jn.....'...c.lz.E.$......HZ|..U.........,...dG.O't.et.t..KP..J.&.)..6.	..2b...Oo.K.&...*.g.[+.#..IjB.D2.c..,8.A.O.9.J.2]....9!]....1q.v....1.N...Sh..x.7.^.O#..5..%....I....-1x.(.5.pR..%.!..................L.$...."`.2<..*bD...L..&.......v..p	B...Rd.G....i.H.....Q9..(:NQD.....Q..`}.~...3BK.l..G..(y...)...K"zH	.....p6....1..
+X....;D...S\.1c.bF..[........0p.t..G>.n..0c...yZ...."5.....>u4.R.aC.H.....3.B.f..
+W..Q.'m..
+13:54:36.949849 IP pegasus.56067 > bits.pmtpa.wikimedia.org.www: Flags [.], ack 1449, win 137, options [nop,nop,TS val 39020509 ecr 3410688929], length 0
+E..4<.@.@..s.....P.v...P..]4...h...........
+.Sg..J..
+13:54:36.953805 IP bits.pmtpa.wikimedia.org.www > pegasus.56067: Flags [.], seq 1449:2897, ack 446, win 14, options [nop,nop,TS val 3410688929 ecr 39020485], length 1448
+E...wc@.2..D.P.v.....P.....h..]4...........
+.J...Sg.WJ..U.#.?....).f..4...m.~....].......r.&.K..]....!......Y.1D.4:@..m.l$. j=...!..9M...O..;.. Da....Ptb.......&.*U.O.=+.Y.R...i.|jqK3...3...G.z$.C....U.x.(Q3s.......+..p..jE-B...2977m!..6"...[..u......(&;.~`E-%lf,R.dd.>.../}w....$Z...}....n.NZ$'...XP'jx.F	...s...0..(L.HZ]..RZ..D:!......).?.i^.!
+..I...M.Q}..]O......f......(i.%..P.~.T	>..~6.a5.[..=T.6......i.!rc..C.%...h..Z1......j.'%ciX.NfK.#...^%.....c....n.[.H5.s...+.3[]s....[...e..L1.$R...l.M.).T.L..[t7.[.,..}.`...N<D1.n.F.....2ep7%2..2.l.._.j....`B.<]pI.<....6....<........rgsD._.j....`.......(.....)}{.-...[..m....s.Q.q.hU..	c..|.$5N...<{.t...k..Bq........m1J.".....i..a.M...g...n....,.....~-..4,..x....Bio.Sov..?5....q_.R..gP......g_S....(~$...l...EZ'........q.dm.A.7....g.\FE..X.........i......Fj...M..~..f........;sb9..s/AZW..bA....c.h...Plm.Z.".?d...;..%..(.O...p...)Ht..........;_.Fz..N...K.t.r..h.A....i.q.Jm.........
+...{g*6.H....R.o..#.,."..%...U$..&...{[...$..q...h.....oL.X].J.u.........hR.ta..F.F...5..,.Bk?..#	Xk"...T..{.,c.U.C...O..kQ%[=.-..m..&.7.m..\@..Wu...6$....DYe.."tTf.kK.Asw.5B....>...qt.t'.8.....9...d.	......4..1.g.!..#.U......!.D[T.,n".s.s...'^!Hg...3+..&Kn.%......>.....w..l.............&ep...Z...M..M....-.3.1.....{.[!$.6...h..........h...EJTD.......-..........`.._...../....sh...(.>................G....A.;.X(...N.D...;.j........")...............mdy...hK4..#..O...&.Nq...s...J.2.jf!..].N...8.E.....8.E.|.h.n@vt.5..*u...dI.xL.X..Pj.|....j..m.Z.<1..[..]..=[..dq..
+--
+E...wd@.2..C.P.v.....P........]4...........
+.J...Sg....x.......h....+.h.......jE.c....n.0G.3|Q.. .v..W..6X.hQG....o.&8.'.....<3..._h........u...GZ..C..-.d.G.-.@C.&...>}...vg..%G....T......=.Z}...b*...{.. .@..zP$..b4..!3A......x...)...2FS9.u..hYz.h0vQ.b...vP<.1.....(....#..z.H....
+...6..u.....
+.....@..../.NJ..)q.s3..'=7..q.d.......5..*.a..ac.q.n...AL:....3}..[.5........a:m.).....o]6..W.r.......[.~p.+V.;c	.q...v.p..q....4U*mP(.....I.....	..@&...N@.g......C.a.}#.,...).q...$1..p.(+.4.HKDu4..>$a....K.P<.......i...=.,.].P.&.d`.+Omk.(.;!].p......2`...pn.lN..5..C:H.....d.1...9.K.,........<5.-..c...C..F...n.6..<4..\PO..I4._....$k..\9./".i1:.Vb...t?.V,....k.0.5T..Tm9...3.U....=!{.E.;..0R..S1B5..J>...W;....?..p.v.O..4...z..?.I..%.......K\.^\.p...B........L..i.Gb&U!ZQ.3........H...I9....KR....e."...m...
+.........-9H6.....g....>.......U.,...g.y.......4....4x.EE\.'...w.....l..k=..w...^.....E.(.....bm...".#....&.i.../..0.]....W....@tC.-.....jHA.=)0.p.~e..*J.G%..}.~..p.l....1..G3.q..3...[.{.Zl..aV.........k0;.G?..a..=...
+.#.....2I...V...Dn.j<...........{ ..[i@Oqv.g..@9.;...*..#Z1.B..B.7. .	F........k$.....@...`.J.Z..j..-b..8V..!.1..22vd....0.....]..c.....:Di..t....'.....n....T+6.J(J...b...._.l9.#....Z..B...&P..J..E..'oC....+=%2..{.f...c.t..i)	.....E}...r...m#g..}C.{.]...bh..M...F..	.{c...Sw...<....Ln.A3.. kO.s..dh...E
+....e%n,..Ji.....O..q>..I.$..}...p..k.....x.)....&..~.5	.y..H|.R..&....W|BE..hZ.n....z...D..../...gm..u.B7L.....q1...ot...o.q.c..R..)..".m..1E.	...J.s
+...c.......a4..L..7...
+13:54:37.039562 IP pegasus.56067 > bits.pmtpa.wikimedia.org.www: Flags [.], ack 4774, win 227, options [nop,nop,TS val 39020531 ecr 3410688938], length 0
+E..4<.@.@..p.....P.v...P..]4...e...........
+.Sg..J..
+13:54:37.054996 IP rr.pmtpa.wikimedia.org.www > pegasus.47967: Flags [.], ack 503, win 14, options [nop,nop,TS val 993573705 ecr 39020512], length 0
+E..4U.@.2....P.......P._.H....	P.....5.....
+;8.I.Sg.
+13:54:37.056498 IP rr.pmtpa.wikimedia.org.www > pegasus.47967: Flags [P.], seq 1:501, ack 503, win 14, options [nop,nop,TS val 993573705 ecr 39020512], length 500
+E..(U.@.2....P.......P._.H....	P...........
+;8.I.Sg.HTTP/1.0 200 OK
+Date: Sun, 06 Jun 2010 14:54:35 GMT
+Server: Apache
+Cache-Control: public, s-maxage=2678400, max-age=2678400, max-age=2592000
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Content-Length: 176
+Expires: Tue, 06 Jul 2010 14:54:35 GMT
+Content-Type: text/css; charset=UTF-8
+X-Cache: HIT from sq63.wikimedia.org
+X-Cache-Lookup: HIT from sq63.wikimedia.org:3128
+Age: 2
+X-Cache: HIT from sq73.wikimedia.org
+X-Cache-Lookup: HIT from sq73.wikimedia.org:80
+Connection: keep-alive
+
+
+13:54:37.056544 IP pegasus.47967 > rr.pmtpa.wikimedia.org.www: Flags [.], ack 501, win 108, options [nop,nop,TS val 39020535 ecr 993573705], length 0
+E..4`.@.@..-.....P..._.P..	P.H.....l.......
+.Sg.;8.I
+13:54:37.057496 IP rr.pmtpa.wikimedia.org.www > pegasus.47967: Flags [P.], seq 501:677, ack 503, win 14, options [nop,nop,TS val 993573705 ecr 39020512], length 176
+E...U.@.2.._.P.......P._.H....	P..........
+;8.I.Sg...........e.A..0.E..b.qCPp.{.1..6.vR..b..........gZ.p.....V..q@xS.(............*!`........Y.....I.s*d.g3.~.Wf^........Hk.P..J.......z.%.
+.i.4...a.........Oc.4.u....%....&......
+13:54:37.057528 IP pegasus.47967 > rr.pmtpa.wikimedia.org.www: Flags [.], ack 677, win 125, options [nop,nop,TS val 39020535 ecr 993573705], length 0
+--
+Z@...R....	....=.*..v
++0.......K.....
+.....Sq....ex...l.TP..P.
+13:54:46.859625 IP pegasus.47402 > eridanus.3389: Flags [.], ack 384, win 2212, options [nop,nop,TS val 39022986 ecr 43241451], length 0
+E..4h.@.@.4........	.*=+0....v............
+.Sq.....
+13:54:46.876331 IP www.cnn.com.www > pegasus.47992: Flags [.], ack 2924, win 68, options [nop,nop,TS val 1182109535 ecr 39022962], length 0
+E..4.&..2../.........P.x.n.m..4....D.......
+Fu._.Sqr
+13:54:46.880828 IP www.cnn.com.www > pegasus.47992: Flags [.], seq 1:1449, ack 2924, win 68, options [nop,nop,TS val 1182109535 ecr 39022962], length 1448
+E....'..2............P.x.n.m..4....Dnf.....
+Fu._.SqrHTTP/1.1 200 OK
+Date: Sun, 06 Jun 2010 14:54:46 GMT
+Server: Apache
+Set-Cookie: CG=US:VA:Victoria; path=/
+Accept-Ranges: bytes
+Cache-Control: max-age=60, private, private
+Expires: Sun, 06 Jun 2010 14:55:43 GMT
+Content-Type: text/html
+Vary: User-Agent,Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 21346
+Keep-Alive: timeout=2, max=10
+Connection: Keep-Alive
+
+...........}ys.8...qU..F....cQ....c.|%........l. ...S.. %+......O...#.;r.....h4..>^.t|y.............g.G.R..?o.....c.b.h4I..........O.*.a.x;..d21&........0.9.u.s..+.*...	q.;..0..3j.....a.G....G.F.}F.mw@..D...F.X'...X...`..ur.........._...%.l.qY.u]5J.y=b.%.`.........>..
+194..{..v........n.Y._Q5]:b{.c&L..p..z...s.1....`|....E.p..B]..n..#.m...*.p....6..N.!.Ba.L.#...:....7..6;.>3.[.C.5.y....h.....B..c.. .c.M..3...4..9..Z6...<.d@..)h...=5..#.....C.?.t.}Kdq#.....Q.:...c...:0..,..........,~..s...:.O+..C'.$`.....Lg........|:f.:..t...,.h.p.e1(.=...m...Q......8Z..>..Z0.X
+]..	...%.....{......W5I...k.....F}...[..P.sl5.:....Z	..z3r*d...W...;....M..)1.{.^b....>y.>%..:Vk.._IwoR...c.h..@.X..+..rl.	.[
+...
+`q7Z..t..........m.*.td....A.....A.u.9.i.n....Q.8..,qd...o.......M........y....&.....Q.l..d[.J.j.H...E3...k...];.k......h....)..Q
+.q.].O.=..(K.w...3.i/..b.
+.,.D0u.k3.D@..dB.e....i..#.03?...f.,..;.Jr...qGp...{.j4....d+..|G.+.'r..yh.5`z....7.(..E]...e...Vw`u.o0%u..c...m........x...........[.a..f..P.Mc.h.#../"...:...._....=z.D.P.......y..PA...z....>.....b=..#d....:+.x...
+13:54:46.880869 IP pegasus.47992 > www.cnn.com.www: Flags [.], ack 1449, win 137, options [nop,nop,TS val 39022991 ecr 1182109535], length 0
+E..4X+@.@..*.........x.P..4..n.............
+.Sq.Fu._
+13:54:46.885073 IP www.cnn.com.www > pegasus.47992: Flags [.], seq 1449:2897, ack 2924, win 68, options [nop,nop,TS val 1182109535 ecr 39022962], length 1448
+E....(..2............P.x.n....4....D
+......
+Fu._.Sqr....@.`...`....Ak	}/0o+....l.tB..@..!.E..-.]G)F...~~pzQ....a....j....R..{]..N..D...P?.us#..b.Z....6...`.......n...L.J.......Io....1.	..T..#v.tM.@(..Jz....(.B...o.T[SqI......;..[........l....x..h.^m...T..<..h..yzn..pk#...N........U{..........
+.>.........=.......5....2.=..;....7....N_U....ql..d.R......F..'o..........H.a.t....~. re.Z/...!.{=....O..L.>H.9...}P......w.h...Q.....>WW.......@hw.s....+.$^..2......{PGn.px...M..V.._z....1 .<.Y.'.]Y.8...BK........#9f...JZx..
+...P!.'Pa.S.R....n.j..
+--
+E..Hq.@.@.,...........5.4...............45.181.34.216.in-addr.arpa.....
+13:54:46.895815 IP slashdot.org.www > pegasus.45394: Flags [.], ack 380, win 148, options [nop,nop,TS val 230804410 ecr 39022968], length 0
+E..4.o@....V.".-.....P.R...................
+....Sqx
+13:54:46.903063 IP slashdot.org.www > pegasus.45394: Flags [.], seq 1:1449, ack 380, win 148, options [nop,nop,TS val 230804413 ecr 39022968], length 1448
+E.....@....'.".-.....P.R.............>.....
+....SqxHTTP/1.1 200 OK
+Server: Apache/1.3.41 (Unix) mod_perl/1.31-rc4
+SLASH_LOG_DATA: shtml
+X-Powered-By: Slash 2.005001298
+X-Bender: You just lost five dollars.
+X-XRDS-Location: http://slashdot.org/slashdot.xrds
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=iso-8859-1
+Date: Sun, 06 Jun 2010 14:54:46 GMT
+X-Varnish: 842058010 842057439
+Age: 36
+Connection: keep-alive
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+Transfer-Encoding: chunked
+
+1c58
+.................L...<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script id="before-content" type="text/javascript">
+var pageload = {
+	pagemark: '42340212560095541',
+	before_content: (new Date).getTime()
+};
+function pageload_done( $, console, maybe ){
+	pageload.after_readycode	= (new Date).getTime();
+	pageload.content_ready_time	= pageload.content_ready - pageload.before_content;
+	pageload.script_ready_time	= pageload.after_readycode - pageload.content_ready;
+	pageload.ready_time		= pageload.after_readycode - pageload.before_content;
+	// Only report 1% of cases.
+	maybe || (Math.random()>0.01) || $.ajax({ data: {
+		op: 'page_profile',
+--
+E..4X9@.@............x.P..4..n`E..../......
+.Sq.Fu.)
+13:54:47.096250 IP www.cnn.com.www > pegasus.47992: Flags [P.], seq 21721:21726, ack 2924, win 68, options [nop,nop,TS val 1182109737 ecr 39023025], length 5
+E..9.6..2............P.x.n`E..4....D @.....
+Fu.).Sq..br..
+13:54:47.096262 IP pegasus.47992 > www.cnn.com.www: Flags [.], ack 21726, win 770, options [nop,nop,TS val 39023045 ecr 1182109737], length 0
+E..4X:@.@............x.P..4..n`J..../......
+.Sq.Fu.)
+13:54:47.100195 IP iad04s01-in-f147.1e100.net.www > pegasus.55830: Flags [.], seq 1:1419, ack 1116, win 124, options [nop,nop,TS val 4217081985 ecr 39022952], length 1418
+E...U...7.E.H........P.....s.@O....|.......
+.[...SqhHTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU;Domain=.google.com;Path=/;Expires=Wed, 03-Jun-2020 14:54:46 GMT
+Date: Sun, 06 Jun 2010 14:54:47 GMT
+Expires: Sun, 06 Jun 2010 14:54:47 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Content-Encoding: gzip
+Content-Length: 107392
+
+............[..H.......v...b.....N......q...	. .$....kYkY!.."o(..VhW.kK.3.(bweI.......ykGX..#.....H..Y..{.3..3..%....._~..B4.../D.b....L
+.MS.q.K.>G..br..........9br{3.+>a.H..g>.G.X....O.PT..%....s.....R..#.....|..).2......a.ng|.w.}..,)+L.@.#...x|..=
+.I..................y.?.L......`&...^S.....3.0*E.&.+..yE)M.%.4.*q.0....	....(......vxN|N..'...d.]*..l..R..9.]..&1..S.Z?'..j..e>...J...=B._R[.y.y..t.......NRXu...y.-....F........(......'.JbV.^.;..}..?P.....;0....q.(p&.pw.V.>....S...|P.".
+..yP,Y~.._a.d.bQ.....z
+t.qi..ZR.....;.....;V~}.........6z.M<I.]..#..........!.;...)>......a...GT..6..Bm._.).ty..Fv._}...{.&w. ..v.u...G.|F._..3..w..........W..K..s..h.....l.z.UG..E....#..].....G.b..E..<1.......`..`n...".F...`....?..}......%.y@/X.{f.O...@4q.h.15.".G...g....{.9E0.'>.............{......??{.D6.0........f
+13:54:47.100235 IP pegasus.55830 > iad04s01-in-f147.1e100.net.www: Flags [.], ack 1419, win 137, options [nop,nop,TS val 39023046 ecr 4217081985], length 0
+E..4:9@.@..<....H......P.@O.........4......
+.Sq..[..
+13:54:47.104190 IP iad04s01-in-f147.1e100.net.www > pegasus.55830: Flags [.], seq 1419:2837, ack 1116, win 124, options [nop,nop,TS val 4217081985 ecr 39022952], length 1418
+E...U...7.E.H........P.......@O....|.......
+.[...Sqh.......{.k$".[.5..K....w`T'.....B
+.....Q.q.J
+..7..'.._.<....P.uU7.g..-...h(........Q...8j...z..X....3........@..$..sN..|t..>..lp.O......I1"*x...Z.).......'......
+.#.....B...Xk........7O:gZ...>[..x	../.w...{'..x}}E.)=.0..z...'...QNWh...0*.......T.4...w...........?x.|.U$r...d.......Mq.<..&S.w........~........._....#......3.;......l..^v.......7..r...P..y..8g..o^W../...,.u...vSp.-..G..e.i	d.7../#.e..wt4..#...	"|.<x......{f.B[..h	...,.....r
+(....R2< .....NbM...j......W.,........<pI........?....;
+.Xz4..S9....<JBfD,.......p..W...3.j.t3..pr..A.....^....v..ce..YF..Uu!...N..1.>6......}..x.(
+..V..]C?.......F.....~.:J...xz..9I....w"PAQ:h....
+...EQ.Y..O..=."..tV.....U(....#._..?w...	!s.e@.d)....we..u.is...~r....s.! <./OP....sz..N8..5...'.....q.Y...r...|.......=..~.[@.c....,..H..v..J..	..er...q..j....@..D...SXI.P;.11...t8lT......;.......h`\uS...G..4..hbF....X.{....{..~l;....'M`.i.....KTL.)F......"..l...?..T.=.....#R.@.B......=.i.u..W..........:....I.z.....H..j.....h.....ct....~.(...}~FcxK.9...
+--
+E..4:;@.@..:....H......P.@O.........*......
+.Sq..[..
+13:54:47.111188 IP iad04s01-in-f147.1e100.net.www > pegasus.55830: Flags [.], seq 3870:5288, ack 1116, win 124, options [nop,nop,TS val 4217081985 ecr 39022952], length 1418
+E...U...7.E.H........P.......@O....|.......
+.[...Sqh<.RO.nG.Jg.......;.9GpRY`....v...hz.Z.t..U..#..=.h.....1.n.kM......	...h._..'.vMO"0.$K..{:....d2........{..Kd..0@...B.4.	.{...........@^..}........,!..3...	.......m.......8...t.../.|.e.t......Sy.)..y.{....Mh.N.o..X|...j]...."q2.....H0V.~....H.8...7........p.2F..g.R..v*.Rl.#x..S.2..R......i..V..&....g./......... .J......v.9.....`..j..@o...B.H.....V1'
+u.d=...p.....~g`d-...?..	....0X:...~......S.+.v);.d...sEq.d....[..]C..G.}..B..p]....s.5.:.58..Sg..u{.......G..:....*.,...v....;...Ne..0Q.py>w..]..N.-.&...4.A!I...'..X.y,p..L......r0.E...x&..?pj.Um02..K...d@...S..;y.P.]..GX.)n..Ogdsy.u....@;....;.vz.;....^.$B..y+......~.....4...L.E.o.......(	...%Q.j..C...........p.q@....N..T..0..S.^.i.~H..R]..cZ..O${:.._..\...<.F..9..s..(..S..'O>%.,. ...B..;....1..r1.r......aN...ct.....A......O.`.;d.u...4.\O..U.M...&......Y...zD..@.#..........~k.[:...9.......F...t....7\.Wg9....6`
+.&E>.p..&x........k.i.D....3.1..>..( .e..v.B.NB..4.g....].F.....5
+.Z.m..L(..... ..&...b...7......		......>6C$C'BA...*.l..\.3p.-...:.n.j.)..;_..z.i..Q.7..9Q.[..sZ...w........GD...O.&......m.p....M_..E_.D..M...[.:....
+..>].	...V..........7.a#.%..9.x8..J\.....[]..P."...#n...MC..e.~.uD.1YG...r.y....m$...'..'...u..)..h.O...
+...t..u.+.k..r'......<.0..qF".AR......n	.@..d.,.V....u...%1...@..~o...^aA..............t...8..j".........f`.b..8e.0.......|`.....s.Q..1..[.9z..)K...W....F........S.=...|p.-e.9]..._CN^....bu...@...........c+5.......en!.]..p.
+13:54:47.111233 IP pegasus.55830 > iad04s01-in-f147.1e100.net.www: Flags [.], ack 5288, win 272, options [nop,nop,TS val 39023049 ecr 4217081985], length 0
+E..4:<@.@..9....H......P.@O.........%".....
+.Sq..[..
+13:54:47.113689 IP www-11-04-snc4.facebook.com.www > pegasus.53776: Flags [P.], seq 1:1038, ack 899, win 7597, options [nop,nop,TS val 230871519 ecr 39022962], length 1037
+E..A.F@...E.B........P....@g(.w-....Wm.....
+....SqrHTTP/1.1 200 OK
+Cache-Control: private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+P3P: CP="DSP LAW"
+Pragma: no-cache
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+X-Cnection: close
+Transfer-Encoding: chunked
+Date: Sun, 06 Jun 2010 14:54:47 GMT
+
+2ba
+...........SMs.0...+6>..../p:	..Li..d.N&..k....Jk....1IH..-........}+.v.....W..R....|x......^...h....>.....W.2&..>...R.....,.r/4v.F.lY....M.r..P..N..5.2S.E..h....}AUt...F...."). .1N....+.<.h3..5.r._...CQ....\DA.hBM-Z.....( \.......:....u....J%...m.Je..b+s..g.?..^g.@.z;w........?.].t.6J.r.-.........x....}..Q.t}...'a5.iO.M...l1....Yw.ps=......./jW........4....L..-..1"oj...n.TW...H..x...m.....gb...$...P........M..JI)$V...E.0..uP..Jc.MpT.......nM.c_..pU........1."....	e..HPh%3I(@...-.....qM..#.......X.......X.bb
+.......
+2D
+k.*.....+B.9.#...._.......~u....y.c.1.g..D..%r]....	5....._....J..........C>..I,t...u6..4g?..7..r..C=..X.p..._.....eM..L\.98|i.......3.....&<..n.;.<.#x..ae................
+
+13:54:47.113749 IP pegasus.53776 > www-11-04-snc4.facebook.com.www: Flags [.], ack 1038, win 141, options [nop,nop,TS val 39023049 ecr 230871519], length 0
+E..4.I@.@.......B......P(.w-..Dt.....3.....
+.Sq....
+13:54:47.123932 IP slashdot.org.www > pegasus.45394: Flags [.], seq 29484:30932, ack 380, win 148, options [nop,nop,TS val 230804634 ecr 39023034], length 1448
+E.....@...d..".-.....P.R..{................
+....Sq.tories", filter: "politics", name: "Politics", id: 27 }</script>
+		</li>
+	 		
+			
+--
+E`.4..@.9.....E........a.>.b..+....F.......
+..n..Sv2
+13:54:51.670300 IP gemini.ssh > pegasus.35425: Flags [P.], seq 1697:1745, ack 1064, win 70, options [nop,nop,TS val 44199615 ecr 39024178], length 48
+E`.d..@.9..X..E........a.>.b..+....F.......
+..n..Sv2...s..G......$.>w......vZ..hgs...T...:.Wn.V....E
+13:54:51.679032 IP pegasus.35425 > gemini.ssh: Flags [P.], seq 1064:1128, ack 1745, win 165, options [nop,nop,TS val 39024191 ecr 44199615], length 64
+E..tRW@.@.R.......E..a....+..>.............
+.Sv?..n.....j#.G...f^..6.. i<~.D...Do.d.....(6....<..~.j..%.........h...
+13:54:51.714033 IP iad04s01-in-f147.1e100.net.www > pegasus.55830: Flags [.], seq 108005:109423, ack 2312, win 161, options [nop,nop,TS val 4217086610 ecr 39024170], length 1418
+E...V"..7.D.H........P.....W.@Tr....p......
+.[...Sv*HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Set-Cookie: SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU;Domain=.google.com;Path=/;Expires=Wed, 03-Jun-2020 14:54:51 GMT
+Date: Sun, 06 Jun 2010 14:54:51 GMT
+Expires: Sun, 06 Jun 2010 14:54:51 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Content-Encoding: gzip
+Content-Length: 6898
+
+...........]....u.W.d`..2...<.u.U.U..^I....w....pH..Y.....I. A.%..C....&..(..4....!}..m.4.Z..C.}.K.....J.....,.{.=.....s_.}..4O..sg^...Q./v..$I.....t...;gP....>y4......QH.v.........^.....)..a._^J..e.J.N...	...............;a.8..N.E	%)....H>..s.....3<
+.K/f	....n..SV....y.Y......p.yh.	A....	...p7O..,=.<C.~...S..j*80.i...p..$9...S..9.Ta...OI...../p2...4..WHI...i..nBB.Z.....;.	r;\.%.5....>........oo.|{....
+...%........=.~..z..E.........E	A.g.......Z.K..........:Z....`.....<.!I..8G.....,
+..q......8]..W..2...q.....DQD=.4Y.!MN.D...(n.Q....=.@..<..P.
+...u4.%.}.........p#...o.vQ.bX...o......]..5z-.H...$....c......|..E....... .2..h../............aX.Hd.z .e....P~5'.~..&M.4..u.H.......c...x.......z..E.vvz}.*.n...u.>.Co...L._.B.a$.`$..#Y...aF...pJ.ga.%..$:,k%.../D4>EH.U0}....J....<..h...X.i..+XT.....
+13:54:51.714086 IP pegasus.55830 > iad04s01-in-f147.1e100.net.www: Flags [.], ack 109423, win 1153, options [nop,nop,TS val 39024199 ecr 4217086610], length 0
+E..4:d@.@.......H......P.@Tr........o......
+.SvG.[..
+13:54:51.717779 IP iad04s01-in-f147.1e100.net.www > pegasus.55830: Flags [.], seq 109423:110841, ack 2312, win 161, options [nop,nop,TS val 4217086610 ecr 39024170], length 1418
+E...V#..7.D.H........P.......@Tr.....F.....
+.[...Sv*C.\MU...NB=..,*/....,..8....N.>...G........K....A...H5\..V.YR..........nB...,.....V.qB .....P...nY..#.p.........'>..Ij.=.#	y.#...k"...$H....S........fM..F...	X....Q.
+..e.r~Y.....=.1...T..i...Q...$...]BG....V[.*2...~%.I.....I.\CQ..<j=..fJ?...n.2[C$...XZ...y.%PAT	.`w.........S...TR...H
+.|.....,..JA..s....+....4P.u.5y..y.]...M}..U..Lpx.g.....]..H..;$...1JH...:Q..Pq.n..@..H..tQ.MGJLXR...|.J.14..<K]..sO....4..?.d.........)...&|..|
+....-.1.....1.0_.........S.1..LG.&D..H.@|5M0	.T..J.j.i\.v...B.}U:?.......>N.$=......t...n1........{w.......\.S....g.L[W	......<..z.`=..&y.*..D-@....t5..P.Bv1...?.0<&..*L!........@.Un.\#...hX..|:...,4........Z...>.:.k.w...M.|.U.&h.{m...G....LY....^x.=5W(Z.......Q.i...jm.Y........
+)pN.T.7..r.i{..FY.@.....8<...re.n......=..}...U../\yA.&.)g<...L.7...P.;n..$!9..WS....Y.#.......4k.y......5X...M:....R....i.....[.......C..rB.KTY$.n..........z.....~.m.....i.rV.....o.~.....=.....,z..._..~..>F.7&	.}J..I.......~..x~.x.m....1...~....~.....m..DE..]..}.........x..G....
+Y...!LqA..G.?........{h...y....c...o ....w...m.O....&.....w......6.LF.,t.a.....GPW....LE..]>........8|...w.{..O....(..*..K...>|.....p.........H..o.~.....<.....?....:$............~.x.W.................. .WU.vY>.../......?|.m.....Z...w.Oo...\...s....(>..;....h..p.N.........>....%
+..
+.S!...G..........zW.CK;....#Ok..8..b.(V3,46J.B.......B..C..;.9...c...eJ2U.L....B.v...8..Z...T....\......f?.....cK..'ux..)~...).u..^.R.'K
+--
+E..D
+k@...R....	....=.*..v.+0......)T.....
+... .Sv4...ex...l..f0...
+13:54:52.167288 IP pegasus.47402 > eridanus.3389: Flags [.], ack 544, win 2212, options [nop,nop,TS val 39024313 ecr 43241504], length 0
+E..4h.@.@.4........	.*=+0....v............
+.Sv.... 
+13:54:52.168515 IP www.cnn.com.www > pegasus.47997: Flags [.], ack 3070, win 68, options [nop,nop,TS val 1101425939 ecr 39024287], length 0
+E..4#1..2..%.........P.}.F.........D6t.....
+A.m..Sv.
+13:54:52.171012 IP www.cnn.com.www > pegasus.47997: Flags [P.], seq 1:630, ack 3070, win 68, options [nop,nop,TS val 1101425939 ecr 39024287], length 629
+E...#2..2............P.}.F.........D.......
+A.m..Sv.HTTP/1.1 200 OK
+Date: Sun, 06 Jun 2010 14:54:52 GMT
+Server: Apache
+Set-Cookie: CG=US:VA:Victoria; path=/
+Accept-Ranges: bytes
+Cache-Control: max-age=30, private, private
+Expires: Sun, 06 Jun 2010 14:55:18 GMT
+Content-Type: text/html
+Vary: User-Agent,Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 252
+Keep-Alive: timeout=2, max=10
+Connection: Keep-Alive
+
+...........PMO. ...+..n....J9Xf4.n...#....0.-[..w..e..O.....}.[U..z....%\o.....f...U...}..h~.k.m..v.w./^3
+.i..(i.......@..Ca-s.9..-.....tN..F....F!m.:..I..H8.O.|
+O...`..........t..f.x.K'vF................u.`..1.......,....#"A....S./m.'v....A.O..w.....
+13:54:52.171036 IP pegasus.47997 > www.cnn.com.www: Flags [.], ack 630, win 111, options [nop,nop,TS val 39024314 ecr 1101425939], length 0
+E..4..@.@............}.P.....F.4...o3......
+.Sv.A.m.
+13:54:52.179769 IP gemini.ssh > pegasus.35425: Flags [.], ack 5720, win 153, options [nop,nop,TS val 44199743 ecr 39024292], length 0
+E`.4..@.9..}..E........a.>....=.....y......
+..o?.Sv.
+13:54:52.179823 IP pegasus.35425 > gemini.ssh: Flags [P.], seq 8616:14408, ack 2577, win 190, options [nop,nop,TS val 39024316 ecr 44199743], length 5792
+E...Rc@.@.<.......E..a....I).>.............
+.Sv...o?..3.[.m.,......o!..JZ......"....pa..M ...1r.TKT..(6........i...{.$............m..r.;.F.....wo.H.CA[.....4.k..8.6../......W.R.c./.@.9.Gc.`k.'.J..C..;.	.=...g.EH.;..E.[..}\9.q..c@....L~/H...r...JH7.{..@.9*?cQ>K.%].)z.P....P....^mk.....<r..w.@`.d......7Ub..a..p.W.!F.y|~T......0SA4....u..v.8.gQ9..[.].z..`....2B....^4......7....I.p.K..*.]..........zJ....Y.f..M,.&.w...FR...T!A.7....E.....b..{.<..e0&%........\.....b.7a.....u.fX./6.}B...~H..X..!.'.._.).iV;USA...N=.
+g..Y.....Z..s....J/k6...0.~..~~...t....Oj.8.'.:..:_..n....8....LX.............+.)...u..#..8s.t.}..Rf.X..R+.R..G...o...	yE...hO..?.x../5......g3b6.....:.h?..'.g.^..".....O.E48....6...!F.Z. .0]h..	o:...P.j.....g..\.%>...74..5..'4l.-i.. D*.>R.x..q8..-x. M.M..ic...p#...).'.....g.m..A.:........%...XVjx.!{.`.5..c....>.A^C.....Q..8n..5..Q..;..ak.t3....a...W..E....f.........d../...TA.#..?.Ip.]5.......).7.:.../(..m"m.....5.*a.....,(N..Hx7...p%.....i...g.k.{....~,..G......lV.9......\..bK
+...ItJ.Z..n.=..k+a]..$.f@......A(..qz.5x.....5..S.8F..:7..Z....:...0%.-..A..vi5.o.....Y..#I.H...X7..kK....;a....P.6...c..Y.P.t.....tA..j.f.`.......n....;. .?..tb9=.h9.(p..Q..'..o.....dc....}....J;.......*.,..>..i	...;.Q,u.n.<6....+XN..`
+.E;....,a.*.JDw....#L......:..7b.%D.8..<D
+....C#....M\.i..CC.Be......Il..(....5G.....?1.)U0.b..\...-.9.M/$...\......~-.#....2.../....@.9...YU.]..`}..f>.............Z,; .!S..i.^"y.p..X..ku.R...,h..;........`n..N...e....UL.....L..?$......_..<M.,l4....v^*..I\....T..w....3J|Qc..4'j.vRL..XV-........X.6..o.r._......t.......<=D0E|..O.F.~...1...g.](i.2S....7.....#.X..Q.h=\.,.A..[.Z..J.	=U,...ziE.......Gj..Z.....B...0..)6.9.%.k.V..! ~.1.X.E...6.i.Hv%.7....mW........z..`.5.E.n...s...1E.0.s.kC8n.nTz#...a.1Y.Yji.n..U.........o7..g...<..CV....3..s..&....o(.B.S?......5g.i$..%e.Bl.uX.LQ@...O..l.vlB...Z..x7.._6.XK.Y....`............_M.w6.j...Qk.T..`..3..............H....!....
+--
+13:55:03.824057 IP pegasus.47402 > eridanus.3389: Flags [.], ack 125239, win 2212, options [nop,nop,TS val 39027227 ecr 43241620], length 0
+E..4i.@.@.3x.......	.*=+0....]............
+.S......
+13:55:03.825731 IP pegasus.44666 > svcs.cnn.com.www: Flags [.], ack 1, win 166, options [nop,nop,TS val 39027228 ecr 815934946], length 0
+E..4S.@.@..V.........z.P..:.J..=....b......
+.S..0.-.
+13:55:04.354974 IP eridanus.3389 > pegasus.47402: Flags [P.], seq 125239:125255, ack 12262, win 65047, options [nop,nop,TS val 43241626 ecr 39027227], length 16
+E..D..@...Qx...	....=.*..].+0......b{.....
+.....S.....ex...l....hL.
+13:55:04.354998 IP pegasus.47402 > eridanus.3389: Flags [.], ack 125255, win 2212, options [nop,nop,TS val 39027360 ecr 43241626], length 0
+E..4i.@.@.3w.......	.*=+0....]......p.....
+.S......
+13:55:04.631064 IP www-11-04-snc4.facebook.com.www > pegasus.50071: Flags [P.], seq 3594007578:3594009026, ack 3121690890, win 7791, options [nop,nop,TS val 230890356 ecr 39026226], length 1448
+E.....@.....B........P...84...9
+...o.......
+..t.S~2HTTP/1.1 200 OK
+Cache-Control: private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+P3P: CP="DSP LAW"
+Pragma: no-cache
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+X-Cnection: close
+Transfer-Encoding: chunked
+Date: Sun, 06 Jun 2010 14:55:04 GMT
+
+30c
+...........T.o.6.~._q..=...$k\..:...d[.:....(.d1.H.<Y...Q......a........x.....7._o.BI.....n~.@2a..b.....~.~....)| .%1.........~.X..i.H....{.......9	CZ.H%.....Cel...0[..c^._ze....m.O.V<)....}........>..(T...Dl..	....O6..Z.PWcL.=..>..	W K...o..\%.../...S...>'H.k...../.b....[....~.}..l....n.n.....\..*....Y,\....,...'.*....I...zm...........^.+.{.........o......|YL/...r.^....b../...EU.r...L:.<.j.(.o8..~.......|z9..Ia....>....U.Z%H.8........{...hB..M..!.jE%._M./+...k>.5.5.S....[QE.............Ni....m.......xw.6....'.0..6.:.RP..EI.jt.Ah5.Px.;.)V...}..t.:.?.@...#.....&..V......|.&.{........0N....5...).M...W@]:r..j.(2..X.A+...?
+o.r>V..&.n..}D..
+..Q...<...C......*-.2G...J.....r?nk...6.N...$}.
+.uY.w'r...7.Q....!.. V...E.:.E.@q.d*.i.KeS..|.....>.xw.J.J......!.0#cO..=+....S.?.....
+963
+.ZYS.H.}.W....]#....L...3.3.d&..UKn...E.m....;...l.....<`ZR......{Z..'q.A..>.....D..>..H4]."j..H.....G@D[...!..3....i.>......Vp...1...\.D.b.	C..8.......BJ....M....%.FU....X.>.....+.35.. J,$R...M...P.HW...8.J.
+.`...3Xk....%.$0.....p...&."....&.mW.3......>v..%y.N'.h.`+...".v.y.......{..s.lX...5.:Q.........&i4j...mQ`.!......
+13:55:04.631096 IP pegasus.50071 > www-11-04-snc4.facebook.com.www: Flags [.], ack 1448, win 154, options [nop,nop,TS val 39027429 ecr 230890356], length 0
+E..4WT@.@.>.....B......P..9
+.89.....\......
+.S....t
+13:55:04.635065 IP www-11-04-snc4.facebook.com.www > pegasus.50071: Flags [P.], seq 1448:2896, ack 1, win 7791, options [nop,nop,TS val 230890356 ecr 39026226], length 1448
+E.....@.....B........P...89...9
+...oU&.....
+--
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Cookie: NID=35=khoAIGNyCPP-bB-CF_7o0ol2UxLqto7XhU6Lm2Q-KYOHFJ3OPryI89VA3bjmo8wPUx4GNtx-Ni0CqYPe0yHYoL9oCPtizI9Fj1vi-FJIgx19VOYlwDUuyDDZVOHCOhDp; PREF=ID=8c6f9700b5f4768b:U=2bddc86958910895:FF=4:LD=en:NR=10:TM=1226052088:LM=1263948861:FV=2:GM=1:S=MzP93NMUa4vklE06; rememberme=true; SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU; HSID=A9fcBazyICCwHoWH1; S=quotestreamer=viiZAO52sUwdkaDy4UehVQ; TZ=240
+
+
+13:55:38.624179 IP iad04s01-in-f104.1e100.net.www > pegasus.60956: Flags [.], ack 945, win 119, options [nop,nop,TS val 776446174 ecr 39035912], length 0
+E..4....7...H..h.....P.......6.6...w8......
+.G...S..
+13:55:38.768596 IP iad04s01-in-f104.1e100.net.www > pegasus.60956: Flags [.], seq 1:1419, ack 945, win 119, options [nop,nop,TS val 776446314 ecr 39035912], length 1418
+E.......7..=H..h.....P.......6.6...w.I.....
+.G.j.S..HTTP/1.1 200 OK
+Date: Sun, 06 Jun 2010 14:55:38 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: mfe
+Content-Length: 27827
+X-XSS-Protection: 1; mode=block
+
+............}..8.(..|
+U.I......]....n..i......O.d[.,...........).v.fv.>.tv[.....A.............i.d..?..........*....p.f\[.V...,.Y.rxF..i.?X:.	....|].gc+...Oj.e.h.c.'.Er..G..0..I..N....vXD.G.....`...;.2,....-W..8.......t...[..&n.gD....y.ez.t.....Nlhg.s.-.0.L..;.fG....5....q...k/.`....d....F..q.."'^d..#....c...."...........w...cB{..M..s.%...Y....a...1?.g&/6	O.3J...*....R...^...~...
+.qr	x3.V.....fd..W..]...Z.~s..vx1
+M..v.%A8l...=w..Qb....]...L..3KF.../.a..^.96Q|.$	.M_.0B.j....a.E...ta._..4.l'J.......ud.g...#..BW.vc.....74.Ph.8#...@].];Y......{...WS..2...o..f...kR.&c.j{.......r.pm..G.j m..Rh..r.EV.....xA4.....=..e.....15.S.jiFs..Q3.]gI.X........ZW....y9......7......F...Q.l.
+".j...#....Ik.(.T..n...+^.F.....\....V.+-c.........fi..R......K.Ep..&w#.......K......:1A.\e=..`s...:.....,.....$...9...x.Bj.i`_.i....\.....\.3..w.$.e....5...l...u.4...s././JX......q.u}.P.3y............J.......Y._...K.....k.....W..@W.C....Gf.l.."....e..F>AT!..c..(_.Q.TZ.(...33W...i%.{...>.sDrm..5.3........!....5wV 4}...A.m	....$..Au% .<.....!.o.#.+..Z.X-.W.Na....q...5.Q....;...{.2>.l...._..(...../(3..N.i:G
+...4..p.y.e2...!..ff8s='>....M.o..;..x"'t`....K.KYD.4.Km...
+13:55:38.768626 IP pegasus.60956 > iad04s01-in-f104.1e100.net.www: Flags [.], ack 1419, win 137, options [nop,nop,TS val 39035963 ecr 776446314], length 0
+E..4&.@.@.1.....H..h...P.6.6.../....2:.....
+.S.;.G.j
+13:55:38.771845 IP iad04s01-in-f104.1e100.net.www > pegasus.60956: Flags [P.], seq 1419:2771, ack 945, win 119, options [nop,nop,TS val 776446314 ecr 39035912], length 1352
+E..|....7..~H..h.....P...../.6.6...w.......
+.G.j.S....!	.4t....b.8.H.
+.w......m...P,.R......Bm[.~..).i.K:q.
+.HQ.MD.v]&in...8&.h..}A.BJM[/X%.k+y8...B..2.&.R..nC3..sC.Bc.tCr..?HE.*...,..l.}.....M.M....t..C...Z..T....P6rI+r.}.].l.@.u.:.$#Wm...3B.D.e:...e.....TJ..R.f.I...[.VR......F.....P.j!.\.........-......t.k.R.."..El...?.j.~.,.f.......@.i....$.c3.<W..b_h.l....F .I:%.....wx..S.A.df..F..s.x...e..
+..ZR...[X...z*.l&...j.AnA.....X.~...}...h/....Un..Z...&3..Q....]..E......$k.?u<`.`..
+kf.o.e........\.on`RY.'VK..z.2`9.j>wb,t*..v..#c....j..;.1-]I.....5.'.>....%.....J'.E."0:'h.........p...F...N".....!..Jl...'0C/.aE}..0......\..v3P..f....6He	j.....tP...
+--
+Connection: keep-alive
+Referer: http://maps.google.com/
+Cookie: __utma=173272373.968346167.1219660011.1219660011.1232371393.2; NID=35=khoAIGNyCPP-bB-CF_7o0ol2UxLqto7XhU6Lm2Q-KYOHFJ3OPryI89VA3bjmo8wPUx4GNtx-Ni0CqYPe0yHYoL9oCPtizI9Fj1vi-FJIgx19VOYlwDUuyDDZVOHCOhDp; PREF=ID=8c6f9700b5f4768b:U=2bddc86958910895:FF=4:LD=en:NR=10:TM=1226052088:LM=1263948861:FV=2:GM=1:S=MzP93NMUa4vklE06; rememberme=true; SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU; HSID=A9fcBazyICCwHoWH1; S=quotestreamer=viiZAO52sUwdkaDy4UehVQ; TZ=240
+
+
+13:55:39.002786 IP pegasus.59612 > sextans.domain: 41829+ A? mt1.google.com. (32)
+E..<.v@.@.............5.(...e...........mt1.google.com.....
+13:55:39.007056 IP pegasus.47241 > sextans.domain: 28517+ A? mt0.google.com. (32)
+E..<.w@.@.............5.(..oe...........mt0.google.com.....
+13:55:39.015461 IP iad04s01-in-f104.1e100.net.www > pegasus.60956: Flags [P.], seq 28098:28778, ack 1942, win 150, options [nop,nop,TS val 776446563 ecr 39036005], length 680
+E.......7..
+H..h.....P.....f.6.............
+.G.c.S.eHTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Thu, 25 Mar 2010 09:42:43 GMT
+Date: Sun, 06 Jun 2010 14:55:38 GMT
+Expires: Sun, 06 Jun 2010 14:55:38 GMT
+Cache-Control: private, max-age=0
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: sffe
+Content-Length: 363
+
+..........}QMO.@...+.=.8.#.".6.....h...am...tk;P..... ..x..y3...[..=...|..mc./.gw.0..e."z...S.~.}...)..!N....(.B,..,...6.?..T...&4..c..2.eU...q.......a....V$xX.:.
+.P2....{..*!..A.T0h2..8..
+#."......c\2l.HR,.[.6..{....P]..L...j#....F..h...7...V...%.I..Jf....|U8.\C..I.
+3...:.....fL.V..F...OW.7j..[.Y]...ca=e......Ux...*6;M..me.......I.x.....;...YX
+....uZ?$.Fs8...
+13:55:39.015493 IP pegasus.60956 > iad04s01-in-f104.1e100.net.www: Flags [.], ack 28778, win 1002, options [nop,nop,TS val 39036025 ecr 776446563], length 0
+E..4&.@.@.1
+....H..h...P.6.... ............
+.S.y.G.c
+13:55:39.019028 IP pegasus.39873 > iad04s01-in-f99.1e100.net.www: Flags [S], seq 3746661818, win 5840, options [mss 1460,sackOK,TS val 39036026 ecr 0,nop,wscale 6], length 0
+E..<!.@.@.5.....H..c...P.Q...........&.........
+.S.z........
+13:55:39.036952 IP sextans.domain > pegasus.42556: 36567 1/0/0 PTR iad04s01-in-f99.1e100.net. (82)
+E..n................5.<.Z...............99.204.14.72.in-addr.arpa.............P....iad04s01-in-f99.1e100.net.
+13:55:39.040700 IP iad04s01-in-f99.1e100.net.www > pegasus.39872: Flags [S.], seq 1177536051, ack 3749362600, win 5672, options [mss 1430,sackOK,TS val 807386148 ecr 39036019,nop,wscale 6], length 0
+E..<....7...H..c.....P..F/.3.z.....(x&.........
+0..$.S.s....
+--
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://maps.google.com/
+Cookie: NID=35=khoAIGNyCPP-bB-CF_7o0ol2UxLqto7XhU6Lm2Q-KYOHFJ3OPryI89VA3bjmo8wPUx4GNtx-Ni0CqYPe0yHYoL9oCPtizI9Fj1vi-FJIgx19VOYlwDUuyDDZVOHCOhDp; PREF=ID=8c6f9700b5f4768b:U=2bddc86958910895:FF=4:LD=en:NR=10:TM=1226052088:LM=1263948861:FV=2:GM=1:S=MzP93NMUa4vklE06; rememberme=true; SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU; HSID=A9fcBazyICCwHoWH1; S=quotestreamer=viiZAO52sUwdkaDy4UehVQ; TZ=240
+
+
+13:55:39.521418 IP yo-in-f136.1e100.net.www > pegasus.44188: Flags [.], ack 1996, win 151, options [nop,nop,TS val 2123603953 ecr 39036127], length 0
+E..4....6.9.@........P..}....t.P....X......
+~....S..
+13:55:39.534651 IP iad04s01-in-f99.1e100.net.www > pegasus.39872: Flags [.], seq 581:1999, ack 814, win 123, options [nop,nop,TS val 807386638 ecr 39036140], length 1418
+E.......7..TH..c.....P..F/.x.z.....{Y......
+0....S..HTTP/1.1 200 OK
+Content-Type: text/javascript
+Last-Modified: Tue, 25 May 2010 15:16:53 GMT
+Date: Sun, 06 Jun 2010 14:55:34 GMT
+Expires: Mon, 06 Jun 2011 14:55:34 GMT
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: sffe
+Content-Length: 97389
+Cache-Control: public, max-age=31536000
+Age: 5
+
+............i{...(.=.".......N:ZQs37m.)...9y...$..34..._..D.N.......CR.A..@.... ..l`;.*.......=.n..;[.......&.K....c./..q.."..
+FQ>...*g.%.%.Z.y|l(._.+.7s..e.)..Y ZX.N.31....wyU.<.s..C;u>...ml..Q2.G.|.............,p.....a/.m.n9n...i..+6.l\..5gu5.GwQp...a^...Vo.0......x..z/.$y{u....v.....N..+...`...!...`...y.m.O....3g..~y8{.k...^.......tj..7..;..l.W......~.e1.....<+.;Q.[.I.....`..A..vF#~?...S?P.......,...z....t....CT...E...+k:U=...,.I..F.......D+.5..Q.....
+..Q~.<>......j....lK.l9.....[.B..A...(.%.K..l./....H.P.d[3.+....r.(I...h.....vU..A\.h> VV.+..+..KC.>_.......!.`a6.-.9&Pc....J<...?6^..-..9q...|..v.Q.|u..b..
+......r... ..j5....9p=s.
+z.x2..'ixm.Ny.....H..G|.f}..k..........t4.......z.so...D....<.H..C.D..^o.,.G+.@.1.........7....Qy......"J......L.X.t...E....dR|.4YD...H...4..#*c.`6.c..(...po..Q}..N.s#.!...8.....:..KA.3./...}K+	EF.>0S.A.Do4	.l..Y...rj.!q.aOr.y..1n...LJ..O..d....].x.q.6E...n.7..2.......6i....3:.F..k..%....#.r....S7......./<....dA..;$R..A.!...B@GU!..K..n.......K....l..!o5Y.....$.M..../.z.n..g.c....A...=....e...{....9Ec;......v8k6..-.......Z.Sh....
+13:55:39.534722 IP pegasus.39872 > iad04s01-in-f99.1e100.net.www: Flags [.], ack 1999, win 155, options [nop,nop,TS val 39036155 ecr 807386638], length 0
+E..4..@.@.7.....H..c...P.z..F/.............
+.S..0...
+13:55:39.538649 IP iad04s01-in-f99.1e100.net.www > pegasus.39872: Flags [.], seq 1999:3417, ack 814, win 123, options [nop,nop,TS val 807386638 ecr 39036140], length 1418
+E.......7..SH..c.....P..F/...z.....{.......
+0....S......i.a3k.`.v.......z.J..z.... lA.7I...n.w...<....C..l7h5...O..sv../...V.%...&.5lm4.a..0v.<.]..?e.}...Nk..c	.g.X=C......G...}.`!F^[|=$....u.M6.k.z....y/.9.X...:..L..z.....'..).E.6.s....0....R.Z.).E.....z.Y8.q...u....e......~....A.U...jf..uX...~.;....;.....[.E5#..9.b.7..w..r.[k.S..`'.............~d.p{.:.....u.bT..zG.G... ...X............].=Sl.
+..2.r.d..-.....X.D]h...U....w@T.9.	...............s...EpP.#.."..F-hV...~O..V..$.0.W."F0.1...<d..>!v....0...l....u..p......Q.>9G....i.n.
+z..=.^.p
+.b.....J...........yF.....F[.t.....Jh....?7....F..W.3.7d.&.%....`'P_`...f...83....._.au..+..0....H....I.NY../...\...d,O.....o.....;..x..;&*..,.	...*.....3..^.G..4t....#v[...3.ZG&YV).Y..4..Q.)e6>T..Vr.*.v......Ow._..9.r....h.w....N.O.b...Y.=..[.......Q8.....0ng.....v.F....Q..n |..h...`.........!.D;.8Lf4...+$....b.t)..Fv6........V.4vb.........(...{..h4....>0.@..@.!.DclQU..I.;Y,.x7..@.	.{...6...d..H..KUT........::.e.S1..."..(.Yl........2..... m..9T<.`.M.v.."|.....#.....(H.#h9DhL.b../.8...l.....0.S....'.~."4.{.r...74...A..5...a...fF.w...hz.B..y.>.u.Qg.`..Y.S....C.x.9.	:7b..dD...G....A.:...Q..s9.o .w.......@........m.gb...,...%....i8..|..(`..>...K.".........8...p..S..K..|DV..n}.Q....=,.....z)....!."...T4.U..b..!..,..^ ....i.....^.}@{D.H.q..mD...QL..:1...=..c.b<.A...h..X.U../J..A..k.3.8.)..~.A_D_.@vM.".!V%uJ.).,..:y......(.*Eb'.u.H<...m..h..?......F.E...H...a(....6...,.YM..... a......U..(. ..>/e..b..t....B ........
+13:55:39.538686 IP pegasus.39872 > iad04s01-in-f99.1e100.net.www: Flags [.], ack 3417, win 200, options [nop,nop,TS val 39036156 ecr 807386638], length 0
+--
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://maps.google.com/
+Cookie: NID=35=khoAIGNyCPP-bB-CF_7o0ol2UxLqto7XhU6Lm2Q-KYOHFJ3OPryI89VA3bjmo8wPUx4GNtx-Ni0CqYPe0yHYoL9oCPtizI9Fj1vi-FJIgx19VOYlwDUuyDDZVOHCOhDp; PREF=ID=8c6f9700b5f4768b:U=2bddc86958910895:FF=4:LD=en:NR=10:TM=1226052088:LM=1263948861:FV=2:GM=1:S=MzP93NMUa4vklE06; rememberme=true; SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU; HSID=A9fcBazyICCwHoWH1; S=quotestreamer=viiZAO52sUwdkaDy4UehVQ; TZ=240
+
+
+13:55:41.049038 IP iad04s01-in-f104.1e100.net.www > pegasus.60968: Flags [.], ack 977, win 120, options [nop,nop,TS val 1135203214 ecr 39036518], length 0
+E..4.X..7..HH..h.....P.(.,.).lk....x.t.....
+C....S.f
+13:55:41.209687 IP iad04s01-in-f104.1e100.net.www > pegasus.60968: Flags [P.], seq 1:609, ack 977, win 120, options [nop,nop,TS val 1135203373 ecr 39036518], length 608
+E....X..7...H..h.....P.(.,.).lk....x.......
+C..-.S.fHTTP/1.1 200 OK
+Date: Sun, 06 Jun 2010 14:55:41 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Type: text/javascript; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: mfe
+Content-Length: 334
+X-XSS-Protection: 1; mode=block
+
+............Ak.@....
+.A,..;...IOR.?...&.PM$.."..n\..zR....{........\.T....G.HE...E,....3.B.j0....1.=.hm0.Y.R..,..,juSm....6/.r;.....l.l....z.?..n6Mv.rS.u....d....6.C....*Z..0..`k..U...`....1.)...H...(...(s..Zw...#.
+a7('B...
+a...../3......`...u....b...7.V{..H.P.}....:o>.w..,...\...E.. ..b	.
+[<?Jyo.m.4.....y...>...Z..5{.?..k..C......
+13:55:41.209742 IP pegasus.60968 > iad04s01-in-f104.1e100.net.www: Flags [.], ack 609, win 111, options [nop,nop,TS val 39036574 ecr 1135203373], length 0
+E..4..@.@.......H..h.(.P.lk..,.....o.F.....
+.S..C..-
+13:55:44.013156 IP pegasus.47241 > sextans.domain: 28517+ A? mt0.google.com. (32)
+E..<.x@.@.............5.(..oe...........mt0.google.com.....
+13:55:44.053045 IP sextans.domain > pegasus.47241: 28517 5/0/0 CNAME mt.l.google.com., A 64.233.169.93, A 64.233.169.190, A 64.233.169.136, A 64.233.169.91 (115)
+E...................5...{..oe...........mt0.google.com............	4....mt.l...,..........@..].,..........@....,..........@....,..........@..[
+13:55:44.053615 IP pegasus.59998 > yo-in-f93.1e100.net.www: Flags [S], seq 3824607827, win 5840, options [mss 1460,sackOK,TS val 39037284 ecr 0,nop,wscale 6], length 0
+E..<K7@.@.6.....@..].^.P...S...................
+.S.d........
+13:55:44.053670 IP pegasus.59999 > yo-in-f93.1e100.net.www: Flags [S], seq 3828612465, win 5840, options [mss 1460,sackOK,TS val 39037284 ecr 0,nop,wscale 6], length 0
+--
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100401 Ubuntu/9.10 (karmic) Firefox/3.5.9
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://maps.google.com/
+Cookie: NID=35=khoAIGNyCPP-bB-CF_7o0ol2UxLqto7XhU6Lm2Q-KYOHFJ3OPryI89VA3bjmo8wPUx4GNtx-Ni0CqYPe0yHYoL9oCPtizI9Fj1vi-FJIgx19VOYlwDUuyDDZVOHCOhDp; PREF=ID=8c6f9700b5f4768b:U=2bddc86958910895:FF=4:LD=en:NR=10:TM=1226052088:LM=1263948861:FV=2:GM=1:S=MzP93NMUa4vklE06; rememberme=true; SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU; HSID=A9fcBazyICCwHoWH1; S=quotestreamer=viiZAO52sUwdkaDy4UehVQ; TZ=240
+
+
+13:55:44.559751 IP iad04s01-in-f99.1e100.net.www > pegasus.39873: Flags [.], seq 3046:4464, ack 1034, win 125, options [nop,nop,TS val 4160087103 ecr 39037396], length 1418
+E...k<..7./.H..c.....P.......Q.....}v......
+...?.S..HTTP/1.1 200 OK
+Content-Type: text/javascript; charset=UTF-8
+Last-Modified: Tue, 25 May 2010 15:16:53 GMT
+Date: Sun, 06 Jun 2010 14:55:03 GMT
+Expires: Mon, 06 Jun 2011 14:55:03 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+Content-Encoding: gzip
+Cache-Control: public, max-age=31536000
+Content-Length: 75638
+Age: 41
+
+...........|y[........joj.a.[.....BKiYZz ....q...v......H.#.p.......G..h.M..q.u..4e..j.S.......4............a..oh...%.S.Y.a.dA.i..........1.8..[OO....>........T+....OL.:AJ...M..ES.....Q.9.>.5..i.={................t.....i.,..v.#t.A....2O....aax.9^........l.1B.f?X8...|.:.ctX..^......^M..r..igdu.;z.x;N4.G.Z.....].tv\sy...$v.....m..e.z.e.$.	.).. ....../.|M_&.,C.e..Y+.k.....Y..k8N....e.V.........~.y.....>..5....-..s:[
+W..m....6....UG.#Yh.;...i-l.r.Y.M..q.......'.#_..0..Y... ........9#.nVH..^......W....jO.5...6...%..a...y....qy...b..........y.8......O....y.2#Lv...`.v...l.J.d..6>P.i8pO.;.U...b:..kq..9...F[s..&{.?..3.7....T....S..Ua).8.jz.......:.P..u.......B..L*...t..@0...t..}1..G.....\Y%.`.:_.o..*..w..J...Woc..\cY...^.....q8...].n....Db......F.,..dIHt.e{2L.....{h.......c...u..........~'. ..m.!.s..u....iG....9wk...#......VB.k|...#l.K=..r.y.N<....~..~r4..A.?=9...(...7...lc..D. j.y..q>..`6....<.}.......4..."../bv.i.........3/...<GJ..#.j..r.s
+'.p.....k#.GrW..7....T.L%..........<.....w.....y..v-.t.l.......<..0m.J{....Xk:F..s.....c..6.&.\.....65G..C.._?..6Q`o.......:.7.>Rg..]...
+13:55:44.559791 IP pegasus.39873 > iad04s01-in-f99.1e100.net.www: Flags [.], ack 4464, win 272, options [nop,nop,TS val 39037411 ecr 4160087103], length 0
+E..4!.@.@.5.....H..c...P.Q.................
+.S.....?
+13:55:44.563747 IP iad04s01-in-f99.1e100.net.www > pegasus.39873: Flags [.], seq 4464:5882, ack 1034, win 125, options [nop,nop,TS val 4160087103 ecr 39037396], length 1418
+E...k=..7./.H..c.....P.......Q.....}.......
+...?.S..H...b^.-iv....3..a........}.........U.]= ^..k2....*.....*.......6...t......R..
+.;6.,...'..|.x..X.......).>f..P.. ...@..h......}G0...G])$.g..Y....9<....B.^.h_.x....33.N...gEada..M5.[..dD.................bA....0.P.:.|3..T...?....>...........;..V.+G.{..w=........}.........*C....F......Uo..i....q..kP.&....9.....) ...Wi"[6..J.n[.ZA!........5.^i........*..../BQ.e.\,.....}.....mc.-).'P.p*.`....t.0N....4...^E............?_1..H.I.A..iY..i..xoC.t..A8..~.;..,JW......
+v.E.>.8......6n..n.h.....C...}..{..MY.j!ZRE...].h..1J.t......}........Y`......e.E..Zk.....-/......=..1d....;....G..v..TsE.y..z}/.....O..(.......O.C....o..	H...}.V...q?(..&....|.:|c....-......lf.$...B..[....._.!cG..|......W....az...>.
+..g...b..C.........kt.u...%.,Wd....a...?..s_;gY.``..5.m.m....C...A<...<_...b..O.0.N5..3*........:.bc..0.@jX8.0M..E..C.mcm.d...E...V...jt..6.x.{.	B.m...`......f...Yl..~?....f...gxG#.....J....D......S....(.....l"P....N.........o.;...L.......YGg.1}.k.^.k...lP.n.... DG.(..R.5a...8|0N... ...+..C%.b........24.i.Z...k...0.;><...a....}......v...XO.p..M..w....?~.8qw...m..M........]y:g..p3.A.^....tu..n...>../....c..5...Ub..b..m...+..../....s..?>...!?...g.L]..5.3*V...'t&....%(..).j[.5) .....#PS}...=......._>.A.:.w
+:.......E.F..Ok..g..O..r...y.....en...K..9
+....Z....%_...S.z.h==ie.........
+..H....0!.L8._M....~.-9.............."^..k^......?..g.2.r.}.{H.....\...S..p...;.cE..R....Wd..s|....].m...M..c..9+.......[(.W....
+13:55:44.563781 IP pegasus.39873 > iad04s01-in-f99.1e100.net.www: Flags [.], ack 5882, win 317, options [nop,nop,TS val 39037412 ecr 4160087103], length 0
+--
+.+/.o....hp1.2...&`....B...h..n.=......_..F..g....#z.^t....&..s...u~........E+.nsp.|....e{).7.3W/........0...X..@...\..W..........B.b..s.=..f.wZ..*...$........:I.0..L*q+?.E......y...z,....#<..k.}.w'.=..J......Y..Il.#..0&.!w.$._{....z..y.......|..a.......9<.|.C....$...OW.t..b...DnXiL...}w.+.d2.ar[u.....p.&...."P...I.......C...<../.e....=..V..G.$...d..?..X...W8...a.[&..%..5. J.........-....Q._7e..h._.V...=....D....Wr ..ii.*T....*X.. S$3.<.L.}..;.r"..B..;gi.	...
+&...&......l[..kn(.k.>;cvr.d'._fM..X....w_....r9.Mjm......... ._.|.sT..D.u~e.4..T.b......D.	....cw.f...>.=w3...@b..<.mY.<,...$.$^AV.&..l......-{.G..h.W.[.../.....ed.>.....-..P.........G.D..n..............1...!......x...`3./.....c.
+5..d7(.H...o.....^....M.bg...Eg....1..$...w1P...w..J^..}_...p....0..j_~......c>.v.4...?.v.9[....Tzn...6.^....'......Kn.(...*.z..vj'.yV..1.b.y,..:..3...s.B..m.K.c..P...I........C..4....>.I6....8...t..B\.;~:...'.{.d.....mJ..3Z..>I.....xSl..|h..0..i......it....p.Z..1c,2..R.......k..#L....s.F.........0.c..1...7....0.......H.y.c].[.....I..<.:.N..y......rkY0..X..h....S6j...F$.SY">..DhI..Z.g....{.N.|..M9..A77.ts.d-j..a8w....j.gj.M0..Y2..z.a.Q.I....Smzi[v..h..~..e'$......|-A..H.....E...F..."..c..8..3i.OXfl._N_.g...#.arj...iT..g~.X...
+Um...Q&.....W..#{.5Z..5F...o..}*C....b.I.$.....B...D]2N..{vRb.F.+....v..z./.}\..02."...]1.N?_g........b}...n.,Vez.].....y.g.P.L..W...V...0V....A.F..L..i.D..I	.t.D.c.<......W1~...j. f
+13:55:44.594774 IP pegasus.39873 > iad04s01-in-f99.1e100.net.www: Flags [.], ack 17226, win 679, options [nop,nop,TS val 39037420 ecr 4160087103], length 0
+E..4!.@.@.5.....H..c...P.Q....1^.....Y.....
+.S.....?
+13:55:44.594786 IP yo-in-f136.1e100.net.www > pegasus.44188: Flags [.], ack 2992, win 183, options [nop,nop,TS val 2123609006 ecr 39037400], length 0
+E..4....6.9.@........P..}..	.t.4...........
+~....S..
+13:55:44.599225 IP iad04s01-in-f99.1e100.net.www > pegasus.39874: Flags [.], seq 8920:10338, ack 856, win 123, options [nop,nop,TS val 634637499 ecr 39037396], length 1418
+E.......7..FH..c.....P...V...C.....{.......
+%....S..HTTP/1.1 200 OK
+Content-Type: text/javascript; charset=UTF-8
+Last-Modified: Wed, 26 May 2010 00:18:48 GMT
+Date: Sun, 06 Jun 2010 14:55:44 GMT
+Expires: Mon, 06 Jun 2011 14:55:44 GMT
+Cache-Control: public, max-age=31536000
+X-Content-Type-Options: nosniff
+Server: sffe
+Content-Encoding: gzip
+Transfer-Encoding: chunked
+
+e4f
+...........ZiS.H..._..R....|pZ...C....
+....a[ [F............o.Ysu?}Lw.........8..I....o...8..5.];....._x...q.wY...}....&.oo.	......Pl?......Q..8..R:.q[o.A...5.`.Q...............E.z..Z.......s.,..6..7..^S.a..q.q..n......)....|... ..Q..#..]..../bU.....vWfDl-.^3fg..Q.k.:.....bN..'}6ki...G..<...9...=.."m..X:.s.....\o;3....;X..=..t#.......#..U....OY]-.....l.......g...q.p....g. .. }.h.....&.bzx.....UM..]...s.iZQ...S+.H.6...spO.......T.0....h.t......k....F./O.}	..|.%.>..&m./.j.7.{K.Xr{Yz_..OU.{..Eb..|G...;.^3l.&...O..X.....g.5R%..5	j...n>.~.)..c.~.h..C..I..)....3~*......;~.*...'.p...w3 	mF.......M....f.,.#...p.g)...v...R.Iw....[...&.,...C..@.&........`v.Y$'...B)4.u.Ri......Nb..v.D4(..)p..0..e[....ji.ef..l...^]..".cz....yJ..........0....`...x.zY.jXQJ..:z../....oo.........|..%..	l.}.^K.C....].Q.HP.N[.Bx ..<..hwt.[....J.....=.5....|....
+.....l..0..s\.....o..73....Y.t.-....+....[.u..7...lQ.$..BY...P.!n]lZ......p..@.4-b.....Q.S
+T..d,sSK...m.F......y......7.V.R...1......T..(.+S.....L...yF..K..Z..=.....P?..y..9...1?C.g=.V..b.R."..3.l.q..O.
+".....^c\...1.....].`p.K....V}.....Zv.Rf
+13:55:44.599266 IP pegasus.39874 > iad04s01-in-f99.1e100.net.www: Flags [.], ack 10338, win 452, options [nop,nop,TS val 39037421 ecr 634637499], length 0
+E..4..@.@.D.....H..c...P.C...V.............
+.S..%...
+13:55:44.602972 IP iad04s01-in-f99.1e100.net.www > pegasus.39874: Flags [.], seq 10338:11756, ack 856, win 123, options [nop,nop,TS val 634637499 ecr 39037396], length 1418
+E.......7..EH..c.....P...V...C.....{.......
+%....S....W*H..*._8....)D	.&..D.V]...S7..\....P.....I..Y..z.\..O.A.#....G\..9.........zEK=.!........$i...t........l.8 .8..h......).).j.k..\+..j...-.....GaE......r
+...ABiI.!.e,M...o..[...[....^$z.6.FMg."R....,..J..On....NC.|[/.n.....*...Z-..Z>.0R.LFh.N.n.X..]u;....]....JM'..F.D.Q..z.l.z..|.l.........lLN1.d..H.....4..J."..x...k.2...O..Nx...fe..l.U.w.-..T.U.>`Z.....5.U7....c.U*.S..X...kba.VV...V...8:.D......C.D.C-..M..s..
+...g....d\,..,.xq[.R.....4r'....]..1.492..FAg....}..RD..&.s..}_d.........._.=.kL._c9........._.C.k..Q....1oG9..q m..0B.|.b.B......%t..t..	......G.Q..S.c	..B.bFBy4C.U.......LR.-....f.*.(.O..=.5...[.v........f...R[d!.=:Hm..Z...Hk..j.)......j.h.p......iM.i....msw....g....P>....>.R..-.J.q.N..#QyG8...h..!.......?O[Q.R.Ha+....h
+.s....S....Z..).....)K...*.J..BA...416.....m.....ln"	+.."..T@Qs"..P.N.XE.....'.J...p@.;CA...IH....d
+..z..r]'......O.KM.9.2A.Q...`...aPM........G.L{.....3d............q"2=...0.6..*.....1....2...q\.TqR@.&.b........\+... ....*....N	F......i~..5?.:...F.X.D.:...5..2.b..;+v.._f.a..i.K....Z..@..r;...4q.'C.....:oi..{...1].....>WW-A..j.S.A3..M.o..[q...3...E.j..J.........T.....`U,.
+....W..$.U...i...W...;asV.f...M...T...c......".e..3.._A...g..T..;...m$.......5..cL'.]^.......IV..........z.?.......n?,pz.D..'.}1........tFM...t,.UY....>.......X\G........:xn..=...w.:\=d{.1..J.q...../..a.f......1.,b.$..zu{.....-..#VC..A.l.<o...CQ.....).wy....9...|%....2n.D.L.G...AsD...@M.;...C.]
+13:55:44.602999 IP pegasus.39874 > iad04s01-in-f99.1e100.net.www: Flags [.], ack 11756, win 497, options [nop,nop,TS val 39037422 ecr 634637499], length 0
+--
+Host: maps.gstatic.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100401 Ubuntu/9.10 (karmic) Firefox/3.5.9
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://maps.google.com/
+
+
+13:55:45.243862 IP iad04s01-in-f99.1e100.net.www > pegasus.39871: Flags [.], seq 1155:2573, ack 1249, win 139, options [nop,nop,TS val 545336462 ecr 39037568], length 1418
+E.......7..&H..c.....P....n..iy.....[......
+ .,..S..HTTP/1.1 200 OK
+Content-Type: text/javascript
+Last-Modified: Tue, 25 May 2010 15:16:53 GMT
+Date: Sun, 06 Jun 2010 14:55:42 GMT
+Expires: Mon, 06 Jun 2011 14:55:42 GMT
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: sffe
+Content-Length: 2357
+Cache-Control: public, max-age=31536000
+Age: 3
+
+...........X{w.....~
+B[.5T1v.v....<.t7.Ws...O....`D......w..c'.7=.h4....o...((........,....2.)...m..h...4N.9[f.....~..i..y..#.i._y%{,..$.R7`i...s2.0....,....J..o...M.v.Qd4].yZ...8.......ip..|.....p...^F.0N#.m.h|...Y.A...M..........z.......Xa-.....=....g4+L...?../..F%...4	......0..$NY..{.5_9/.#...L#:cF&..Bl/.1-..h........K.W.....k.._...........h.,.,..8..c..!...
+y.....*.&`LG.A"n~Fs#..S8...7.......Z....'D~.......K.V..G.2V....W....'.8..e<.(..e.....	..RR<..{`.S ...ZR..d.N.`...U.)....D..zd}8`e........Q.x....m....h..B...?PK...\....1...2'.<k....r.1>4.n.+/.{.!&D$...7[..'.V..!.l:..p.w..43..C,..Fv..?K...,/...N..O...;:.....u....>...20r..4f.....u...MD.w...........;.+....Wm..XR0.IH.+/....O....#... ....s..f.8.w}.....&O
+rk..2+....|.#.U8..}Ps.\...x..F
+q.6E.P...G..[..~......]V....GKf....".....Z..y...A......+.q.....V.7...Y.!.J."...m......A..lm.mE....0t..z....^u.J.P....<.p.........^Sx.I..Dj*.iN..8nG.>l.....)M
++@...pGe.........aezgm....1.8.o{F*..EB_...)..x3.H3+...G$..3......|C.7/	q.r.....(W..ow........y....bw...........~w|....j=..-......	|)...Y.TY...phJgqDK..Z...WW.D..t..z..!...R
+13:55:45.243916 IP pegasus.39871 > iad04s01-in-f99.1e100.net.www: Flags [.], ack 2573, win 178, options [nop,nop,TS val 39037582 ecr 545336462], length 0
+E..4..@.@.......H..c...P.iy...s.....SD.....
+.S.. .,.
+13:55:45.247359 IP iad04s01-in-f99.1e100.net.www > pegasus.39871: Flags [P.], seq 2573:3850, ack 1249, win 139, options [nop,nop,TS val 545336462 ecr 39037568], length 1277
+E..1....7...H..c.....P....s..iy......R.....
+ .,..S..Le.,...9.C.....rFKf.>+iS&X..r..<...E#.F.s.1.a..*..c9....*.||b.E.V.2O.l..f.g.:.`:.:^....Y.n)-i..k...~}.W.K_........-5....S~.....{...I..@).....+..X.VY.D.2.+..&4..@...........*pq...h....^.....$..>....}r...n....r.U.`e.Z..IT..&......TM.`m....%..lhu.v...).=...[g@*...A..s.#5J.CI ......4F9..	F.E...`TL........4-.,...W5".A.......]...O?A.....Q'C*
+.....j.H...........:..I..0A.....`.sI...~...b....d
+.....@~"[.u.k...l.!Lj.H..M
+...>.Tt.P.u...qW..}.9...s.......MO..h;. ..&t>...7k..O....%...F.6...
+--
+.S....GQGET /vt/ft?lyrs=m%40127&las=twutvtututwutwwu,twutvtututwuuvvt,twutvtututwuuvvu,twutvtututwuuvwt,twutvtututwutwww,twutvtututwuuvvv,twutvtututwuuvvw,twutvtututwuuvwv,twutvtututwuvuuu,twutvtututwuwttt,twutvtututwuwttu,twutvtututwuwtut,twutvtututwuvuuw,twutvtututwuwttv,twutvtututwuwttw,twutvtututwuwtuv&z=16&gl=us&hl=en&xc=1&opts=z&callback=_xdc_._1ga3zwe53 HTTP/1.1
+Host: mt0.google.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100401 Ubuntu/9.10 (karmic) Firefox/3.5.9
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://maps.google.com/
+Cookie: NID=35=khoAIGNyCPP-bB-CF_7o0ol2UxLqto7XhU6Lm2Q-KYOHFJ3OPryI89VA3bjmo8wPUx4GNtx-Ni0CqYPe0yHYoL9oCPtizI9Fj1vi-FJIgx19VOYlwDUuyDDZVOHCOhDp; PREF=ID=8c6f9700b5f4768b:U=2bddc86958910895:FF=4:LD=en:NR=10:TM=1226052088:LM=1263948861:FV=2:GM=1:S=MzP93NMUa4vklE06; rememberme=true; SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU; HSID=A9fcBazyICCwHoWH1; S=quotestreamer=viiZAO52sUwdkaDy4UehVQ; TZ=240
+
+
+13:55:45.399014 IP yo-in-f93.1e100.net.www > pegasus.60002: Flags [P.], seq 5681:6553, ack 2262, win 160, options [nop,nop,TS val 2534951800 ecr 39037598], length 872
+E....g..6...@..].....P.b..gn.].l....V......
+..Kx.S..HTTP/1.1 200 OK
+Date: Sun, 06 Jun 2010 14:55:45 GMT
+Cache-Control: public, max-age=22222222
+Content-Type: text/javascript; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: maptiles-versatile
+Content-Length: 590
+X-XSS-Protection: 1; mode=block
+
+............]O.0.......I.d..3WCE.].MbpS..MM....:.J...#.E..%U>.D:.9........O.>........L...a.)gy..6.R..>t].....y.G\S.........3.&......*.StL...'...3...".4.K,.L	+$.j..FIk.o....S..2.-.7.....P.K+.P....Q6..i>.h...jL.<..|..T..6;oP'.59...6.n....q.7.j..............7.>...f}...Y).b................j.. W.!...s...\...M.....s..a.p..&.#.jk..z]4..3..if.e..-......c` .|..B..Cw....66U3_.aU.e.+r...,...D~...#4C....:....1....
+..F..sZ2F.\sa.Mp....MY.(O....f..c.....F.hH.s........!.q..a.....\..&>..=.>]b.>5q......b.+.B.......=.Z..3Z.
+[.....^....k...6.}^.;..;...2.../\.....0..u.
+qY.5i...8Gn=9/k...I..D....K...$...
+13:55:45.399054 IP pegasus.60002 > yo-in-f93.1e100.net.www: Flags [.], ack 6553, win 360, options [nop,nop,TS val 39037621 ecr 2534951800], length 0
+E..4k.@.@.......@..].b.P.].l..j....hJ......
+.S....Kx
+13:55:45.556873 IP pegasus.60001 > yo-in-f93.1e100.net.www: Flags [P.], seq 2993:3991, ack 24901, win 948, options [nop,nop,TS val 39037660 ecr 2535573308], length 998
+E....Y@.@.......@..].a.P./<..<.N...........
+.S...!.<GET /vt/lyrs=m@127&hl=en&x=18474&s=&y=25271&z=16&s=Galil HTTP/1.1
+Host: mt0.google.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100401 Ubuntu/9.10 (karmic) Firefox/3.5.9
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+--
+E...f...6.`R@..].....P.^..h..........y.....
+..v..S..^......c...Z.`^.......@......`M.!._...	.,o..N......E.`..NG..Y4.J3.@L.6..a.W....|...<....C..u.....0..8..:.Y..>BM`!.........
+...g.K6.....6uW.......|.:..:.
+4I.T.Le?.........jOC..,..).<......G....Y....ZQ....\.}H.q......@db..26..X.y/..j.-...#.......!.4..g.......'....c..j...b.+....3.kk.;jSQ...<&A.
+..Z......e...y..>..U9.8...C.Hb...l?...o.X.....+.S.e....VbIy.D.....+.5@..wH...?.I.p...;dV...b.ABg..]h......i...h..5w...D	f.@..URh....(..:...	.:...u.=.D.vp.1..\).RF{.......}.m.
+.2....i.5@....>...<..a Z....{..m...'..............|	......)......7......!.IO.].<c........fk.9%Z..Y.y.w.x>..X.lD..!L\.....'G..r....?1.
+ ..P...vP$l<.t.L.).../.4v	vd.]Bl,..`...M"..	IV2...&...I..1@...b.lQ.G..HM...%._....O........lzT~:-...Z.t	o.0L....*.Iq~L
+
+....'.iS..........K0.....I...p."."...@OM....+n)...R>..j.......8..oi..).Jb'..........X...N...4.'.,.oi..).:.."q:....rk..1.Q
+%.........8.r{
+.....k.X..[...q	.'.C...?.aS...Sn.....=..t.XR...Gtc\....0....lJ.'.r{Z.%h.Z.Q......#*..p.6}..b.....SnO..$..K...}..P9UM....B)>..P.aSZ ....S.<!Z."..jk|.|L....P(!..!@...Mi.|KSnO3.6.........s..n.K.e4.fBr#..hlp..)	..`./...Ly6'y-?..eX@......
+.s..r.........9...L..|..v.X@....f..Q.c.$..0J..i.BCb.i...q....Nh.....R.....O....=B*.......IEND.B`.
+13:55:45.998965 IP pegasus.59998 > yo-in-f93.1e100.net.www: Flags [.], ack 23682, win 858, options [nop,nop,TS val 39037771 ecr 2534897296], length 0
+E..4KN@.@.6.....@..].^.P......m5...Z.......
+.S.K..v.
+13:55:46.001422 IP iad04s01-in-f104.1e100.net.www > pegasus.60968: Flags [P.], seq 609:1446, ack 2109, win 155, options [nop,nop,TS val 1135208139 ecr 39037737], length 837
+E..y.Z..7...H..h.....P.(.,...lo......G.....
+C....S.)HTTP/1.1 200 OK
+Content-Type: text/javascript; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Date: Sun, 06 Jun 2010 14:55:45 GMT
+Server: mfe
+Cache-Control: private, x-gzip-ok=""
+Content-Length: 573
+X-XSS-Protection: 1; mode=block
+
+...........TMo.0..+...hr...]......i..K....[.,...4.......2..O...H.Gzq.....lM.w.1vJ..d..Z................\`_Q..r....\.9U.......WVz.((.~t..~....H	.7..p.....jh..[..r...F]..1..Z.	\'h....\.8<..o.)\.<$.m..9.$...tA..q..>.h.m...lK.w.....%.I..rt.2g.k..E,."..X.6J..Q..;..-.C.2}h$.......X3...D4\.#jf.d[#.i:.._.Cu 3...v-".2.S..f_)............W..].=n.d^..}../.
+l).|...R.. M..hc`.M"a..V&.V)n2M4..Y.W.x&.w.......\x.Rr..j......h...;.j.3....|...i.&1a.>L.........."f.....\y....}.(G?..G.lWKX?f......8..@O).dY...M...c..V...#:_..LK..0.a...?lh&..u.B#...,S..]Go...`..A.y..s...[....oN....Mk......
+13:55:46.001458 IP pegasus.60968 > iad04s01-in-f104.1e100.net.www: Flags [.], ack 1446, win 137, options [nop,nop,TS val 39037771 ecr 1135208139], length 0
+E..4..@.@.......H..h.(.P.lo..,.......0.....
+.S.KC...
+13:55:46.044576 IP pegasus.59999 > yo-in-f93.1e100.net.www: Flags [P.], seq 1988:2986, ack 19118, win 722, options [nop,nop,TS val 39037782 ecr 2536093690], length 998
+E...T'@.@.).....@..]._.P.4.5.../...........
+.S.V.)..GET /vt/ft?lyrs=m&las=twutvtututwuvuuu&z=16&gl=us&hl=en&xc=1&callback=_xdc_._2ga3zwep9 HTTP/1.1
+Host: mt0.google.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100401 Ubuntu/9.10 (karmic) Firefox/3.5.9
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://maps.google.com/
+Cookie: NID=35=khoAIGNyCPP-bB-CF_7o0ol2UxLqto7XhU6Lm2Q-KYOHFJ3OPryI89VA3bjmo8wPUx4GNtx-Ni0CqYPe0yHYoL9oCPtizI9Fj1vi-FJIgx19VOYlwDUuyDDZVOHCOhDp; PREF=ID=8c6f9700b5f4768b:U=2bddc86958910895:FF=4:LD=en:NR=10:TM=1226052088:LM=1263948861:FV=2:GM=1:S=MzP93NMUa4vklE06; rememberme=true; SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU; HSID=A9fcBazyICCwHoWH1; S=quotestreamer=viiZAO52sUwdkaDy4UehVQ; TZ=240
+
+
+13:55:46.125092 IP yo-in-f93.1e100.net.www > pegasus.59999: Flags [P.], seq 19118:19529, ack 2986, win 182, options [nop,nop,TS val 2536095055 ecr 39037782], length 411
+E.......6.#'@..].....P._.../.4	.....5......
+.).O.S.VHTTP/1.1 200 OK
+Date: Sun, 06 Jun 2010 14:55:46 GMT
+Expires: Sun, 06 Jun 2010 14:55:46 GMT
+Cache-Control: private, max-age=3600
+Content-Type: text/javascript; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: maptiles-versatile
+Content-Length: 93
+X-XSS-Protection: 1; mode=block
+
+............HI...7JO4.*O-.TPSS.G.....L.R*)/-)+).......R%......T.hC3.C.X....."+.\..XM. GTmX...
+13:55:46.125137 IP pegasus.59999 > yo-in-f93.1e100.net.www: Flags [.], ack 19529, win 767, options [nop,nop,TS val 39037802 ecr 2536095055], length 0
+E..4T(@.@.-.....@..]._.P.4	.........!8.....
+.S.j.).O
+13:55:46.130145 IP pegasus.44191 > yo-in-f136.1e100.net.www: Flags [P.], seq 998:1998, ack 11197, win 454, options [nop,nop,TS val 39037804 ecr 2536399678], length 1000
+E.....@.@.......@......P.>...m......-.....
+.S.l..c>GET /vt/lyrs=m@127&hl=en&x=18475&s=&y=25270&z=16&s=Galileo HTTP/1.1
+Host: mt1.google.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100401 Ubuntu/9.10 (karmic) Firefox/3.5.9
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://maps.google.com/
+--
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://maps.google.com/
+Cookie: NID=35=khoAIGNyCPP-bB-CF_7o0ol2UxLqto7XhU6Lm2Q-KYOHFJ3OPryI89VA3bjmo8wPUx4GNtx-Ni0CqYPe0yHYoL9oCPtizI9Fj1vi-FJIgx19VOYlwDUuyDDZVOHCOhDp; PREF=ID=8c6f9700b5f4768b:U=2bddc86958910895:FF=4:LD=en:NR=10:TM=1226052088:LM=1263948861:FV=2:GM=1:S=MzP93NMUa4vklE06; rememberme=true; SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU; HSID=A9fcBazyICCwHoWH1; S=quotestreamer=viiZAO52sUwdkaDy4UehVQ; TZ=240
+
+
+13:55:46.833739 IP pegasus.44193 > yo-in-f136.1e100.net.www: Flags [.], ack 27753, win 1002, options [nop,nop,TS val 39037979 ecr 2534897736], length 0
+E..4..@.@.......@......P.%Y...d............
+.S....xH
+13:55:46.847435 IP iad04s01-in-f104.1e100.net.www > pegasus.60968: Flags [.], ack 3090, win 190, options [nop,nop,TS val 1135209013 ecr 39037968], length 0
+E..4.[..7..EH..h.....P.(.,...ls............
+C..5.S..
+13:55:46.906894 IP iad04s01-in-f104.1e100.net.www > pegasus.60968: Flags [P.], seq 1446:2056, ack 3090, win 190, options [nop,nop,TS val 1135209070 ecr 39037968], length 610
+E....\..7...H..h.....P.(.,...ls.....5......
+C..n.S..HTTP/1.1 200 OK
+Date: Sun, 06 Jun 2010 14:55:46 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Type: text/javascript; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: mfe
+Content-Length: 336
+X-XSS-Protection: 1; mode=block
+
+.............j.@...............WR..QJQ..RM$..".{'...z......w.s.....\}Wa....e"..D.,.v...#..4..^......4&
+..PV$.../....j.?>=lB....h.Z...f].u....!...I...."...m."I%QJ.Iy.A.....5I."oe..uJ....;.)..........@.E..R.H).....j..hv.r.[e...f........faz..4.Q1+.j.\.....<...
+l;.....:4...k;.....Jq.d..	.X..BO.OK)o.}k2	......A.HY.....Z...........-H"....
+13:55:46.906929 IP pegasus.60968 > iad04s01-in-f104.1e100.net.www: Flags [.], ack 2056, win 163, options [nop,nop,TS val 39037998 ecr 1135209070], length 0
+E..4..@.@.......H..h.(.P.ls..,.0.....Y.....
+.S..C..n
+13:55:46.919887 IP yo-in-f93.1e100.net.www > pegasus.60002: Flags [P.], seq 15985:16982, ack 4474, win 239, options [nop,nop,TS val 2534953321 ecr 39037978], length 997
+E....o..6..{@..].....P.b.....].......v.....
+..Qi.S..HTTP/1.1 200 OK
+Date: Sun, 06 Jun 2010 14:55:46 GMT
+Cache-Control: public, max-age=22222222
+Content-Type: text/javascript; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: maptiles-versatile
+Content-Length: 715
+X-XSS-Protection: 1; mode=block
+
+............]k.0.....E..3............1...Dm..x..xi....M!.]>z7l.1....}.x.{>......n...A''h...W.;?/.....	.&.SZg.m...W.........Pd.....>.fQ..|jkX".`.HX...Rc..v.....)....!.i.$.F.A..B.,....x.O...'s.E......Hq.},]q.}.h.R..*D.}.B..v6..._....W.....DR)..B
+..&X3.*Q.].=.).+9.h....Fg.._...H .T..0.p.......
+1E(...r.NcKti..Bgu...Zn..i....*l:......Mm.m.T%.....N....j...J)..\(..~....]......`...='...[..R..,.$...%.J.e...IM.m.<..A..,7.5....ovS..C...O..)..(I).J.C.`.$U.....5\X.N......t.......Oh....4.Bi......'..C.r0.bD...OK4.....O..~.v.a._w..o..o..95..>V\R~...=....1.....`..p.W../...B.....k..QS.Q.......k...].$.{..V.]X..>.i.....S.,....E..Lv.......b.^..nY...}.Y.....g.I/ .:..,.f.gT..q.`u$..R.\6F+.....Nv.aC	.v....C}.....UU...4~...w^.....
+13:55:46.919940 IP pegasus.60002 > yo-in-f93.1e100.net.www: Flags [.], ack 16982, win 721, options [nop,nop,TS val 39038001 ecr 2534953321], length 0
+E..4l.@.@.......@..].b.P.]...........h.....
+.S.1..Qi
+13:55:47.024186 IP pegasus.60001 > yo-in-f93.1e100.net.www: Flags [P.], seq 4989:5987, ack 47495, win 1002, options [nop,nop,TS val 39038027 ecr 2535575313], length 998
+E....g@.@.......@..].a.P./D..<l............
+.S.K.!..GET /vt/ft?lyrs=m&las=twutvtututwuvuww&z=16&gl=us&hl=en&xc=1&callback=_xdc_._5ga3zwfgp HTTP/1.1
+Host: mt0.google.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100401 Ubuntu/9.10 (karmic) Firefox/3.5.9
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+--
+Host: maps.gstatic.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100401 Ubuntu/9.10 (karmic) Firefox/3.5.9
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://maps.google.com/
+
+
+13:55:47.105537 IP iad04s01-in-f99.1e100.net.www > pegasus.39872: Flags [.], seq 98309:99727, ack 1212, win 139, options [nop,nop,TS val 807394209 ecr 39038033], length 1418
+E.......7...H..c.....P..F1F8.z.c....cr.....
+0....S.QHTTP/1.1 200 OK
+Content-Type: text/javascript
+Last-Modified: Tue, 25 May 2010 15:16:53 GMT
+Date: Sun, 06 Jun 2010 14:41:29 GMT
+Expires: Mon, 06 Jun 2011 14:41:29 GMT
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: sffe
+Content-Length: 5912
+Cache-Control: public, max-age=31536000
+Age: 858
+
+...........[kS.H..~~..rX. ..!$..M.;.YH.m....],...#.............I.5....y.2.............ytrz...c.G.pg.&A.......,.l6.^.jkw....C.Q........w..E..N.......n...i...;...j[.... ./&0.`.....@..s...;..3/...N........O.(ZX......J3.a..+..._..K...Di.qE...D...q..H.n_......$..`.'.H..3.[.db{.`i..+.....V.^.U....a.y.....(..T..a.../..ol.e6D.g...0[*.q...l.:sh.T~U(.E.3U.+..z*....eq.i.t...:..tJ...j.F..w\.-......t...e.F....C....yzJ..
+<.[...M....].r.1C..J.Q.w"...hT..v.a....3.K.@6....6.e.}......'q.h..(.,:..Q...b..`&.#..3...s.K.8....lM\Ws...Lm..l..V2.g.]..@......OGX~\..R!{.. .N..G.E...J.Q.;... 
+G)..j).;%.;U......Z...D.Lc.8h....I.....M
+......'...9x..,......|g.K..	..NmM~......]..8. ....wY.....	i......;.e.......L.R.F.-KG....Nc....../.C..,.	....hY.Y.....~.n..}..?..}....07.........)6........l..^.V.j.N..>..e..........:.4Z...C .;~	.._.~....9.Q.%.......[.K...6..O..K.0.$.VgVO|:....|...Y...i.X........7....~..om...<..8......E.F.	u....B..H.....q..?..g......I..%.*......:..;{........"..S.m..Z...	....9h5..hM..7...?m7	..]3.g#.A...0V....5.^..A......9B`\....QP.. ..").G..W. .b....u"....d<.68..-Ko.40](eN
+13:55:47.105602 IP pegasus.39872 > iad04s01-in-f99.1e100.net.www: Flags [.], ack 99727, win 1002, options [nop,nop,TS val 39038047 ecr 807394209], length 0
+E..4..@.@.7.....H..c...P.z.cF1K......^.....
+.S._0...
+13:55:47.109287 IP iad04s01-in-f99.1e100.net.www > pegasus.39872: Flags [.], seq 99727:101145, ack 1212, win 139, options [nop,nop,TS val 807394209 ecr 39038033], length 1418
+E......7...H..c.....P..F1K..z.c...........
+0....S.Q..j.z:...|e..j...l&4...M...:...7..=...M..R9.)....f.........U(..."699....5@....Q.+.....7.!g..M..|.......J.|u.2.x....*
+n.....[E....VQ0..4..x.1...O..S'....4.S...e....Ch)......F..c.p{0O...58h..2..h..j..~[..>w,..{.1_54..g..1./M.c...0.......g.@....L.p...,.....^..C.rB..!(&....!$T.p.T...........$.Q.u.....=........o..>...k.$tlf.\..?Z.....`.....<R....5..{f..rk....M.Y..../....u-..._ ..`.9H....b.Uo.~.....#..N.M.t..v<.\.Z..M..#.n..d......P......;.[....>b..`...n.Ys.i...4.~6.?r....Q..Rg.y./...E.
+..2.`.."....5.J.q..1&4.z.f#....T.u..........	,..........O.8.Q...W.n.u.7k8...:.s..o.....v=.x.....7lT......#......z{{..C..w`...%5..R...:.....l.kI4x.G...........4.....:.avnv.;p(.|+..a..`.b.[?S...VlT..x.:......hd......W!...r...@*....)...-C=...@..f.U.rR.$?v&...O	.J.dY-..t1.;Ez. Mn.........Eh|#..T...OuT*...SW.."ua.Q.g.(56.)u.R.yB...RX.e......{C........l...c..."U.m......9....3.[.D.y...*........w...E<w...W....3..J.}^.n..a.?.9.L.D..........F.(...}..V.. c..4e.H
+......."q..d.
+k'......9~m.>2...A..A...2.#.<@.......M:.].S.jg}";...4..u....2.y5.G..[..~u-..:...G..H...*.M..A..9.....`....4`k..j.z..E.......Fpd.oT.7.X....UD.h[f)..].....Z..........$..=.._}..4...T.....X9.]. ...U...b"v....8g...|....(........TL.].........v
+
+--
+cXc.%.'....XC
+13:55:47.117549 IP pegasus.39872 > iad04s01-in-f99.1e100.net.www: Flags [.], ack 103981, win 1016, options [nop,nop,TS val 39038050 ecr 807394209], length 0
+E..4 .@.@.7.....H..c...P.z.cF1\`...........
+.S.b0...
+13:55:47.118528 IP iad04s01-in-f99.1e100.net.www > pegasus.39872: Flags [P.], seq 103981:104561, ack 1212, win 139, options [nop,nop,TS val 807394209 ecr 39038033], length 580
+E..x....7..QH..c.....P..F1\`.z.c...........
+0....S.Q.&.....I..+..cz......n......w..N.`U....o.(.I.2..;.%V....]u...
+Z.......)...aX.b.C..v^.....H)y......{*..6=.....P..p8......z..U........^V..1t..70..*u.........(.?.z.%.`....D....E....E....ex..{W.......I...9..S...3{Lo*yZ..,.x.d.....qu...-. 3*.....Dc.y"...y...?8...X..b.ZU.].....NB.:._.j..G...VT'FP.26Z..`k._..?........E./r|oE..(..9.1.....,.....k..v...'l.At.....D...(.(....#.t..g~.:..}...{..U6......N;..<
+..X..	U......O.d.Q.|......B[w...'s\G..p]Y....^.d.Ra.n..q.6.Q...?.....\,1@...G.....o..h.=..aP..........(....Z..'...0..Hj..\T...A...U.y.._...l....G_.W.z.....J...8.k..,g......2..s\?..
+13:55:47.118573 IP pegasus.39872 > iad04s01-in-f99.1e100.net.www: Flags [.], ack 104561, win 1016, options [nop,nop,TS val 39038051 ecr 807394209], length 0
+E..4 .@.@.7.....H..c...P.z.cF1^......i.....
+.S.c0...
+13:55:47.120283 IP yo-in-f93.1e100.net.www > pegasus.60001: Flags [P.], seq 47495:48016, ack 5987, win 271, options [nop,nop,TS val 2535576049 ecr 39038027], length 521
+E..=.P..6..w@..].....P.a.<l../H.....G......
+.!...S.KHTTP/1.1 200 OK
+Date: Sun, 06 Jun 2010 14:55:47 GMT
+Expires: Sun, 06 Jun 2010 14:55:47 GMT
+Cache-Control: private, max-age=3600
+Content-Type: text/javascript; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: maptiles-versatile
+Content-Length: 202
+X-XSS-Protection: 1; mode=block
+
+..........].Aj.0.E."..L...&...E.s..e..&mqFQ.....]y..>..........e...f#.....So%..w.+%.s).:...!..}...S........?..D.$....'+....9O.f...J..1;E..h....m.`.t.m^	.i....3..._.=.c.b.G.}.WqJ.#.8.C
+.,.E.nq._........
+13:55:47.120344 IP pegasus.60001 > yo-in-f93.1e100.net.www: Flags [.], ack 48016, win 1002, options [nop,nop,TS val 39038051 ecr 2535576049], length 0
+E..4.h@.@..g....@..].a.P./H..<n.....<......
+.S.c.!..
+13:55:47.124021 IP iad04s01-in-f99.1e100.net.www > pegasus.39874: Flags [P.], seq 23741:25006, ack 1255, win 139, options [nop,nop,TS val 634640029 ecr 39038034], length 1265
+E..%....7...H..c.....P...W+o.C.V....|......
+%....S.RHTTP/1.1 200 OK
+Content-Type: text/javascript
+Last-Modified: Tue, 25 May 2010 15:16:53 GMT
+Date: Sun, 06 Jun 2010 14:55:42 GMT
+Expires: Mon, 06 Jun 2011 14:55:42 GMT
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: sffe
+Content-Length: 928
+Cache-Control: public, max-age=31536000
+Age: 5
+
+...........VKs.0...W0.d...........z.....j.D%.....w..d..q.....vW.>.......4...2#.(.T.Lp&`..7w..Uw...R&..Cn...5...+J.?...QS.....y..........t'...TD.L.F..CT..w...M..	..*.JN.{....).;...0)...Q(mJ...Rf.......4(d...$.*.zz.<u...T..or.Q.h..m..bf.g..s..~W.`..=.Qt.{.GI..~p.....k...0...&......Ec...5..l.^.....^kP.#.E..r.b.HF.I."......".s....z._....^.L......=V....se..I.x.0.C.C!..Q...\...S.3....i...A*h$.BO.q..@8.O..%.[B........4.>.b.0.....+.......X[..r.s..
+.....x....8....7].k..2]sr...K^.Q5..E.3..t.d.S..A2..Z.%..}...]....	2.w......|.%..V..../$wB..'5...c....A...3R....8....m..~.N....:..........g...._@.c.I.j=.E1.B................e....W.?\.......}.39.K........d.......{~...P......mT..Pt.p..Y..>.`..........Uq.?.w..&....j....	.....:.Y......4.%g4....b.....x	>x...=. [..X..a:.....mG.*y.7..3v.
+...V.W.."4.j.......;....F..9....*:.B.._....H]4H'f..............@J...)....$.C;8.8.$........f.|.B.7,5R..m.f..4-~tK.-.E...4..............,....T.........
+13:55:47.124067 IP pegasus.39874 > iad04s01-in-f99.1e100.net.www: Flags [.], ack 25006, win 990, options [nop,nop,TS val 39038051 ecr 634640029], length 0
+E..4..@.@.D.....H..c...P.C.V.W0`....w4.....
+.S.c%...
+13:55:47.161919 IP pegasus.45944 > sextans.domain: 40798+ A? video.google.com. (34)
+E..>.n@.@...........x.5.*...^...........video.google.com.....
+13:55:47.162293 IP pegasus.57309 > sextans.domain: 8173+ A? mail.google.com. (33)
+E..=.n@.@.............5.)...............mail.google.com.....
+13:55:47.162824 IP pegasus.42772 > sextans.domain: 40934+ A? books.google.com. (34)
+E..>.n@.@.............5.*...............books.google.com.....
+13:55:47.165001 IP pegasus.60968 > iad04s01-in-f104.1e100.net.www: Flags [P.], seq 3090:4015, ack 2056, win 163, options [nop,nop,TS val 39038062 ecr 1135209070], length 925
+E.....@.@.......H..h.(.P.ls..,.0...........
+.S.nC..nGET /favicon.ico HTTP/1.1
+--
+Referer: http://maps.google.com/
+
+
+13:55:47.224960 IP sextans.domain > pegasus.42772: 40934 5/0/0 CNAME www3.l.google.com., A 72.14.204.102, A 72.14.204.113, A 72.14.204.100, A 72.14.204.101 (119)
+E....*..............5....ZX.............books.google.com.............sk.	.www3.l..............H..f............H..q............H..d............H..e
+13:55:47.225418 IP pegasus.39165 > sextans.domain: 56094+ A? blogsearch.google.com. (39)
+E..C.}@.@.............5./..............
+blogsearch.google.com.....
+13:55:47.231960 IP iad04s01-in-f104.1e100.net.www > pegasus.60968: Flags [.], ack 4015, win 226, options [nop,nop,TS val 1135209397 ecr 39038062], length 0
+E..4.]..7..CH..h.....P.(.,.0.lw]...........
+C....S.n
+13:55:47.248948 IP iad04s01-in-f99.1e100.net.www > pegasus.39873: Flags [P.], seq 79016:80007, ack 1433, win 144, options [nop,nop,TS val 4160089794 ecr 39038070], length 991
+E...kr..7.1TH..c.....P...."..Q.S....s......
+.....S.vHTTP/1.1 200 OK
+Content-Type: text/javascript
+Last-Modified: Tue, 25 May 2010 15:16:53 GMT
+Date: Sun, 06 Jun 2010 14:55:45 GMT
+Expires: Mon, 06 Jun 2011 14:55:45 GMT
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: sffe
+Content-Length: 654
+Cache-Control: public, max-age=31536000
+Age: 2
+
+...........T...0...+". .f&...."..]e..
+.8.I)02iG..o....N;...>.\.....6.>...,..}<#.a.*....e.....[....^.!..........W....Cjk....s..F.t. .x.	s.'2#'$.G..GA.R!1$..v.U....{...YnS.".....LM2.J[]..3...k.#Q....r.........!R.#.8...../..Cw.J.+c.......LA^..]..v1.]\.\...=........d....8:..lL..uS...N&...Q(.q...h......E..@.......
+\.q..K.Q..|.CN.......1...l.....@.C.:..."..dJfd......v%.Lb.....a......mN....+m.8...i.KcJ..~..v...q.
+R....J1.....iI.u....aS..53.UR...cU.{...J.r...$....W=.........hK-..78{N1....,.W.....c....Y.p%......7.t.q.3S...U.1wNu.a
+....Y...+W.p..J(...l`.g]`.[<..g.....*?.W.MTm,..i........^...z=. .jb.W.1Zc..........z.y..3{Zk}.......=B..,....!...U;.Su...
+13:55:47.249006 IP pegasus.39873 > iad04s01-in-f99.1e100.net.www: Flags [.], ack 80007, win 1108, options [nop,nop,TS val 39038083 ecr 4160089794], length 0
+E..4!.@.@.5.....H..c...P.Q.S..&....T.......
+.S......
+13:55:47.252944 IP iad04s01-in-f104.1e100.net.www > pegasus.60968: Flags [P.], seq 2056:3381, ack 4015, win 226, options [nop,nop,TS val 1135209412 ecr 39038062], length 1325
+E..a.^..7...H..h.....P.(.,.0.lw]....G......
+C....S.nHTTP/1.1 200 OK
+Content-Type: image/x-icon
+Last-Modified: Thu, 25 Mar 2010 09:42:43 GMT
+Date: Sun, 06 Jun 2010 14:55:47 GMT
+Expires: Sun, 06 Jun 2010 14:55:47 GMT
+--
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://maps.google.com/
+Cookie: NID=35=khoAIGNyCPP-bB-CF_7o0ol2UxLqto7XhU6Lm2Q-KYOHFJ3OPryI89VA3bjmo8wPUx4GNtx-Ni0CqYPe0yHYoL9oCPtizI9Fj1vi-FJIgx19VOYlwDUuyDDZVOHCOhDp; PREF=ID=8c6f9700b5f4768b:U=2bddc86958910895:FF=4:LD=en:NR=10:TM=1226052088:LM=1263948861:FV=2:GM=1:S=MzP93NMUa4vklE06; rememberme=true; SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU; HSID=A9fcBazyICCwHoWH1; S=quotestreamer=viiZAO52sUwdkaDy4UehVQ; TZ=240
+
+
+13:55:48.274352 IP yo-in-f93.1e100.net.www > pegasus.60000: Flags [.], ack 4036, win 215, options [nop,nop,TS val 691555686 ecr 39038315], length 0
+E..4.S..6.!}@..].....P.`..{"..".....M......
+)8Mf.S.k
+13:55:48.290842 IP yo-in-f93.1e100.net.www > pegasus.60000: Flags [P.], seq 32495:33152, ack 4036, win 215, options [nop,nop,TS val 691555700 ecr 39038315], length 657
+E....T..6...@..].....P.`..{".."............
+)8Mt.S.kHTTP/1.1 200 OK
+Date: Sun, 06 Jun 2010 14:55:48 GMT
+Cache-Control: public, max-age=22222222
+Content-Type: text/javascript; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: maptiles-versatile
+Content-Length: 375
+X-XSS-Protection: 1; mode=block
+
+............Mk.1.@...!$ ..}K.4!.B...8..my+.....[...Wu(5M.SF'..7....jq.0u..S.....Y..w9....y..6.e.q[...>.u.s..u......O7.=...&..a(+..D..g.[...W...&.<.q./..A...F...).NY.s`P....g........=.}N....~k.6.C.......M.....n.....(.w..*w$.P+.lf@.U<t.z ..|j..5......z.....2...XF
+.......A..QZ..N...........mKB&.G$.k.FBTF!....8...GKI..Q.xNv;.....N.JJ.......Fjs..'
+......~..........Cu.....W....
+13:55:48.290932 IP pegasus.60000 > yo-in-f93.1e100.net.www: Flags [.], ack 33152, win 1002, options [nop,nop,TS val 39038344 ecr 691555700], length 0
+E..4..@.@..B....@..].`.P.."...}.....GB.....
+.S..)8Mt
+13:55:48.310277 IP pegasus.60968 > iad04s01-in-f104.1e100.net.www: Flags [P.], seq 5053:6103, ack 3689, win 250, options [nop,nop,TS val 39038348 ecr 1135209612], length 1050
+E..N..@.@.......H..h.(.P.l{k.,.......d.....
+.S..C...GET /maps/gen_204?imp=smimps%3DOG6L83GYPGS,OWfKbrS38ND,CFiblnjgM2g,Olul0BzcZ59,CQ5GCcg14iL,LVPMuOyxYOh%26z%3D16&ei=6rYLTJ62JYyUzATR3LjFDA HTTP/1.1
+Host: maps.google.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100401 Ubuntu/9.10 (karmic) Firefox/3.5.9
+Accept: */*
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+--
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100401 Ubuntu/9.10 (karmic) Firefox/3.5.9
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Cookie: NID=35=khoAIGNyCPP-bB-CF_7o0ol2UxLqto7XhU6Lm2Q-KYOHFJ3OPryI89VA3bjmo8wPUx4GNtx-Ni0CqYPe0yHYoL9oCPtizI9Fj1vi-FJIgx19VOYlwDUuyDDZVOHCOhDp; PREF=ID=8c6f9700b5f4768b:U=2bddc86958910895:FF=4:LD=en:NR=10:TM=1226052088:LM=1263948861:FV=2:GM=1:S=MzP93NMUa4vklE06; rememberme=true; SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU; HSID=A9fcBazyICCwHoWH1; S=quotestreamer=viiZAO52sUwdkaDy4UehVQ; TZ=240
+
+
+13:55:57.414077 IP iad04s01-in-f101.1e100.net.www > pegasus.35578: Flags [.], ack 1019, win 121, options [nop,nop,TS val 776707936 ecr 39040609], length 0
+E..4l5..7.4nH..e.....P....G6...p...y.Q.....
+.K.`.S.a
+13:55:57.471537 IP iad04s01-in-f101.1e100.net.www > pegasus.35578: Flags [P.], seq 1:355, ack 1019, win 121, options [nop,nop,TS val 776707991 ecr 39040609], length 354
+E...l6..7.3.H..e.....P....G6...p...y.2.....
+.K...S.aHTTP/1.1 200 OK
+Date: Sun, 06 Jun 2010 14:55:57 GMT
+Expires: Sun, 06 Jun 2010 14:55:57 GMT
+Cache-Control: private, max-age=3600
+Content-Type: text/javascript; charset=utf-8
+Content-Encoding: gzip
+Server: gws
+Content-Length: 84
+X-XSS-Protection: 1; mode=block
+
+...........VJ.V0136P...2!,(C!.(.,....M.E..g.....+.#K#.(.,.I.Q...(.)....P.......-....
+13:55:57.471567 IP pegasus.35578 > iad04s01-in-f101.1e100.net.www: Flags [.], ack 355, win 108, options [nop,nop,TS val 39040639 ecr 776707991], length 0
+E..4.(@.@..z....H..e...P...p..H....l.......
+.S...K..
+13:55:57.743804 IP pegasus.55830 > iad04s01-in-f147.1e100.net.www: Flags [F.], seq 2312, ack 115520, win 1333, options [nop,nop,TS val 39040707 ecr 4217086610], length 0
+E..4:j@.@.......H......P.@Tr.......5.......
+.S...[..
+13:55:57.744033 IP pegasus.55874 > iad04s01-in-f147.1e100.net.www: Flags [S], seq 4041198842, win 5840, options [mss 1460,sackOK,TS val 39040707 ecr 0,nop,wscale 6], length 0
+E..<z9@.@..3....H....B.P.............].........
+.S..........
+13:55:57.791360 IP iad04s01-in-f147.1e100.net.www > pegasus.55830: Flags [F.], seq 115520, ack 2313, win 161, options [nop,nop,TS val 4217152692 ecr 39040707], length 0
+E..4V(..7.JMH........P.......@Ts...........
+.\...S..
+13:55:57.791396 IP pegasus.55830 > iad04s01-in-f147.1e100.net.www: Flags [.], ack 115521, win 1333, options [nop,nop,TS val 39040719 ecr 4217152692], length 0
+E..4:k@.@..
+....H......P.@Ts.......5.{.....
+--
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Cookie: NID=35=khoAIGNyCPP-bB-CF_7o0ol2UxLqto7XhU6Lm2Q-KYOHFJ3OPryI89VA3bjmo8wPUx4GNtx-Ni0CqYPe0yHYoL9oCPtizI9Fj1vi-FJIgx19VOYlwDUuyDDZVOHCOhDp; PREF=ID=8c6f9700b5f4768b:U=2bddc86958910895:FF=4:LD=en:NR=10:TM=1226052088:LM=1263948861:FV=2:GM=1:S=MzP93NMUa4vklE06; rememberme=true; SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU; HSID=A9fcBazyICCwHoWH1; S=quotestreamer=viiZAO52sUwdkaDy4UehVQ; TZ=240
+
+
+13:55:57.852325 IP iad04s01-in-f147.1e100.net.www > pegasus.55874: Flags [.], ack 1030, win 121, options [nop,nop,TS val 809285676 ecr 39040719], length 0
+E..4....7..pH........P.B^.'........y.......
+0<.,.S..
+13:55:57.891549 IP iad04s01-in-f147.1e100.net.www > pegasus.55874: Flags [.], seq 1:1419, ack 1030, win 121, options [nop,nop,TS val 809285710 ecr 39040719], length 1418
+E.......7...H........P.B^.'........y.......
+0<.N.S..HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Date: Sun, 06 Jun 2010 14:55:57 GMT
+Expires: -1
+Content-Type: text/html; charset=UTF-8
+Server: gws
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+
+144a
+...........<ks.6...W0R.co(.zX.%...&.MU.......T... ..$8.dy..._7...C.o+s.5U..G...n.s.Y......Vd.......V$".w.....kM....)..QR...K.}..2)..>.C.wb9.;<|..zt.....?~...........4..W...........r...ys..kw	.....+w>..r.c.......r4MN.J...u`.v...].............#..l.d..*....yN...D..'..=.9.8.).............p.w...M=E1;....v.?..8,.e.J.._SFB.F|V
+.@ .).....~>^\l..#...~.mt...~...$.[/9..7...bt.....!..../
+.GH.am^..".E_La#.....4Y..{.R..b}8.7.h1...7.S..i7#..{.....3. .X..........^. .o..-s.......H...p.....;`]../....I.z...n/...r..D.g..C.RV....n2R.I...O.{.N{..H.....?..D.C...o.0.Zg,........!......(..................\Lx.+]Oa.MA.0...`.z
+8|.d.0..BM;D@Q.F.6[..[.......VM...,[_. l.}...&q..q............^..4	.qp.^G...#,...zmwS0..T....v.n..l.{.'.......q..P....d.L....c..?I..q....u.l.O..{T.....l..4..v..|......^....izPb0.dZ;W4......W....f.0.EJ>..........f....Qj..PH.V......BP....D.D.D|..s..i`J.....G..I[..F..2wg.........40.;..."...t].`.%.J..........+3{\Rnm.5.....II.i"....X..[..|D.n.Z>.......W./f....2w.....=.J..F9.4.>	..Gj;..7=...Q/T.&.AWWS....#.k..U{.+.4J..Jy|..G.........i.....A..&M?.......CW.k9DEp-...Y..m.a=e..
+..b.+*.....C.......b..Nd;....vf.3..<.o.o...Y.|.TQ.z...... .|X.;..".#.......0_..>*...L...:(R.....q5 .N....R{..W;T..4..&Nl
+13:55:57.891593 IP pegasus.55874 > iad04s01-in-f147.1e100.net.www: Flags [.], ack 1419, win 137, options [nop,nop,TS val 39040744 ecr 809285710], length 0
+E..4z<@.@..8....H....B.P....^.,......E.....
+.S..0<.N
+13:55:57.894800 IP iad04s01-in-f147.1e100.net.www > pegasus.55874: Flags [P.], seq 1419:2610, ack 1030, win 121, options [nop,nop,TS val 809285710 ecr 39040719], length 1191
+E.......7...H........P.B^.,........yTa.....
+0<.N.S..K.....p..v......F...H.....LHjs..	..$:...E..3H.C.B..B!.5....[?}.....c.F...=..I.q..%.j......5pX..0..$...s...^.$O.[..'H........`1.J.'......e.....eQ^.F...t..y|a.lR.....'...nRK.k..X.\....O.......]...o.....7.....U.1] +.;n..L.0b.\..i..\C.oK...3F.v...st..`....2.9.CG...S.n.F..)A.W/r.....1....(.V.....N...'neD.2n.C.....O.V........T..^..7_.]..#l...+.D$.I5....TpL;~.f......U.....BA<!7S....Q.9<.......U.	iDv.....A~Uc*A...*.o.s..Wm.v.Ax0$|&qiy8......I.~.D,.q..r.n4...h...M7...i)1k.......P..hZ.`{.L.B|...o.>|%.l..../1.-.\.Lj.s}.....&.u..Y1Ez..`8...;R-
+L....=o........D.G...eW.V.....7.!.A.s")X.7nH6.@.....9...h{... ...;b.X.A...6X.@.9'.&.+...n2......d..=/4.....Yf..<..`..Dz.#KqN..&..@v.....tM.....C..3c)W.L..1a.	.._..[`.../@......R...*P....].4 ...eOr..E.Um..JS..........,j..,.l..>A.....+#....y..s......FIp'..j...D..JuZ..)....QBhV..z-...;.R.i.........t5.d..xP2$-?....H.[sU+...8...".t.w...z..r......O02.&..j..#*SNP..q.sI..B...v..9..J.../...t.c...... .6.&. Z....Y.|.C.......|.e.-@zL.Jjg..J....P.-...$...h.N.-.%...,.......U..N..=...
+.H..H./..!.`.&3..t.|...h.d.iba\...".\.
+....:..:k.C.... .[.:g&3J.z.]...;'......] P|..6.....;.a..U.J...8\.\..Gw.I....Wn+&..g.-Kb....U.O.&.aeU.t..e......"..Y....@Jr#..kf......1
+13:55:57.894839 IP pegasus.55874 > iad04s01-in-f147.1e100.net.www: Flags [.], ack 2610, win 181, options [nop,nop,TS val 39040745 ecr 809285710], length 0
+E..4z=@.@..7....H....B.P....^.1@.....q.....
+.S..0<.N
+13:55:57.898798 IP iad04s01-in-f147.1e100.net.www > pegasus.55874: Flags [.], seq 2610:4028, ack 1030, win 121, options [nop,nop,TS val 809285711 ecr 39040719], length 1418
+--
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.google.com/search?q=cs+4630&ie=utf-8&oe=utf-8&aq=t&rls=com.ubuntu:en-US:official&client=firefox-a
+Cookie: NID=35=khoAIGNyCPP-bB-CF_7o0ol2UxLqto7XhU6Lm2Q-KYOHFJ3OPryI89VA3bjmo8wPUx4GNtx-Ni0CqYPe0yHYoL9oCPtizI9Fj1vi-FJIgx19VOYlwDUuyDDZVOHCOhDp; PREF=ID=8c6f9700b5f4768b:U=2bddc86958910895:FF=4:LD=en:NR=10:TM=1226052088:LM=1263948861:FV=2:GM=1:S=MzP93NMUa4vklE06; rememberme=true; SID=DQAAAJAAAABSSVCUV8Fw-7EtUaz8t3PMBXk9LY4zmW66ZCgTjcq_2roeEw7rTDRDwTHJcrUKjEW7P3Jov-XVk9tbvvH-5uNkgv-vXEH2dNAz7IqpfJJOa4jjAFAjkeAw5FT9erG25C-gyRDGfR_QDlYcQWlgIL1u97EHq8Y7A_1pwy1NYP4abfTaIyrJ5xC-zEjJLRNYbOU; HSID=A9fcBazyICCwHoWH1; S=quotestreamer=viiZAO52sUwdkaDy4UehVQ; TZ=240
+
+
+13:56:06.129795 IP iad04s01-in-f147.1e100.net.www > pegasus.55874: Flags [.], ack 3470, win 199, options [nop,nop,TS val 809293953 ecr 39042788], length 0
+E..4....7..eH........P.B^.Q.........rO.....
+0<...S..
+13:56:06.166018 IP iad04s01-in-f147.1e100.net.www > pegasus.55874: Flags [P.], seq 10892:12083, ack 3470, win 199, options [nop,nop,TS val 809293986 ecr 39042788], length 1191
+E.......7...H........P.B^.Q..........H.....
+0<...S..HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Date: Sun, 06 Jun 2010 14:56:06 GMT
+Expires: -1
+Content-Type: text/html; charset=UTF-8
+Server: gws
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+
+1480
+...........<is.6...W0R.co(.:,....L...&....L.\ 	.1Ip...........!....JM.E.h4...<......sjD"Mn.#J..k....x|.....x.X.P.-%..]...k..q.nvq.....1....o...........^.^.. .......w#.........r.2.yu..K{	..m...{>..r.c.|..zO_8...W..y.20.3M..6.D.........w...F..S.w.Tl..4.;.+"...Rq.cN..f..f.k..w.. .A...mJBjRGQ...j%...O.!..hQ..9...._........iB.5.....gg..u..s._....4.....	...O<..>s?..x.n...o...E.`	.7.....AD...)l.[.....k..e,qi"...a....-.9..uG.v3.-...M..0..R.. ...(....r.T...Q."#..I.........G...n.umP..B...I.L7..>/e.... .....=..b=.m{.."...<.4..v...."#..X..9&.....8.}.h.2.r.J..K...`.._.. 8.C.v.7......[N.}.21..........~.......p.$Ns`>.......b.(m"...X.f....VMw..,]_. l.}....a..p..
+......	.iQ/.Y....../..F....I.rm{.3..T......n..l.{.....S.~..s\(.Q.w2..AV..!...'.x.V..|....#.`..p..f..r[%..v..|...2s	..!M..t..`"....h*.q........f{?.yB....y...........Qj...O=V......B...6..\.........RO.
+9n.....N[.....d..h.....+.......7DLH...z.NC.....	"6-71.V.......5.....Iq.i"....X....J]D.l......n..p+.....W.....pkg...f.Q..
+13:56:06.166051 IP pegasus.55874 > iad04s01-in-f147.1e100.net.www: Flags [.], ack 12083, win 540, options [nop,nop,TS val 39042813 ecr 809293986], length 0
+E..4zG@.@..-....H....B.P....^.VA....l......
+.S..0<..
+13:56:06.170016 IP iad04s01-in-f147.1e100.net.www > pegasus.55874: Flags [.], seq 12083:13501, ack 3470, win 199, options [nop,nop,TS val 809293986 ecr 39042788], length 1418
+E.......7...H........P.B^.VA........Z......
+0<...S....O.6....;....Q.P.T.&.A..S.r....k..U..-.4J.wJy\............i.....A..'M?.$.....}W.k9DE....Y..E......
+.K..WT.	*. ....gW...ubZ.i.........../.$...............,bz@8.0J....q-9@>U.	].s...G.|....C...T.$9XYX...C45Ybn..j.. .Fz..
+Mi.1.2-......F..k$j...q.~M..$&'...9.......TxzI.....@(DTs.X..u.{.h>.0.o.--......G.lb.6}y...[....
+3xN2.B0w...5.....-...qz....`.....n...m.......s^..9`t..L.V..gF.&..).}q*...Mj).....r....Y.+............y...@..j.jL.......&....&.:~.uS......o....t...st..`........C....S.n.F..	A.W/r.....1....(.F.....N...'veD.2n.A.............K.....d=g1n.....G.*b.W ..=...S.....a..S5....F/.0...
+....b..~.r..a.L..8..".O..M.f......S	....	xK.;d.h......&.3.K...[`F.^OR.a.0o.!6.0.).~hE+.m... N..Y[@......
+..tK.E........|c..+.....o|..oi.jfR.......?~..v..).C....L ..j...M...yKT..Gv.@'.>`.t'.*.e.9..rc...t:G...{e.d.
+...2..3....7.0.2......5...Na.......n......&=..z..Cfp....$Q..a!C...G.j.~.H..`	.Ib......3/5...	.S.@...y.-e..i.0&.0..s....fM@.<..+H^.(%......qI..K....Z.$..-Z.j.VZ.R.T...8.V...yS.......5...F./...b..A...N4....%..l..!.F...+.i.C..S]rD..YN
+.5t..n]HA..O..g/.>S..\.=..^.......# .o.U.....t.R.?-3..&..K....$.0.|..y7..o..2....u...<..O+...m'..#..d...l>.J.9..	..l..l.n.....m......w..Y.:M..^6..T..QI...AAR.....%.....s.-...e..c7..T..{....v.......X...X.i..R2....df..n.o......0.....X$.m]@...V..Pg.u.9.>..v+Sg.dF.[O.k:.tg..=V#........f.#......([..............!.+c...... .Yt...&.*`U.+k....*P.M..e.W..."..^....@Jr%...g.....v15..B
+13:56:06.170052 IP pegasus.55874 > iad04s01-in-f147.1e100.net.www: Flags [.], ack 13501, win 585, options [nop,nop,TS val 39042814 ecr 809293986], length 0
+E..4zH@.@..,....H....B.P....^.[....Ifa.....
