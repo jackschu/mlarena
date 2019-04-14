@@ -1,8 +1,8 @@
 {% extends 'base.html' %}
 {% block content %}
-    <div class="container">
-      <p> {{game.name}} </p>
+    <div class="container">	
+      <h4>Game Title: {{game.name}} </h4>
       <p> {{game.desc}} </p>
-      <p> {{game.file}} </p>
+      <a class="btn btn-info" href="{% url 'bots:addBot' game.id %}">Upload a bot</a>
     </div>
 {% endblock %}
