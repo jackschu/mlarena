@@ -12,3 +12,4 @@ google-resumable-media==0.3.2
 googleapis-common-protos==1.5.9
 django-widget-tweaks==1.4.3
 httplib2==0.12.1
+trueskill==0.4.5
