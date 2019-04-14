@@ -12,9 +12,9 @@ class Game(models.Model):
         return self.name
 
 class Match(models.Model):
-    game = models.ForeignKey(Game, on_delete=models.PROTECT)
-    bot1 = models.ForeignKey('bots.Bot', on_delete=models.PROTECT, related_name='bot1')
-    bot2 = models.ForeignKey('bots.Bot', on_delete=models.PROTECT, related_name='bot2')
+    game = models.ForeignKey(Game, on_delete=models.SET_NULL, null=True)
+    bot1 = models.ForeignKey('bots.Bot', on_delete=models.SET_NULL, null=True, related_name='bot1')
+    bot2 = models.ForeignKey('bots.Bot', on_delete=models.SET_NULL, null=True, related_name='bot2')
     state = models.IntegerField(default=0)
     timestamp = models.DateTimeField(default=timezone.now)
     

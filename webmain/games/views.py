@@ -26,7 +26,7 @@ def addGame(request):
                 create_cloudfunction(fp, "game" + str(new_game.id), "game")
                 
             messages.success(request, "You made a new game")
-            return HttpResponseRedirect(reverse('gcp:test_cloudfunction'))
+            return HttpResponseRedirect(reverse('games:viewGame', kwargs={'game_id':new_game.id}))
 
     # if a GET (or any other method) we'll create a blank form
     else:
