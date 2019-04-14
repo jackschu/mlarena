@@ -21,16 +21,17 @@ REGION = "us-east1"
 
 def test_cloudfunction(request):
     file = "test"
-    function_id = "testid2"
+    function_id = "jacktestid2"
     module_dir = os.path.dirname(__file__)  # get current directory
     file_path = os.path.join(module_dir, "main.zip")
     with open(file_path, 'rb') as fp:
+        print(fp)
         create_cloudfunction(fp, function_id, "game")
 
     return JsonResponse({'success': True})
 
 def test_cloudfunction_run(request):
-    function_id = "testid2"
+    function_id = "jacktestid2"
     params = {}
     return JsonResponse({
             'success': True,
@@ -40,7 +41,8 @@ def test_cloudfunction_run(request):
 
 # Create a new cloud function with the given zip source archive, id (name), and type ("game"/"bot")
 def create_cloudfunction(file, id, type):
-
+    print(file,id, type)
+#    print(type(file),type(id), type(type)    )
     # Setup auth
     scopes = ('https://www.googleapis.com/auth/cloud-platform',)
     credentials = (

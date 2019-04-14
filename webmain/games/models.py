@@ -23,3 +23,5 @@ class GameFrame(models.Model):
     frame_num = models.IntegerField()
     state = models.TextField()
     match_record = models.ForeignKey(MatchRecord, on_delete=models.CASCADE)
+
+

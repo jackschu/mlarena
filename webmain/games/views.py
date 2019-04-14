@@ -1,8 +1,11 @@
+import os
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 from .forms import GameForm
 from .models import Game
 from django.contrib import messages
+from django.urls import reverse
+from gcp.views import create_cloudfunction
 # Create your views here.
 
 
@@ -18,8 +21,12 @@ def addGame(request):
             # process the data in form.cleaned_data as required
             # ...
             # redirect to a new URL:
+            with open(new_game.file.path, 'rb') as fp:
+                print(fp)
+                create_cloudfunction(fp, str(new_game.id), "game")
+                
             messages.success(request, "You made a new game")
-            return HttpResponseRedirect('/')
+            return HttpResponseRedirect(reverse('gcp:test_cloudfunction'))
 
     # if a GET (or any other method) we'll create a blank form
     else:
@@ -37,3 +44,5 @@ def viewGame(request, game_id=None):
     if game_id:
         game = Game.objects.get(pk=game_id)
     return render(request, 'games/viewGame.html', {'game':game})
+
+
