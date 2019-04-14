@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <script src="game.js"></script>
     <script>
+      var curFrame = 0;
+      var interval = 0;
       function doDraw() {
 	  var boardState = [[0, 1, 2, 3, 4], [0, 1, 2, 3, 4, 5], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4]];
 	  var gameState = {
@@ -13,6 +15,24 @@
 	  };	  
 	  drawBoard(document.getElementById("myCanvas"), gameState)
       }
+
+      function nextFrame() {
+	  // check frame bounds
+	  curFrame++;
+	  // get next frame in json
+	  //drawBoard()
+      }
+
+      function prevFrame() {
+	  // check frame bounds
+	  curFrame--;
+	  // get prev frame
+      }
+
+      function animate() {
+	  interval = setInterval(nextFrame, frameLength);
+      }
+      
     </script>
   </head>
   <body onload="doDraw()">
