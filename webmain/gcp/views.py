@@ -3,7 +3,7 @@ from google.auth import app_engine
 from google.cloud import storage
 from googleapiclient.discovery import build
 from google import auth
-from leaderboards.views import update_match_winner
+
 import google
 import httplib2
 from games.models import GameFrame, Game, Match, MatchRecord
@@ -49,7 +49,7 @@ def run_match(match):
     frame.save()
     while response['winner'] == 0:
         bot = frame_num % 2
-        action = run_cloudfunction(_function_id("bot", match.bot_1.id if bot is 0 else match.bot_2.id), {
+        action = run_cloudfunction(_function_id( match.bot1.id if bot is 0 else match.bot2.id,"bot"), {
             'gamestate': gamestate
         })
         response = run_cloudfunction(_function_id(match.game.id, "game"), {
@@ -70,7 +70,7 @@ def run_match(match):
 
     record.save()
     match.state = 2
-    return update_match_winner(match, record.winner_number)
+    return leaderboards_view.update_match_winner(match, record.winner_number)
     
 def _function_id(id, type):
     return type + str(id)
