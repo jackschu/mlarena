@@ -1,15 +1,44 @@
 {% extends 'base.html' %}
 {% block content %}
     <div class="container">
-      <p> Bot Name: {{bot.name}} </p>
-      <p> Mu: {{bot.mu}} </p>
-      <p> Sigma: {{bot.sigma}} </p>
-      <p> Game: {{bot.game.name}} </p>
-      <p> Score: {{bot.score}} </p>
-      <p> Games Player: {{bot.games_played}} </p>
-      <p> Last Player: {{bot.last_played}} </p>
+      <h1 class="display-3"> Bot {{bot.name}} </h1>
+      <p class="lead"> Belongs to game <a href="/games/view/{{bot.game.id}}"> {{bot.game.name}} </a> </p>
+      <hr class="my-4">
+      <div class="row">
+	<div class="form-group col">
+	  <label>Mu:</label>
+	  <input type="text" class="form-control" disabled value={{bot.mu}}>
+	</div>
+	<div class="form-group col">
+	  <label>Sigma:</label>
+	  <input type="text" class="form-control" disabled value={{bot.sigma}}>
+	</div>
+      </div>
+      <div class="row">
+	<div class="form-group col">
+	  <label>Score:</label>
+	  <input type="text" class="form-control" disabled value={{bot.score}}>
+	</div>
+	<div class="form-group col">
+	  <label>Games Played:</label>
+	  <input type="text" class="form-control" disabled value={{bot.games_played}}>
+	</div>
+      </div>
+      <h2 style="margin-top:5px"> Last Played: {{bot.last_played}} </h2>
+      <hr class="my-4">
+      <h1 class="display-4"> Matches </h1>
+      <hr class="my-4">
+      <div class="row">
+	<div class="col-md-2"> <b> Match Number </b> </div>
+	<div class="col-md-10"> <b> Match Time </b> </div>
+      </div>
+      <hr/>
       {% for match in matches %}
-      <p> Match: <a href="/bots/viewMatch/{{match.id}}"> {{forloop.counter}} </a> </p>
+      <div class="row">
+	<div class="col-md-2"> <a href="/bots/viewMatch/{{match.id}}"> {{forloop.counter}} </a> </div>
+	<div class="col-md-10"> {{match.timestamp}}  </div>
+      </div>
+      <hr/>
       {% endfor %}
     </div>
 {% endblock %}
