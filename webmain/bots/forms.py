@@ -4,7 +4,7 @@ from .models import Bot
 class BotForm(forms.ModelForm):
     class Meta:
         model = Bot
-        fields = ['name','file']
+        fields = ['name']
     def save(self, game=None, commit=True):
         instance = super(BotForm, self).save(commit=False)
         if game != None:

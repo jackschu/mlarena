@@ -1,3 +1,4 @@
+import io
 import os
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
@@ -15,22 +16,20 @@ def addGame(request):
     # return render(request, 'games/viewGroup.html')
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
-        form = GameForm(request.POST, request.FILES)
+        form = GameForm(request.POST)
+        print(request.FILES)
         # check whether it's valid:
         if form.is_valid():
             new_game = form.save()
-            # process the data in form.cleaned_data as required
-            # ...
-            # redirect to a new URL:
 
-            with open(new_game.game_file.path, 'rb') as fp:
-                print(fp)
-                create_cloudfunction(fp, "game" + str(new_game.id), "game")
+            fp = io.BufferedReader(request.FILES['game_file'])
+            print(fp)
+            create_cloudfunction(fp, "game" + str(new_game.id), "game")
 
                 
             messages.success(request, "You made a new game")
             return HttpResponseRedirect(reverse('games:viewGame', kwargs={'game_id':new_game.id}))
-
+        print (form.errors)
     # if a GET (or any other method) we'll create a blank form
     else:
         form = GameForm()

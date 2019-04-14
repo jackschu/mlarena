@@ -5,8 +5,7 @@ from django.utils import timezone
 class Game(models.Model):
     name = models.CharField(max_length=50)
     desc = models.TextField(blank=True, null=True)
-    renderer_file = models.FileField(null=True, upload_to='games/files/')
-    game_file = models.FileField(null=True, upload_to='games/files/')
+    renderer_file = models.TextField()
     
     def __str__(self):
         return self.name

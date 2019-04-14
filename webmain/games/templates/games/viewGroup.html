@@ -24,14 +24,15 @@
       </div>
       <br/>
       <div class="row mx-0">
-	<div class="input-field col" style="max-width:750px">
-	  {% render_field form.renderer_file class+="form-control-file" %}
-	</div>
+	  <div class="input-field col" style="max-width:750px">
+	      <label for="name">Rendering Javascrip</label>
+	      {% render_field form.renderer_file class+="form-control" %}
+	  </div>
       </div>
       <br/>
       <div class="row mx-0">
 	<div class="input-field col" style="max-width:750px">
-	  {% render_field form.game_file class+="form-control-file" %}
+	    <input type="file" name="game_file" class="form-control-file" required="" id="id_game_file">
 	</div>
       </div>
       <br/>
