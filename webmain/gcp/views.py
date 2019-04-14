@@ -98,6 +98,7 @@ def test_cloudfunction_run(request):
 
 # Create a new cloud function with the given zip source archive, id (name), and type ("game"/"bot")
 def create_cloudfunction(file, id, type):
+    id = mod_id(id)
     print(file,id, type)
 #    print(type(file),type(id), type(type)    )
     # Setup auth
@@ -169,9 +170,21 @@ def upload_file(file, location, cf_build):
     # Return the generated URL
     return upload_response['uploadUrl']
 
+def mod_id(id):
+    id =str(id)
+    id += auth.name
+    try:
+        if os.getenv('SERVER_SOFTWARE', '').startswith('Google App Engine/'):
+            id +='prod'
+    except:
+        pass
+    return id
+        
+
 # Run a Google Cloud Function with the given id with a dictionary of parameters
 # Return: The result of the function
 def run_cloudfunction(id, params):
+    id = mod_id(id)
     url = "https://" + REGION + "-" + PROJECT_ID + ".cloudfunctions.net/" + id
     r = requests.post(url, headers={'Content-Type': 'application/json'}, data=json.dumps(params)) 
     return r.json() 
