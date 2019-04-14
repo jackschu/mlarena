@@ -21,7 +21,7 @@ def get_match_all_games():
     return _get_match(Game.objects.order_by("?").first().id)
 
 def get_match(request, game_id):
-    _get_match(game_id)
+    match = _get_match(game_id)
     return HttpResponseRedirect(reverse('board:viewBoard',kwargs={'game_id':match.game.id}))
                 
 def _get_match(game_id):
