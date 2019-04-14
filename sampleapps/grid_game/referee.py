@@ -64,16 +64,16 @@ def next_move(state):
     #4 cases: top or bottom row, or left or right column
     next_move=0
     #top left corner
-    if(pos[0]==0 && pos[1]==0):
+    if(pos[0]==0 and pos[1]==0):
         return 4 if board[0][1]>board[1][0] else 2
     #top right corner
-    elif(pos[0]==0 && pos[1]==len(pos[0])-1):
-        return 3 if board[0][len(pos[0])-2)] > board[1][len(pos[0])-1)] else 2
+    elif(pos[0]==0 and pos[1]==len(pos[0])-1):
+        return 3 if board[0][len(pos[0])-2] > board[1][len(pos[0])-1] else 2
     #bottom left corner
-    elif(pos[0]==len(pos)-1 && pos[1]==0):
+    elif(pos[0]==len(pos)-1 and pos[1]==0):
         return 1 if board[len(pos)-2][0] > board[len(pos)-1][1] else 4
     #bottom right corner
-    elif(pos[0]==len(pos)-1 && pos[1]==len(pos[0])-1):
+    elif(pos[0]==len(pos)-1 and pos[1]==len(pos[0])-1):
         return 3 if board[len(pos)-2][len(pos)-1] > board[len(pos)-1][len(pos)-2] else 1
     #left column
     elif(pos[0]==0):
@@ -97,7 +97,7 @@ def next_move(state):
             return 4
         elif(board[x][y-1]==max):
             return 2
-        elif(board[x][y+1]==max)
+        elif(board[x][y+1]==max):
             return 1
 
 if __name__ == '__main__':
