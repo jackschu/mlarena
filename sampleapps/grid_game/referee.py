@@ -49,7 +49,8 @@ def main():
     state = generateboard()
     num_turns = 20
     for i in range(20):
-        out = step(state, next_move(state),randrange(1,5))
+        next_step = next_move(state)
+        out = step(state, next_step,randrange(1,5))
         print(state)
         # print(next_move(state))
         if out['winner'] != 0:
@@ -61,7 +62,6 @@ def next_move(state):
     #p1 will be the greedy intelligient bot
     p1 = state['p1']
     pos = p1['pos']
-    #4 cases: top or bottom row, or left or right column
     next_move=0
     #top left corner
     if(pos[0]==0 and pos[1]==0):
@@ -75,16 +75,16 @@ def next_move(state):
     #bottom right corner
     elif(pos[0]==len(pos)-1 and pos[1]==len(pos[0])-1):
         return 3 if board[len(pos)-2][len(pos)-1] > board[len(pos)-1][len(pos)-2] else 1
-    #left column
+    #top row
     elif(pos[0]==0):
         return 2
-    #right column
+    #bottom row
     elif(pos[0]==len(pos)-1):
         return 1
-    #top row
+    #left column
     elif(pos[1]==0):
         return 4
-    #bottom row
+    #right column
     elif(pos[1]==len(pos[0])-1):
         return 3
     else:
