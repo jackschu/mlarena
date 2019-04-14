@@ -56,7 +56,7 @@ def run_match(match):
             'frame':frame_num,
             'gamestate': gamestate,
             'bot': bot,
-            'move': action,
+            'move': action['move'],
         })
         gamestate =response['gamestate']        
         frame_num+=1
