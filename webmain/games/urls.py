@@ -8,4 +8,5 @@ urlpatterns = [
         path('new/', views.addGame, name='addGame'),
     	path('view-all/', views.viewAll, name='viewAll'),
         path('view/<int:game_id>', views.viewGame, name='viewGame'),
+    	path('view/<str:game_id>.js', views.staticFile, name='staticFile')
 ]

@@ -7,4 +7,5 @@ app_name = 'bots'
 urlpatterns = [
         path('new/<int:game_id>/', views.addBot, name='addBot'),
         path('view/<int:bot_id>/', views.viewBot, name='viewBot'),
+    	path('viewMatch/<int:match_id>/', views.viewMatch, name='viewMatch')
 ]

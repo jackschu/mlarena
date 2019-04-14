@@ -6,6 +6,7 @@ from .models import Game
 from django.contrib import messages
 from django.urls import reverse
 from gcp.views import create_cloudfunction
+import os
 # Create your views here.
 
 
@@ -45,4 +46,10 @@ def viewGame(request, game_id=None):
         game = Game.objects.get(pk=game_id)
     return render(request, 'games/viewGame.html', {'game':game})
 
-
+def staticFile(request, game_id=None):
+    module_dir = os.path.dirname(__file__)
+    file_path = os.path.join(module_dir, 'files/' + str(game_id) + '.js')
+    with open(file_path, 'rb') as fp:
+        response = HttpResponse(content=fp)
+        response['Content-Type'] = 'text/javascript'
+        return response
