@@ -5,6 +5,7 @@ from googleapiclient.discovery import build
 from google import auth
 import google
 import httplib2
+from games.models import GameFrame, Game, Match, MatchRecord
 import google_auth_httplib2
 import six
 from . import auth
@@ -28,29 +29,29 @@ def start_match(request):
 # Run the given match
 def run_match(match):
     match.state = 1
-    # gamestate = run_cloudfunction("game" + str(match.game.id), {})
-    # bot = 0
-    # response = {'finished': False}
-    # turn = 0
-    # while not response['finished']:
-    #     bot = bot % 2
-    #     action = run_cloudfunction(_function_id("bot", match.bot_1.id if bot is 0 else match.bot_2.id), {
-    #         'gamestate': gamestate
-    #     })
-    #     response = run_cloudfunction(_function_id("game", match.game.id), {
-    #         'gmaestate': gamestate,
-    #         'bot': bot,
-    #         'action': action
-    #     })
-    #     gamestate = response['gamestate']
-    #     frame = GameFrame()
-    #     frame.frame_num = turn
-    #     frame.state = gamestate
-    #     turn = turn + 1
-    #     bot = bot + 1
-    # match_record = MatchRecord()
-    # match_record.did_bot1_win = response.winner is 1
-    # match.state = 2
+    gamestate = run_cloudfunction("game" + str(match.game.id), {})
+    bot = 0
+    response = {'winner': 0}
+    frame_num = 0
+    init_state = {
+        'frame': -1
+    }
+    response = run_cloudfunction(_function_id("game", match.game.id), init_state)
+    gamestate = response['gamestate']
+    while response['winner'] == 0:
+        bot = frame_num % 2
+        action = run_cloudfunction(_function_id("bot", match.bot_1.id if bot is 0 else match.bot_2.id), {
+            'gamestate': gamestate
+        })
+        response = run_cloudfunction(_function_id("game", match.game.id), {
+            'frame':frame_num,
+            'gamestate': gamestate,
+            'bot': bot,
+            'move': action,
+        })
+        gamestate =response['gamestate']
+        frame_num+=1
+    match.state = 2
 
 def _function_id(id, type):
     return type + str(id)
@@ -58,10 +59,11 @@ def _function_id(id, type):
 
 def test_cloudfunction(request):
     file = "test"
-    function_id = "testid2"
+    function_id = "jacktestid2"
     module_dir = os.path.dirname(__file__)  # get current directory
     file_path = os.path.join(module_dir, "main.zip")
     with open(file_path, 'rb') as fp:
+        print(fp)
         create_cloudfunction(fp, function_id, "game")
 
     return JsonResponse({'success': True})
@@ -77,7 +79,8 @@ def test_cloudfunction_run(request):
 
 # Create a new cloud function with the given zip source archive, id (name), and type ("game"/"bot")
 def create_cloudfunction(file, id, type):
-
+    print(file,id, type)
+#    print(type(file),type(id), type(type)    )
     # Setup auth
     scopes = ('https://www.googleapis.com/auth/cloud-platform',)
     credentials = (
