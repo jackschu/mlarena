@@ -49,9 +49,9 @@ def run_match(match):
     frame.save()
     while response['winner'] == 0:
         bot = frame_num % 2
-        action = randrange(0, 7) #run_cloudfunction(_function_id("bot", match.bot_1.id if bot is 0 else match.bot_2.id), {
-        #     'gamestate': gamestate
-        # })
+        action = run_cloudfunction(_function_id("bot", match.bot_1.id if bot is 0 else match.bot_2.id), {
+            'gamestate': gamestate
+        })
         response = run_cloudfunction(_function_id(match.game.id, "game"), {
             'frame':frame_num,
             'gamestate': gamestate,
