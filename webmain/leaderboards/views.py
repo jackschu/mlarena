@@ -17,7 +17,14 @@ def view(request, game_id):
     bots_list = Bot.objects.filter(game=game).order_by('-score')
     return render(request, 'leaderboards/view.html', {'bots':bots_list, 'game':game}) 
 
+def get_match_all_games():
+    return _get_match(Game.objects.order_by("?").first().id)
+
 def get_match(request, game_id):
+    _get_match(game_id)
+    return HttpResponseRedirect(reverse('board:viewBoard',kwargs={'game_id':match.game.id}))
+                
+def _get_match(game_id):
     game = get_object_or_404(Game, pk=game_id)
     rankdiff = int(5 / pow(random() , 0.65))
     bot_list = Bot.objects.filter(game=game).order_by("last_played")
@@ -46,11 +53,12 @@ def get_match(request, game_id):
     match.bot2 = opp_list[0]
     match.state = 1
     match.save()
+    return match
+
+def update_match_winner(match):
     winner = randrange(1,3)
     return HttpResponseRedirect(reverse('board:matchUpdate',
                                         kwargs={'match_pk':match.id, 'winner':winner}))
-
-                
         
 
 def update_board(request, winner=None, match_pk=None):

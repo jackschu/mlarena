@@ -13,11 +13,30 @@ import json
 import time
 import os
 import requests
+from leaderboards import views as leaderboards_view
 
 
 # Create your views here.
 PROJECT_ID = "mlarena"
 REGION = "us-east1"
+
+def start_match(request):
+    match = leaderboards_view.get_match_all_games()
+
+def run_match(match):
+    gamestate = run_cloudfunction(match.game.id, {})
+    bot = 0
+    response = {'finished': False}
+    while not response['finished']:
+        bot = bot % 2
+        action = run_cloudfunction(match.bot.id, {
+            'gamestate': gamestate
+        })
+        response = run_cloudfunction(match.game.id, {
+            'gmaestate': gamestate,
+            'action': action
+        })
+
 
 def test_cloudfunction(request):
     file = "test"
