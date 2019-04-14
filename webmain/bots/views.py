@@ -3,7 +3,8 @@ from django.http import HttpResponse, HttpResponseRedirect
 from .forms import BotForm
 from .models import Bot
 from django.contrib import messages
-from games.models import Game
+from games.models import Game, Match
+from django.db.models import Q
 
 # Create your views here.
 
@@ -24,4 +25,11 @@ def viewBot(request, bot_id=None):
     bot = None
     if bot_id:
         bot = Bot.objects.get(pk=bot_id)
-    return render(request, 'bots/viewBot.html', {'bot':bot})
+    matches = Match.objects.filter((Q(bot1=bot) | Q(bot2=bot)) & Q(state=2))
+    return render(request, 'bots/viewBot.html', {'bot':bot, 'matches':matches})
+
+def viewMatch(request, match_id=None):
+    match = None
+    if match_id:
+        pass # TODO something
+    return render(request, 'bots/canvas.html', {})
