@@ -3,6 +3,7 @@ from google.auth import app_engine
 from google.cloud import storage
 from googleapiclient.discovery import build
 from google import auth
+from leaderboards.views import update_match_winner
 import google
 import httplib2
 from games.models import GameFrame, Game, Match, MatchRecord
@@ -25,21 +26,21 @@ REGION = "us-east1"
 # Start a neew match in a random game based on leaderboards
 def start_match(request):
     match = leaderboards_view.get_match_all_games()
-    run_match(match)
+    return run_match(match)
 
 # Run the given match
 def run_match(match):
     match.state = 1
-    gamestate = run_cloudfunction("game" + str(match.game.id), {})
     bot = 0
     response = {'winner': 0}
     frame_num = 0
     init_state = {
         'frame': -1
     }
-    response = run_cloudfunction(_function_id("game", match.game.id), init_state)
+    response = run_cloudfunction(_function_id(match.game.id, "game"), init_state)
     gamestate = response['gamestate']
-    record = MatchRecord
+    record = MatchRecord()
+    record.match = match
     record.save()
     frame = GameFrame()
     frame.frame_num = -1
@@ -51,24 +52,26 @@ def run_match(match):
         action = randrange(0, 7) #run_cloudfunction(_function_id("bot", match.bot_1.id if bot is 0 else match.bot_2.id), {
         #     'gamestate': gamestate
         # })
-        response = run_cloudfunction(_function_id("game", match.game.id), {
+        response = run_cloudfunction(_function_id(match.game.id, "game"), {
             'frame':frame_num,
             'gamestate': gamestate,
             'bot': bot,
             'move': action,
         })
-        gamestate =response['gamestate']
+        gamestate =response['gamestate']        
         frame_num+=1
         frame = GameFrame()
         frame.frame_num = frame_num
         frame.state = json.dumps(response)
         frame.match_record = record
         frame.save()
+    
+    record.winner_number = response['winner']
 
-    record.did_bot1_win = result['winner'] == 1
-
+    record.save()
     match.state = 2
-
+    return update_match_winner(match, record.winner_number)
+    
 def _function_id(id, type):
     return type + str(id)
 
@@ -85,7 +88,7 @@ def test_cloudfunction(request):
     return JsonResponse({'success': True})
 
 def test_cloudfunction_run(request):
-    function_id = "game15"
+    function_id = "game17"
     params = {"frame": -1}
     return JsonResponse({
             'success': True,
