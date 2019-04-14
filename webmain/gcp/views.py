@@ -22,20 +22,27 @@ REGION = "us-east1"
 
 def start_match(request):
     match = leaderboards_view.get_match_all_games()
+    run_match(match)
 
 def run_match(match):
-    gamestate = run_cloudfunction(match.game.id, {})
+    match.state = 1
+    gamestate = run_cloudfunction("game" + str(match.game.id), {})
     bot = 0
     response = {'finished': False}
     while not response['finished']:
         bot = bot % 2
-        action = run_cloudfunction(match.bot.id, {
+        action = run_cloudfunction(_function_id("bot", match.bot_1.id if bot is 0 else match.bot_2.id), {
             'gamestate': gamestate
         })
-        response = run_cloudfunction(match.game.id, {
+        response = run_cloudfunction(_function_id("game", match.game.id), {
             'gmaestate': gamestate,
+            'bot': bot,
             'action': action
         })
+    match.state = 2
+
+def _function_id(id, type):
+    return type + str(id)
 
 
 def test_cloudfunction(request):
