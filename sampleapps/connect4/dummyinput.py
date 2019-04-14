@@ -4,7 +4,7 @@ import json
 
 json_in = {
     'frame' : -1,
-    'move' : 0,
+    'move' : 6,
     }
 
 winner = 0

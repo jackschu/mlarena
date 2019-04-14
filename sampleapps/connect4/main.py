@@ -27,7 +27,9 @@ def checkwin(board, x ,y , player):
                 yiter = [y for _ in range(7)]
             else:
                 yiter = range(y + dy, yends[dy], dy)
+
             for xi,yj in zip(xiter,yiter):
+
                 if board[yj][xi] == player:
                     forward+=1
                 else:
@@ -42,6 +44,7 @@ def checkwin(board, x ,y , player):
             else:
                 yiter = range(y - dy, yends[-dy], -dy)
             for xi,yj in zip(xiter,yiter):
+
                 if board[yj][xi] == player:
                     backward+=1
                 else:
@@ -107,7 +110,7 @@ def main(request):
         return json.dumps(request_json)
     
     board[dist][move] = player
-    winner = checkwin(board, dist, move, player)
+    winner = checkwin(board, move, dist, player)
 
     request_json['gamestate']['board'] = json.dumps(board)
     request_json['winner'] = winner

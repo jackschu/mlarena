@@ -20,7 +20,7 @@ class Match(models.Model):
     
 class MatchRecord(models.Model):
     match = models.ForeignKey(Match, on_delete=models.CASCADE)
-    did_bot1_win =  models.BooleanField()
+    winner_number = models.IntegerField(default=0)
 
 class GameFrame(models.Model):
     frame_num = models.IntegerField()

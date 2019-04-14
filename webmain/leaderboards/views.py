@@ -55,8 +55,7 @@ def _get_match(game_id):
     match.save()
     return match
 
-def update_match_winner(match):
-    winner = randrange(1,3)
+def update_match_winner(match, winner):
     return HttpResponseRedirect(reverse('board:matchUpdate',
                                         kwargs={'match_pk':match.id, 'winner':winner}))
         
