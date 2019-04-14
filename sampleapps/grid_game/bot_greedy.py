@@ -62,7 +62,7 @@ def main(request):
     # if out['winner'] != 0:
     #     break
     return json.dumps(out)
-    
+
 def next_move(state):
     # move : 1,2,3,4 u d l r
     board = state['board']
