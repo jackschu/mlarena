@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content%}
+<script src="game.js"></script>
+<script>
+  var curFrame = 0;
+  var interval = 0;
+  function doDraw() {
+      var boardState = [[0, 1, 2, 3, 4], [0, 1, 2, 3, 4, 5], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4]];
+      var gameState = {
+	  boardState: boardState,
+	  player1Pos: [0,0],
+	  player2Pos: [4,4]
+      };	  
+      drawBoard(document.getElementById("myCanvas"), gameState)
+  }
+
+  function nextFrame() {
+      // check frame bounds
+      curFrame++;
+      // get next frame in json
+      //drawBoard()
+  }
+
+  function prevFrame() {
+      // check frame bounds
+      curFrame--;
+      // get prev frame
+  }
+
+  function animate() {
+      interval = setInterval(nextFrame, frameLength);
+  }
+  
+</script>
+<div onload="doDraw()">
+  <div style="text-align: center; margin-top: 5%">
+    <canvas id="myCanvas" style="border:1px solid #000000;"></canvas>
+  </div>
+</div>
+{%endblock%}
