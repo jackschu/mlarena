@@ -1,8 +1,10 @@
 {% extends 'base.html' %}
 {% block content %}
-<script src="/games/view/{{game_file}}"></script>
-</head>
-<div onload="doDraw()">
+<!-- <script src="/games/view/{{game_file}}"></script> -->
+<script>
+  {{js_text | safe}}
+</script>
+<div>
   <div style="text-align: center; margin-top: 5%">
     <canvas id="myCanvas" width="0" height="0" style="border:1px solid #000000;"></canvas>
   </div>
