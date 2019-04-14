@@ -4,6 +4,6 @@ import flask
 import requests
 
 def main(request):    
-    col =  randrange(0,7)
+    col =  randrange(0,2)
     out = {'move':col}
     return json.dumps(out)

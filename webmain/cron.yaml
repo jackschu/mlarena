@@ -1,0 +1,4 @@
+cron:
+- description: "game schedular"
+  url: /gcp/match/start
+  schedule: every 30 seconds

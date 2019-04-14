@@ -11,6 +11,7 @@
 		<th scope="col">Sigma</th>				
 		<th scope="col">Last Game</th>		
 		<th scope="col">Games Played</th>
+		<th scope="col">W-L-D</th>		
 	    </tr>
 	</thead>
 	<tbody>
@@ -23,6 +24,7 @@
 		<td>{{bot.sigma|floatformat:2}}</td>		
 		<td>{{bot.last_played|date:'m/d H:i:s'}}</td>
 		<td>{{bot.games_played}}</td>
+		<td>{{bot.w}}-{{bot.l}}-{{bot.d}}</td>		
 	    </tr>
 	    {% endfor %}	    
 	</tbody>
