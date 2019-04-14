@@ -16,6 +16,7 @@ import os
 import requests
 from leaderboards import views as leaderboards_view
 from games.models import MatchRecord
+from random import randrange
 
 # Create your views here.
 PROJECT_ID = "mlarena"
@@ -38,11 +39,18 @@ def run_match(match):
     }
     response = run_cloudfunction(_function_id("game", match.game.id), init_state)
     gamestate = response['gamestate']
+    record = MatchRecord
+    record.save()
+    frame = GameFrame()
+    frame.frame_num = -1
+    frame.state = json.dumps(response)
+    frame.match_record = record
+    frame.save()
     while response['winner'] == 0:
         bot = frame_num % 2
-        action = run_cloudfunction(_function_id("bot", match.bot_1.id if bot is 0 else match.bot_2.id), {
-            'gamestate': gamestate
-        })
+        action = randrange(0, 7) #run_cloudfunction(_function_id("bot", match.bot_1.id if bot is 0 else match.bot_2.id), {
+        #     'gamestate': gamestate
+        # })
         response = run_cloudfunction(_function_id("game", match.game.id), {
             'frame':frame_num,
             'gamestate': gamestate,
@@ -51,6 +59,14 @@ def run_match(match):
         })
         gamestate =response['gamestate']
         frame_num+=1
+        frame = GameFrame()
+        frame.frame_num = frame_num
+        frame.state = json.dumps(response)
+        frame.match_record = record
+        frame.save()
+
+    record.did_bot1_win = result['winner'] == 1
+
     match.state = 2
 
 def _function_id(id, type):
