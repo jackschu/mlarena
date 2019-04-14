@@ -30,6 +30,8 @@ def viewBot(request, bot_id=None):
 
 def viewMatch(request, match_id=None):
     match = None
+    game = None
     if match_id:
-        pass # TODO something
-    return render(request, 'bots/canvas.html', {})
+        match = Match.objects.get(pk=match_id)
+        game = match.game
+    return render(request, 'bots/canvas.html', {'game':game})

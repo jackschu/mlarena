@@ -2,11 +2,11 @@
 from django.db import models
 from django.utils import timezone
 
-
 class Game(models.Model):
     name = models.CharField(max_length=50)
     desc = models.TextField(blank=True, null=True)
-    file = models.FileField(null=True)
+    renderer_file = models.FileField(null=True, upload_to='games/files/')
+    game_file = models.FileField(null=True, upload_to='games/files/')
 
 class Match(models.Model):
     game = models.ForeignKey(Game, on_delete=models.PROTECT)

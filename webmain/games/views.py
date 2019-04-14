@@ -3,6 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from .forms import GameForm
 from .models import Game
 from django.contrib import messages
+import os
 # Create your views here.
 
 
@@ -37,3 +38,12 @@ def viewGame(request, game_id=None):
     if game_id:
         game = Game.objects.get(pk=game_id)
     return render(request, 'games/viewGame.html', {'game':game})
+
+def staticFile(request, game_id=None):
+    module_dir = os.path.dirname(__file__)
+    file_path = os.path.join(module_dir, 'files/' + str(game_id) + '.js')
+    with open(file_path, 'rb') as fp:
+        response = HttpResponse(content=fp)
+        response['Content-Type'] = 'text/javascript'
+        print(fp)
+        return response
