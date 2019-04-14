@@ -5,6 +5,7 @@ from googleapiclient.discovery import build
 from google import auth
 import google
 import httplib2
+from games.models import GameFrame, Game, Match, MatchRecord
 import google_auth_httplib2
 import six
 from . import auth
@@ -28,17 +29,26 @@ def run_match(match):
     match.state = 1
     gamestate = run_cloudfunction("game" + str(match.game.id), {})
     bot = 0
-    response = {'finished': False}
-    while not response['finished']:
-        bot = bot % 2
+    response = {'winner': 0}
+    frame_num = 0
+    init_state = {
+        'frame': -1
+    }
+    response = run_cloudfunction(_function_id("game", match.game.id), init_state)
+    gamestate = response['gamestate']
+    while response['winner'] == 0:
+        bot = frame_num % 2
         action = run_cloudfunction(_function_id("bot", match.bot_1.id if bot is 0 else match.bot_2.id), {
             'gamestate': gamestate
         })
         response = run_cloudfunction(_function_id("game", match.game.id), {
-            'gmaestate': gamestate,
+            'frame':frame_num,
+            'gamestate': gamestate,
             'bot': bot,
-            'action': action
+            'move': action,
         })
+        gamestate =response['gamestate']
+        frame_num+=1
     match.state = 2
 
 def _function_id(id, type):

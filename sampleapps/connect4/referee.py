@@ -64,14 +64,19 @@ def main(request):
     
     if  'frame' in request_json:
         frame = int(request_json['frame'])
-        first = frame  == 0
+        first = frame  == -1
         if frame == 42:
             winner= 3
         if first:
-            board = start_board()
+            board = start_board()            
             print('frist')
-        elif 'board' in request_json:
-            board = json.loads(request_json['board'])
+            if not 'gamestate' in request_json:
+                request_json['gamestate'] = {}
+            request_json['winner'] = 0
+            request_json['gamestate']['board'] = json.dumps(board)
+            return json.dumps(request_json)
+        elif 'board' in request_json['gamestate']:
+            board = json.loads(request_json['gamestate']['board'])
         
         else:
             raise ValueError("Board is not found")
@@ -81,15 +86,15 @@ def main(request):
             move = int(request_json['move'])
         except:
             if first:
-                request_json['board'] = json.dumps(board)
+                request_json['gamestate']['board'] = json.dumps(board)
             winner = 1 if player ==2 else 2
     else:
         raise ValueError("Move is not found")
 
 
-    if move < 0  or move >= 7 or dist < 0:
+    if move < 0  or move >= 7:
         if first:
-            request_json['board'] = json.dumps(board)
+            request_json['gamestate']['board'] = json.dumps(board)
         winner = 1 if player ==2 else 2
         request_json['winner'] = winner
         return json.dumps(request_json)
@@ -97,14 +102,14 @@ def main(request):
     if dist< 0:
         winner = 1 if player ==2 else 2
         if first:
-            request_json['board'] = json.dumps(board)
+            request_json['gamestate']['board'] = json.dumps(board)
         request_json['winner'] = winner
         return json.dumps(request_json)
     
     board[dist][move] = player
     winner = checkwin(board, dist, move, player)
 
-    request_json['board'] = json.dumps(board)
+    request_json['gamestate']['board'] = json.dumps(board)
     request_json['winner'] = winner
 
     return json.dumps(request_json)
