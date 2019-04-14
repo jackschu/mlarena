@@ -49,9 +49,9 @@ def main():
     state = generateboard()
     num_turns = 20
     for i in range(20):
-        out = step(state, randrange(1,5),randrange(1,5))
-        # pprint(state)
-        print(next_move(state))
+        out = step(state, next_move(state),randrange(1,5))
+        print(state)
+        # print(next_move(state))
         if out['winner'] != 0:
             break
 
