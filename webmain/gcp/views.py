@@ -14,32 +14,43 @@ import time
 import os
 import requests
 from leaderboards import views as leaderboards_view
-
+from games.models import MatchRecord
 
 # Create your views here.
 PROJECT_ID = "mlarena"
 REGION = "us-east1"
 
+# Start a neew match in a random game based on leaderboards
 def start_match(request):
     match = leaderboards_view.get_match_all_games()
     run_match(match)
 
+# Run the given match
 def run_match(match):
     match.state = 1
-    gamestate = run_cloudfunction("game" + str(match.game.id), {})
-    bot = 0
-    response = {'finished': False}
-    while not response['finished']:
-        bot = bot % 2
-        action = run_cloudfunction(_function_id("bot", match.bot_1.id if bot is 0 else match.bot_2.id), {
-            'gamestate': gamestate
-        })
-        response = run_cloudfunction(_function_id("game", match.game.id), {
-            'gmaestate': gamestate,
-            'bot': bot,
-            'action': action
-        })
-    match.state = 2
+    # gamestate = run_cloudfunction("game" + str(match.game.id), {})
+    # bot = 0
+    # response = {'finished': False}
+    # turn = 0
+    # while not response['finished']:
+    #     bot = bot % 2
+    #     action = run_cloudfunction(_function_id("bot", match.bot_1.id if bot is 0 else match.bot_2.id), {
+    #         'gamestate': gamestate
+    #     })
+    #     response = run_cloudfunction(_function_id("game", match.game.id), {
+    #         'gmaestate': gamestate,
+    #         'bot': bot,
+    #         'action': action
+    #     })
+    #     gamestate = response['gamestate']
+    #     frame = GameFrame()
+    #     frame.frame_num = turn
+    #     frame.state = gamestate
+    #     turn = turn + 1
+    #     bot = bot + 1
+    # match_record = MatchRecord()
+    # match_record.did_bot1_win = response.winner is 1
+    # match.state = 2
 
 def _function_id(id, type):
     return type + str(id)
@@ -56,8 +67,8 @@ def test_cloudfunction(request):
     return JsonResponse({'success': True})
 
 def test_cloudfunction_run(request):
-    function_id = "testid2"
-    params = {}
+    function_id = "game15"
+    params = {"frame": -1}
     return JsonResponse({
             'success': True,
             'result': run_cloudfunction(function_id, params)
@@ -140,5 +151,5 @@ def upload_file(file, location, cf_build):
 # Return: The result of the function
 def run_cloudfunction(id, params):
     url = "https://" + REGION + "-" + PROJECT_ID + ".cloudfunctions.net/" + id
-    r = requests.post(url=url, data=params) 
+    r = requests.post(url, headers={'Content-Type': 'application/json'}, data=json.dumps(params)) 
     return r.json() 
